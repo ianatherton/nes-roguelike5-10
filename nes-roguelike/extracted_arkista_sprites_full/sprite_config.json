@@ -1,0 +1,326 @@
+{
+  "player_down_1": {
+    "file": "player/player_down_1.png",
+    "tile_width": 2,
+    "tile_height": 2,
+    "base_tile": 64,
+    "arrangement": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  "player_down_2": {
+    "file": "player/player_down_2.png",
+    "tile_width": 2,
+    "tile_height": 2,
+    "base_tile": 68,
+    "arrangement": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  "player_up_1": {
+    "file": "player/player_up_1.png",
+    "tile_width": 2,
+    "tile_height": 2,
+    "base_tile": 72,
+    "arrangement": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  "player_up_2": {
+    "file": "player/player_up_2.png",
+    "tile_width": 2,
+    "tile_height": 2,
+    "base_tile": 76,
+    "arrangement": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  "player_right_1": {
+    "file": "player/player_right_1.png",
+    "tile_width": 2,
+    "tile_height": 2,
+    "base_tile": 80,
+    "arrangement": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  "player_right_2": {
+    "file": "player/player_right_2.png",
+    "tile_width": 2,
+    "tile_height": 2,
+    "base_tile": 84,
+    "arrangement": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  "slime_left_1": {
+    "file": "slime/slime_left_1.png",
+    "tile_width": 2,
+    "tile_height": 2,
+    "base_tile": 88,
+    "arrangement": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  "slime_left_2": {
+    "file": "slime/slime_left_2.png",
+    "tile_width": 2,
+    "tile_height": 2,
+    "base_tile": 92,
+    "arrangement": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  "slime_right_1": {
+    "file": "slime/slime_right_1.png",
+    "tile_width": 2,
+    "tile_height": 2,
+    "base_tile": 96,
+    "arrangement": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  "slime_right_2": {
+    "file": "slime/slime_right_2.png",
+    "tile_width": 2,
+    "tile_height": 2,
+    "base_tile": 100,
+    "arrangement": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  "skeleton_down_1": {
+    "file": "skeleton/skeleton_down_1.png",
+    "tile_width": 2,
+    "tile_height": 2,
+    "base_tile": 104,
+    "arrangement": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  "skeleton_down_2": {
+    "file": "skeleton/skeleton_down_2.png",
+    "tile_width": 2,
+    "tile_height": 2,
+    "base_tile": 108,
+    "arrangement": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  "skeleton_left_1": {
+    "file": "skeleton/skeleton_left_1.png",
+    "tile_width": 2,
+    "tile_height": 2,
+    "base_tile": 112,
+    "arrangement": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  "skeleton_left_2": {
+    "file": "skeleton/skeleton_left_2.png",
+    "tile_width": 2,
+    "tile_height": 2,
+    "base_tile": 116,
+    "arrangement": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  "bat_fly_1": {
+    "file": "bat/bat_fly_1.png",
+    "tile_width": 2,
+    "tile_height": 2,
+    "base_tile": 120,
+    "arrangement": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  "bat_fly_2": {
+    "file": "bat/bat_fly_2.png",
+    "tile_width": 2,
+    "tile_height": 2,
+    "base_tile": 124,
+    "arrangement": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  "spider_move_1": {
+    "file": "spider/spider_move_1.png",
+    "tile_width": 2,
+    "tile_height": 2,
+    "base_tile": 128,
+    "arrangement": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  "spider_move_2": {
+    "file": "spider/spider_move_2.png",
+    "tile_width": 2,
+    "tile_height": 2,
+    "base_tile": 132,
+    "arrangement": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  "fairy_idle_1": {
+    "file": "fairy/fairy_idle_1.png",
+    "tile_width": 2,
+    "tile_height": 2,
+    "base_tile": 136,
+    "arrangement": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  "fairy_idle_2": {
+    "file": "fairy/fairy_idle_2.png",
+    "tile_width": 2,
+    "tile_height": 2,
+    "base_tile": 140,
+    "arrangement": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  "wizard_cast_1": {
+    "file": "wizard/wizard_cast_1.png",
+    "tile_width": 2,
+    "tile_height": 2,
+    "base_tile": 144,
+    "arrangement": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  "wizard_cast_2": {
+    "file": "wizard/wizard_cast_2.png",
+    "tile_width": 2,
+    "tile_height": 2,
+    "base_tile": 148,
+    "arrangement": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  "chest_closed": {
+    "file": "chest/chest_closed.png",
+    "tile_width": 2,
+    "tile_height": 2,
+    "base_tile": 152,
+    "arrangement": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  "chest_open": {
+    "file": "chest/chest_open.png",
+    "tile_width": 2,
+    "tile_height": 2,
+    "base_tile": 156,
+    "arrangement": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  "heart_pickup": {
+    "file": "heart/heart_pickup.png",
+    "tile_width": 2,
+    "tile_height": 2,
+    "base_tile": 160,
+    "arrangement": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  "key_pickup": {
+    "file": "key/key_pickup.png",
+    "tile_width": 2,
+    "tile_height": 2,
+    "base_tile": 164,
+    "arrangement": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  "sword_pickup": {
+    "file": "sword/sword_pickup.png",
+    "tile_width": 2,
+    "tile_height": 2,
+    "base_tile": 168,
+    "arrangement": [
+      0,
+      2,
+      1,
+      3
+    ]
+  }
+}

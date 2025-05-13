@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arkista's Ring Character Animation Frames</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #ddd;
+        }
+        .animation-row {
+            display: flex;
+            margin-bottom: 30px;
+        }
+        .direction-group {
+            margin-right: 40px;
+        }
+        .sprites {
+            display: flex;
+            margin-top: 10px;
+            gap: 20px;
+        }
+        .sprite-container {
+            background-color: #555;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        img {
+            image-rendering: pixelated;
+            width: 64px;
+            height: 64px;
+            margin-bottom: 10px;
+        }
+        .sprite-name {
+            font-size: 12px;
+            color: #aaa;
+        }
+        .note {
+            background-color: #484;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Arkista's Ring Character Animation Frames</h1>
+    
+    <div class="note">
+        <h3>Extraction Complete!</h3>
+        <p>
+            All 8 character animation frames (2 frames per direction) have been extracted with:
+        </p>
+        <ul>
+            <li>Correct quadrant arrangement: [0, 2, 1, 3]</li>
+            <li>Proper tile indices starting at 0x40 (tile 64)</li>
+            <li>Animation frames organized by direction</li>
+        </ul>
+    </div>
+    
+    <!-- Facing Down Animation -->
+    <div class="animation-row">
+        <div class="direction-group">
+            <h2>Facing Down</h2>
+            <div class="sprites">
+                <div class="sprite-container">
+                    <img src="extracted_arkista_sprites_complete/player/player_down_1.png" alt="Player Down Frame 1">
+                    <div class="sprite-name">Frame 1</div>
+                </div>
+                <div class="sprite-container">
+                    <img src="extracted_arkista_sprites_complete/player/player_down_2.png" alt="Player Down Frame 2">
+                    <div class="sprite-name">Frame 2</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Facing Up Animation -->
+    <div class="animation-row">
+        <div class="direction-group">
+            <h2>Facing Up</h2>
+            <div class="sprites">
+                <div class="sprite-container">
+                    <img src="extracted_arkista_sprites_complete/player/player_up_1.png" alt="Player Up Frame 1">
+                    <div class="sprite-name">Frame 1</div>
+                </div>
+                <div class="sprite-container">
+                    <img src="extracted_arkista_sprites_complete/player/player_up_2.png" alt="Player Up Frame 2">
+                    <div class="sprite-name">Frame 2</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Facing Right Animation -->
+    <div class="animation-row">
+        <div class="direction-group">
+            <h2>Facing Right</h2>
+            <div class="sprites">
+                <div class="sprite-container">
+                    <img src="extracted_arkista_sprites_complete/player/player_right_1.png" alt="Player Right Frame 1">
+                    <div class="sprite-name">Frame 1</div>
+                </div>
+                <div class="sprite-container">
+                    <img src="extracted_arkista_sprites_complete/player/player_right_2.png" alt="Player Right Frame 2">
+                    <div class="sprite-name">Frame 2</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Facing Left Animation -->
+    <div class="animation-row">
+        <div class="direction-group">
+            <h2>Facing Left</h2>
+            <div class="sprites">
+                <div class="sprite-container">
+                    <img src="extracted_arkista_sprites_complete/player/player_left_1.png" alt="Player Left Frame 1">
+                    <div class="sprite-name">Frame 1</div>
+                </div>
+                <div class="sprite-container">
+                    <img src="extracted_arkista_sprites_complete/player/player_left_2.png" alt="Player Left Frame 2">
+                    <div class="sprite-name">Frame 2</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <h2>Sprite Configuration</h2>
+    <p>
+        Each sprite is composed of 4 tiles (2x2 grid) with the corrected arrangement:
+    </p>
+    <pre style="background: #555; padding: 10px;">
+┌───┬───┐
+│ 0 │ 2 │
+├───┼───┤
+│ 1 │ 3 │
+└───┴───┘
+    </pre>
+    
+    <h2>Next Steps</h2>
+    <ol>
+        <li>Use these sprites in your game with animation alternating between frames 1 and 2</li>
+        <li>Extract additional sprites (enemies, items) using the same tool with appropriate tile indices</li>
+        <li>Implement the sprite rendering logic in your game code</li>
+    </ol>
+</body>
+</html>

@@ -1,0 +1,50 @@
+{
+  "player_down": {
+    "file": "player/player_down.png",
+    "tile_width": 2,
+    "tile_height": 2,
+    "base_tile": 0,
+    "arrangement": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "player_up": {
+    "file": "player/player_up.png",
+    "tile_width": 2,
+    "tile_height": 2,
+    "base_tile": 4,
+    "arrangement": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "player_right": {
+    "file": "player/player_right.png",
+    "tile_width": 2,
+    "tile_height": 2,
+    "base_tile": 8,
+    "arrangement": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "player_left": {
+    "file": "player/player_left.png",
+    "tile_width": 2,
+    "tile_height": 2,
+    "base_tile": 12,
+    "arrangement": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+}

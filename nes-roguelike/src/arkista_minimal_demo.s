@@ -205,36 +205,23 @@ SCREEN_HEIGHT  = $E0  ; Maximum Y coordinate
     inx
     bne @clear_sprites
     
-    ; Calculate player sprite attributes based on direction
+    ; Try a different arrangement of tiles
+    ; Let's use consecutive tiles that are more likely to form a complete sprite
     ldx #$00            ; Sprite index
     
-    ; Determine base tile index based on direction
-    lda player_dir
-    asl a               ; Multiply by 2 (2 frames per direction)
-    asl a               ; Multiply by 2 again (4 sprites per frame)
-    asl a               ; Multiply by 2 again (8 bytes per sprite)
-    clc
-    adc #$40            ; Base tile index (64 = first character tile)
-    sta $02             ; Store in temp variable
-    
-    ; Add frame offset
-    lda player_frame
-    asl a               ; Multiply by 2 (2 frames)
-    asl a               ; Multiply by 2 again (4 sprites per frame)
-    clc
-    adc $02
-    sta $02             ; Updated tile index in temp var
+    ; Try tiles 0x27, 0x28, 0x29 as they're adjacent to our previous tiles
+    ; and try changing the arrangement (different order of tiles)
     
     ; Player sprite 1 (top left)
     lda player_y
     sta $0200, x        ; Y position
     inx
     
-    lda $02             ; Base tile from calculation
+    lda #$27            ; Different player tile
     sta $0200, x        ; Tile index
     inx
     
-    lda #$00            ; Attributes (no flip, palette 0)
+    lda #$01            ; Try palette 1 (different colors)
     sta $0200, x
     inx
     
@@ -247,13 +234,11 @@ SCREEN_HEIGHT  = $E0  ; Maximum Y coordinate
     sta $0200, x        ; Y position
     inx
     
-    lda $02
-    clc
-    adc #$01            ; Next tile
+    lda #$28            ; Different player tile
     sta $0200, x        ; Tile index
     inx
     
-    lda #$00            ; Attributes
+    lda #$01            ; Same palette
     sta $0200, x
     inx
     
@@ -270,13 +255,11 @@ SCREEN_HEIGHT  = $E0  ; Maximum Y coordinate
     sta $0200, x        ; Y position
     inx
     
-    lda $02
-    clc
-    adc #$02            ; Next row of tiles
+    lda #$29            ; Different player tile
     sta $0200, x        ; Tile index
     inx
     
-    lda #$00            ; Attributes
+    lda #$01            ; Same palette
     sta $0200, x
     inx
     
@@ -291,13 +274,11 @@ SCREEN_HEIGHT  = $E0  ; Maximum Y coordinate
     sta $0200, x        ; Y position
     inx
     
-    lda $02
-    clc
-    adc #$03            ; Next tile
+    lda #$4C            ; Try yet another tile
     sta $0200, x        ; Tile index
     inx
     
-    lda #$00            ; Attributes
+    lda #$01            ; Same palette
     sta $0200, x
     inx
     
@@ -305,6 +286,29 @@ SCREEN_HEIGHT  = $E0  ; Maximum Y coordinate
     clc
     adc #$08            ; 8 pixels to the right
     sta $0200, x        ; X position
+    
+    ; Let's add a second set of sprites to try a different combination
+    ; Using different tile numbers as another attempt
+    
+    ; 5th sprite
+    lda player_y
+    sec
+    sbc #$20            ; Position higher up (for comparison)
+    sta $0200+16, x     ; Y position (16 bytes ahead in sprite memory)
+    inx
+    
+    lda #$39            ; Try a completely different tile
+    sta $0200+16, x     ; Tile index
+    inx
+    
+    lda #$02            ; Try palette 2
+    sta $0200+16, x
+    inx
+    
+    lda player_x
+    clc
+    adc #$20            ; Position to the right (for comparison)
+    sta $0200+16, x     ; X position
     
     rts
 .endproc

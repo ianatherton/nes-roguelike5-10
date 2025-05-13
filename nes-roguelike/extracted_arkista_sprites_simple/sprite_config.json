@@ -1,0 +1,268 @@
+{
+  "sprite_size": 16,
+  "tile_size": 8,
+  "tile_arrangement": [
+    0,
+    2,
+    1,
+    3
+  ],
+  "sprites": {
+    "sprite_000": {
+      "base_tile": 0,
+      "relative_path": "sprites/sprite_000.png"
+    },
+    "sprite_004": {
+      "base_tile": 4,
+      "relative_path": "sprites/sprite_004.png"
+    },
+    "sprite_008": {
+      "base_tile": 8,
+      "relative_path": "sprites/sprite_008.png"
+    },
+    "sprite_012": {
+      "base_tile": 12,
+      "relative_path": "sprites/sprite_012.png"
+    },
+    "sprite_016": {
+      "base_tile": 16,
+      "relative_path": "sprites/sprite_016.png"
+    },
+    "sprite_020": {
+      "base_tile": 20,
+      "relative_path": "sprites/sprite_020.png"
+    },
+    "sprite_024": {
+      "base_tile": 24,
+      "relative_path": "sprites/sprite_024.png"
+    },
+    "sprite_028": {
+      "base_tile": 28,
+      "relative_path": "sprites/sprite_028.png"
+    },
+    "sprite_032": {
+      "base_tile": 32,
+      "relative_path": "sprites/sprite_032.png"
+    },
+    "sprite_036": {
+      "base_tile": 36,
+      "relative_path": "sprites/sprite_036.png"
+    },
+    "sprite_040": {
+      "base_tile": 40,
+      "relative_path": "sprites/sprite_040.png"
+    },
+    "sprite_044": {
+      "base_tile": 44,
+      "relative_path": "sprites/sprite_044.png"
+    },
+    "sprite_048": {
+      "base_tile": 48,
+      "relative_path": "sprites/sprite_048.png"
+    },
+    "sprite_052": {
+      "base_tile": 52,
+      "relative_path": "sprites/sprite_052.png"
+    },
+    "sprite_056": {
+      "base_tile": 56,
+      "relative_path": "sprites/sprite_056.png"
+    },
+    "sprite_060": {
+      "base_tile": 60,
+      "relative_path": "sprites/sprite_060.png"
+    },
+    "sprite_064": {
+      "base_tile": 64,
+      "relative_path": "sprites/sprite_064.png"
+    },
+    "sprite_068": {
+      "base_tile": 68,
+      "relative_path": "sprites/sprite_068.png"
+    },
+    "sprite_072": {
+      "base_tile": 72,
+      "relative_path": "sprites/sprite_072.png"
+    },
+    "sprite_076": {
+      "base_tile": 76,
+      "relative_path": "sprites/sprite_076.png"
+    },
+    "sprite_080": {
+      "base_tile": 80,
+      "relative_path": "sprites/sprite_080.png"
+    },
+    "sprite_084": {
+      "base_tile": 84,
+      "relative_path": "sprites/sprite_084.png"
+    },
+    "sprite_088": {
+      "base_tile": 88,
+      "relative_path": "sprites/sprite_088.png"
+    },
+    "sprite_092": {
+      "base_tile": 92,
+      "relative_path": "sprites/sprite_092.png"
+    },
+    "sprite_096": {
+      "base_tile": 96,
+      "relative_path": "sprites/sprite_096.png"
+    },
+    "sprite_100": {
+      "base_tile": 100,
+      "relative_path": "sprites/sprite_100.png"
+    },
+    "sprite_104": {
+      "base_tile": 104,
+      "relative_path": "sprites/sprite_104.png"
+    },
+    "sprite_108": {
+      "base_tile": 108,
+      "relative_path": "sprites/sprite_108.png"
+    },
+    "sprite_112": {
+      "base_tile": 112,
+      "relative_path": "sprites/sprite_112.png"
+    },
+    "sprite_116": {
+      "base_tile": 116,
+      "relative_path": "sprites/sprite_116.png"
+    },
+    "sprite_120": {
+      "base_tile": 120,
+      "relative_path": "sprites/sprite_120.png"
+    },
+    "sprite_124": {
+      "base_tile": 124,
+      "relative_path": "sprites/sprite_124.png"
+    },
+    "sprite_128": {
+      "base_tile": 128,
+      "relative_path": "sprites/sprite_128.png"
+    },
+    "sprite_132": {
+      "base_tile": 132,
+      "relative_path": "sprites/sprite_132.png"
+    },
+    "sprite_136": {
+      "base_tile": 136,
+      "relative_path": "sprites/sprite_136.png"
+    },
+    "sprite_140": {
+      "base_tile": 140,
+      "relative_path": "sprites/sprite_140.png"
+    },
+    "sprite_144": {
+      "base_tile": 144,
+      "relative_path": "sprites/sprite_144.png"
+    },
+    "sprite_148": {
+      "base_tile": 148,
+      "relative_path": "sprites/sprite_148.png"
+    },
+    "sprite_152": {
+      "base_tile": 152,
+      "relative_path": "sprites/sprite_152.png"
+    },
+    "sprite_156": {
+      "base_tile": 156,
+      "relative_path": "sprites/sprite_156.png"
+    },
+    "sprite_160": {
+      "base_tile": 160,
+      "relative_path": "sprites/sprite_160.png"
+    },
+    "sprite_164": {
+      "base_tile": 164,
+      "relative_path": "sprites/sprite_164.png"
+    },
+    "sprite_168": {
+      "base_tile": 168,
+      "relative_path": "sprites/sprite_168.png"
+    },
+    "sprite_172": {
+      "base_tile": 172,
+      "relative_path": "sprites/sprite_172.png"
+    },
+    "sprite_176": {
+      "base_tile": 176,
+      "relative_path": "sprites/sprite_176.png"
+    },
+    "sprite_180": {
+      "base_tile": 180,
+      "relative_path": "sprites/sprite_180.png"
+    },
+    "sprite_184": {
+      "base_tile": 184,
+      "relative_path": "sprites/sprite_184.png"
+    },
+    "sprite_188": {
+      "base_tile": 188,
+      "relative_path": "sprites/sprite_188.png"
+    },
+    "sprite_192": {
+      "base_tile": 192,
+      "relative_path": "sprites/sprite_192.png"
+    },
+    "sprite_196": {
+      "base_tile": 196,
+      "relative_path": "sprites/sprite_196.png"
+    },
+    "sprite_200": {
+      "base_tile": 200,
+      "relative_path": "sprites/sprite_200.png"
+    },
+    "sprite_204": {
+      "base_tile": 204,
+      "relative_path": "sprites/sprite_204.png"
+    },
+    "sprite_208": {
+      "base_tile": 208,
+      "relative_path": "sprites/sprite_208.png"
+    },
+    "sprite_212": {
+      "base_tile": 212,
+      "relative_path": "sprites/sprite_212.png"
+    },
+    "sprite_216": {
+      "base_tile": 216,
+      "relative_path": "sprites/sprite_216.png"
+    },
+    "sprite_220": {
+      "base_tile": 220,
+      "relative_path": "sprites/sprite_220.png"
+    },
+    "sprite_224": {
+      "base_tile": 224,
+      "relative_path": "sprites/sprite_224.png"
+    },
+    "sprite_228": {
+      "base_tile": 228,
+      "relative_path": "sprites/sprite_228.png"
+    },
+    "sprite_232": {
+      "base_tile": 232,
+      "relative_path": "sprites/sprite_232.png"
+    },
+    "sprite_236": {
+      "base_tile": 236,
+      "relative_path": "sprites/sprite_236.png"
+    },
+    "sprite_240": {
+      "base_tile": 240,
+      "relative_path": "sprites/sprite_240.png"
+    },
+    "sprite_244": {
+      "base_tile": 244,
+      "relative_path": "sprites/sprite_244.png"
+    },
+    "sprite_248": {
+      "base_tile": 248,
+      "relative_path": "sprites/sprite_248.png"
+    },
+    "sprite_252": {
+      "base_tile": 252,
+      "relative_path": "sprites/sprite_252.png"
+    }
+  }
+}
