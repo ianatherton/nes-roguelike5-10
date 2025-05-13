@@ -1,0 +1,276 @@
+#!/bin/bash
+set -e
+
+# Script to build the UI demo ROM
+
+# Ensure output directories exist
+mkdir -p build
+mkdir -p roms
+
+# Define file paths
+CC65_DIR="/usr/local/share/cc65"
+NES_CFG="${CC65_DIR}/cfg/nes.cfg" 
+SRC_DIR="src"
+BUILD_DIR="build"
+ROM_DIR="roms"
+
+# Compile C files to assembly
+echo "Compiling C files to assembly..."
+cc65 -t nes -O "${SRC_DIR}/ui_demo.c" -o "${BUILD_DIR}/ui_demo.s"
+cc65 -t nes -O "${SRC_DIR}/graphics.c" -o "${BUILD_DIR}/graphics.s"
+cc65 -t nes -O "${SRC_DIR}/menu.c" -o "${BUILD_DIR}/menu.s"
+cc65 -t nes -O "${SRC_DIR}/text_system.c" -o "${BUILD_DIR}/text_system.s"
+
+# Assemble to object files
+echo "Assembling to object files..."
+ca65 -t nes "${BUILD_DIR}/ui_demo.s" -o "${BUILD_DIR}/ui_demo.o"
+ca65 -t nes "${BUILD_DIR}/graphics.s" -o "${BUILD_DIR}/graphics.o"
+ca65 -t nes "${BUILD_DIR}/menu.s" -o "${BUILD_DIR}/menu.o"
+ca65 -t nes "${BUILD_DIR}/text_system.s" -o "${BUILD_DIR}/text_system.o"
+
+# Create the reset vector and NES header
+cat > "${BUILD_DIR}/header.s" << EOF
+.segment "HEADER"
+.byte "NES", $1a
+.byte 2               ; 2 * 16KB PRG ROM
+.byte 1               ; 1 * 8KB CHR ROM
+.byte $01, $00        ; mapper 0, vertical mirroring
+
+.segment "VECTORS"
+.addr nmi, reset, irq
+
+.segment "STARTUP"
+reset:
+    sei               ; disable IRQs
+    cld               ; disable decimal mode
+    ldx #$40
+    stx $4017         ; disable APU frame IRQ
+    ldx #$ff 
+    txs               ; Set up stack
+    inx               ; now X = 0
+    stx $2000         ; disable NMI
+    stx $2001         ; disable rendering
+    stx $4010         ; disable DMC IRQs
+
+    ; Optional: wait for vblank
+    bit $2002
+@vblankwait1:
+    bit $2002
+    bpl @vblankwait1
+    
+    ; Clear RAM
+    ldx #$00
+@clearRAM:
+    lda #$00
+    sta $0000, x
+    sta $0100, x
+    sta $0300, x
+    sta $0400, x
+    sta $0500, x
+    sta $0600, x
+    sta $0700, x
+    lda #$fe
+    sta $0200, x      ; move all sprites off screen
+    inx
+    bne @clearRAM
+    
+    ; Wait for second vblank
+@vblankwait2:
+    bit $2002
+    bpl @vblankwait2
+    
+    ; Jump to C main() function
+    jmp _main
+    
+nmi:
+    ; Save registers (example, you might handle NMI differently)
+    pha
+    txa
+    pha
+    tya
+    pha
+    
+    ; You could update sprites or handle other NMI tasks here
+    
+    ; Restore registers
+    pla
+    tay
+    pla
+    tax
+    pla
+    rti
+
+irq:
+    rti
+
+; Include the CHR data
+.segment "CHARS"
+; We'll include a simple pattern table directly in the assembly file
+; This gives us basic character set for text and UI elements
+.byte $00,$00,$00,$00,$00,$00,$00,$00, $00,$00,$00,$00,$00,$00,$00,$00 ; Empty tile (0)
+.byte $FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF, $00,$00,$00,$00,$00,$00,$00,$00 ; Solid tile (1)
+.byte $F0,$F0,$F0,$F0,$F0,$F0,$F0,$F0, $00,$00,$00,$00,$00,$00,$00,$00 ; Half tile (2)
+.byte $FF,$81,$81,$81,$81,$81,$81,$FF, $00,$00,$00,$00,$00,$00,$00,$00 ; Box outline (3)
+.byte $3C,$42,$A5,$81,$A5,$99,$42,$3C, $00,$00,$00,$00,$00,$00,$00,$00 ; Smiley face (4)
+.byte $3C,$42,$A5,$81,$99,$A5,$42,$3C, $00,$00,$00,$00,$00,$00,$00,$00 ; Sad face (5)
+.byte $18,$3C,$66,$7E,$18,$18,$18,$18, $00,$00,$00,$00,$00,$00,$00,$00 ; Up arrow (6)
+.byte $18,$18,$18,$18,$7E,$66,$3C,$18, $00,$00,$00,$00,$00,$00,$00,$00 ; Down arrow (7)
+.byte $18,$1C,$1E,$18,$18,$18,$18,$18, $00,$00,$00,$00,$00,$00,$00,$00 ; Right arrow (8)
+.byte $18,$18,$18,$18,$18,$78,$38,$18, $00,$00,$00,$00,$00,$00,$00,$00 ; Left arrow (9)
+.byte $FF,$FF,$C3,$99,$99,$C3,$FF,$FF, $00,$00,$00,$00,$00,$00,$00,$00 ; Menu box TL (10)
+.byte $FF,$FF,$C3,$99,$99,$C3,$FF,$FF, $00,$00,$00,$00,$00,$00,$00,$00 ; Menu box TR (11)
+.byte $FF,$FF,$C3,$99,$99,$C3,$FF,$FF, $00,$00,$00,$00,$00,$00,$00,$00 ; Menu box BL (12)
+.byte $FF,$FF,$C3,$99,$99,$C3,$FF,$FF, $00,$00,$00,$00,$00,$00,$00,$00 ; Menu box BR (13)
+.byte $FF,$FF,$C3,$99,$99,$C3,$FF,$FF, $00,$00,$00,$00,$00,$00,$00,$00 ; Menu box H (14)
+.byte $FF,$FF,$C3,$99,$99,$C3,$FF,$FF, $00,$00,$00,$00,$00,$00,$00,$00 ; Menu box V (15)
+
+; ASCII character set (starts at tile 32)
+; Space
+.byte $00,$00,$00,$00,$00,$00,$00,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; !
+.byte $18,$18,$18,$18,$18,$00,$18,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; "
+.byte $6C,$6C,$6C,$00,$00,$00,$00,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; #
+.byte $6C,$6C,$FE,$6C,$FE,$6C,$6C,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; $
+.byte $18,$3E,$60,$3C,$06,$7C,$18,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; %
+.byte $00,$C6,$CC,$18,$30,$66,$C6,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; &
+.byte $38,$6C,$38,$76,$DC,$CC,$76,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; '
+.byte $30,$30,$60,$00,$00,$00,$00,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; (
+.byte $0C,$18,$30,$30,$30,$18,$0C,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; )
+.byte $30,$18,$0C,$0C,$0C,$18,$30,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; *
+.byte $00,$66,$3C,$FF,$3C,$66,$00,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; +
+.byte $00,$18,$18,$7E,$18,$18,$00,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; ,
+.byte $00,$00,$00,$00,$00,$18,$18,$30, $00,$00,$00,$00,$00,$00,$00,$00
+; -
+.byte $00,$00,$00,$7E,$00,$00,$00,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; .
+.byte $00,$00,$00,$00,$00,$18,$18,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; /
+.byte $06,$0C,$18,$30,$60,$C0,$80,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; 0
+.byte $7C,$C6,$CE,$DE,$F6,$E6,$7C,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; 1
+.byte $18,$38,$18,$18,$18,$18,$7E,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; 2
+.byte $7C,$C6,$06,$1C,$30,$60,$FE,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; 3
+.byte $7C,$C6,$06,$3C,$06,$C6,$7C,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; 4
+.byte $1C,$3C,$6C,$CC,$FE,$0C,$1E,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; 5
+.byte $FE,$C0,$FC,$06,$06,$C6,$7C,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; 6
+.byte $3C,$60,$C0,$FC,$C6,$C6,$7C,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; 7
+.byte $FE,$C6,$0C,$18,$30,$30,$30,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; 8
+.byte $7C,$C6,$C6,$7C,$C6,$C6,$7C,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; 9
+.byte $7C,$C6,$C6,$7E,$06,$0C,$78,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; :
+.byte $00,$18,$18,$00,$00,$18,$18,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; ;
+.byte $00,$18,$18,$00,$00,$18,$18,$30, $00,$00,$00,$00,$00,$00,$00,$00
+; <
+.byte $0E,$18,$30,$60,$30,$18,$0E,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; =
+.byte $00,$00,$7E,$00,$7E,$00,$00,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; >
+.byte $70,$18,$0C,$06,$0C,$18,$70,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; ?
+.byte $7C,$C6,$0C,$18,$18,$00,$18,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; @
+.byte $7C,$C6,$DE,$DE,$DE,$C0,$7E,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; A
+.byte $38,$6C,$C6,$C6,$FE,$C6,$C6,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; B
+.byte $FC,$C6,$C6,$FC,$C6,$C6,$FC,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; C
+.byte $3C,$66,$C0,$C0,$C0,$66,$3C,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; D
+.byte $F8,$CC,$C6,$C6,$C6,$CC,$F8,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; E
+.byte $FE,$C0,$C0,$FC,$C0,$C0,$FE,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; F
+.byte $FE,$C0,$C0,$FC,$C0,$C0,$C0,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; G
+.byte $3E,$60,$C0,$CE,$C6,$66,$3E,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; H
+.byte $C6,$C6,$C6,$FE,$C6,$C6,$C6,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; I
+.byte $7E,$18,$18,$18,$18,$18,$7E,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; J
+.byte $06,$06,$06,$06,$06,$C6,$7C,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; K
+.byte $C6,$CC,$D8,$F0,$D8,$CC,$C6,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; L
+.byte $C0,$C0,$C0,$C0,$C0,$C0,$FE,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; M
+.byte $C6,$EE,$FE,$FE,$D6,$C6,$C6,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; N
+.byte $C6,$E6,$F6,$DE,$CE,$C6,$C6,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; O
+.byte $7C,$C6,$C6,$C6,$C6,$C6,$7C,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; P
+.byte $FC,$C6,$C6,$FC,$C0,$C0,$C0,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; Q
+.byte $7C,$C6,$C6,$C6,$D6,$DE,$7C,$06, $00,$00,$00,$00,$00,$00,$00,$00
+; R
+.byte $FC,$C6,$C6,$FC,$D8,$CC,$C6,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; S
+.byte $7C,$C6,$C0,$7C,$06,$C6,$7C,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; T
+.byte $7E,$18,$18,$18,$18,$18,$18,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; U
+.byte $C6,$C6,$C6,$C6,$C6,$C6,$7C,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; V
+.byte $C6,$C6,$C6,$C6,$C6,$6C,$38,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; W
+.byte $C6,$C6,$C6,$D6,$FE,$EE,$C6,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; X
+.byte $C6,$C6,$6C,$38,$6C,$C6,$C6,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; Y
+.byte $66,$66,$66,$3C,$18,$18,$18,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; Z
+.byte $FE,$06,$0C,$18,$30,$60,$FE,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; [
+.byte $3C,$30,$30,$30,$30,$30,$3C,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; \
+.byte $C0,$60,$30,$18,$0C,$06,$02,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; ]
+.byte $3C,$0C,$0C,$0C,$0C,$0C,$3C,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; ^
+.byte $10,$38,$6C,$C6,$00,$00,$00,$00, $00,$00,$00,$00,$00,$00,$00,$00
+; _
+.byte $00,$00,$00,$00,$00,$00,$00,$FF, $00,$00,$00,$00,$00,$00,$00,$00
+
+EOF
+
+# Assemble the header
+echo "Assembling header..."
+ca65 -t nes "${BUILD_DIR}/header.s" -o "${BUILD_DIR}/header.o"
+
+# Link everything together
+echo "Linking..."
+ld65 -C "${NES_CFG}" -o "${ROM_DIR}/ui_demo.nes" \
+    "${BUILD_DIR}/header.o" \
+    "${BUILD_DIR}/ui_demo.o" \
+    "${BUILD_DIR}/graphics.o" \
+    "${BUILD_DIR}/menu.o" \
+    "${BUILD_DIR}/text_system.o" \
+    -m "${ROM_DIR}/ui_demo.map" \
+    --dbgfile "${ROM_DIR}/ui_demo.dbg" \
+    -Ln "${ROM_DIR}/ui_demo.labels" \
+    -Lnes.lib
+
+echo "Build complete! ROM is at ${ROM_DIR}/ui_demo.nes"

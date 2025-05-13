@@ -1,0 +1,45 @@
+# Minimal Makefile for NES test ROM
+# Using cc65 compiler suite
+
+# Directories
+BUILD_DIR = build
+
+# Compiler and tools
+CC = cc65
+CA = ca65
+LD = ld65
+
+# Files
+ROM_NAME = craven_minimal
+
+# Compile flags
+CFLAGS = -t nes
+CAFLAGS = -t nes
+LDFLAGS = -C nesfile.cfg
+
+# Main target
+all: $(BUILD_DIR)/$(ROM_NAME).nes
+
+# Create build directory
+$(BUILD_DIR):
+	mkdir -p $(BUILD_DIR)
+
+# Compile C to assembly
+$(BUILD_DIR)/minimal_test.s: src/minimal_test.c | $(BUILD_DIR)
+	$(CC) $(CFLAGS) -o $@ $<
+
+# Assemble to object file
+$(BUILD_DIR)/minimal_test.o: $(BUILD_DIR)/minimal_test.s
+	$(CA) $(CAFLAGS) -o $@ $<
+
+# Link to create NES ROM
+$(BUILD_DIR)/$(ROM_NAME).nes: $(BUILD_DIR)/minimal_test.o
+	$(LD) $(LDFLAGS) -o $@ $< nes.lib
+
+# Clean build files
+clean:
+	rm -f $(BUILD_DIR)/$(ROM_NAME).nes $(BUILD_DIR)/minimal_test.o $(BUILD_DIR)/minimal_test.s
+
+# Run the ROM in FCEUX
+run: $(BUILD_DIR)/$(ROM_NAME).nes
+	fceux $<

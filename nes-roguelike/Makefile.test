@@ -1,0 +1,62 @@
+# Simple Makefile for NES test ROM
+# Based on cc65 compiler suite
+
+# Directories
+SRC_DIR = src
+BUILD_DIR = build
+ASM_DIR = $(SRC_DIR)/assembly
+
+# Compiler and tools
+CC = cc65
+CA = ca65
+LD = ld65
+
+# ROM details
+ROM_NAME = craven_caverns_test
+
+# Files
+ASM_SOURCES = $(ASM_DIR)/crt0.s $(ASM_DIR)/chars.s
+ASM_OBJECTS = $(BUILD_DIR)/crt0.o $(BUILD_DIR)/chars.o $(BUILD_DIR)/test_rom.o
+
+# Flags
+CFLAGS = -Oi -t nes --add-source
+CAFLAGS = -t nes
+LDFLAGS = -t nes -C nes.cfg
+
+# Main target
+.PHONY: all clean run
+
+all: $(BUILD_DIR)/$(ROM_NAME).nes
+
+# Create build directory
+$(BUILD_DIR):
+	mkdir -p $(BUILD_DIR)
+
+# Compile C source file
+$(BUILD_DIR)/test_rom.o: $(SRC_DIR)/test_rom.c | $(BUILD_DIR)
+	$(CC) $(CFLAGS) -o $(BUILD_DIR)/test_rom.s $<
+	$(CA) $(CAFLAGS) -o $@ $(BUILD_DIR)/test_rom.s
+
+# Assemble crt0.s
+$(BUILD_DIR)/crt0.o: $(ASM_DIR)/crt0.s | $(BUILD_DIR)
+	$(CA) $(CAFLAGS) -o $@ $<
+
+# Assemble chars.s
+$(BUILD_DIR)/chars.o: $(ASM_DIR)/chars.s | $(BUILD_DIR)
+	$(CA) $(CAFLAGS) -o $@ $<
+
+# Link object files
+$(BUILD_DIR)/$(ROM_NAME).nes: $(ASM_OBJECTS)
+	$(LD) $(LDFLAGS) -o $@ $^
+
+# Clean build artifacts
+clean:
+	rm -rf $(BUILD_DIR)/*
+
+# Run in emulator (FCEUX)
+run: $(BUILD_DIR)/$(ROM_NAME).nes
+	fceux $<
+
+# Debug in emulator
+debug: $(BUILD_DIR)/$(ROM_NAME).nes
+	fceux --debug 1 $<
