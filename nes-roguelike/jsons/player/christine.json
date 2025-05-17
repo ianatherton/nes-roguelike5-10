@@ -1,0 +1,302 @@
+{
+  "id": "533af013-a228-427b-aaca-eba826d3a6e2",
+  "name": "Christine",
+  "type": "Player",
+  "description": "Player character",
+  "size": [
+    16,
+    16
+  ],
+  "chr_bank": 0,
+  "palette": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "sprites": [
+    {
+      "id": "82445fcf-ba1b-433b-adc4-8eb909ca46eb",
+      "name": "",
+      "file": "sprite_0.png",
+      "animation_type": "walk",
+      "direction": "down",
+      "frame": 0,
+      "arrangement": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "c59d5c9f-8334-4d65-95d8-3a357898878b",
+      "name": "",
+      "file": "sprite_1.png",
+      "animation_type": "walk",
+      "direction": "down",
+      "frame": 0,
+      "arrangement": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "a8372e9c-36a0-4ed1-b2d3-b9d9063eaf9e",
+      "name": "",
+      "file": "sprite_2.png",
+      "animation_type": "walk",
+      "direction": "up",
+      "frame": 0,
+      "arrangement": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "7b7edee0-7b8b-40d3-9b4b-a89a64bbad2c",
+      "name": "",
+      "file": "sprite_3.png",
+      "animation_type": "walk",
+      "direction": "up",
+      "frame": 0,
+      "arrangement": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "c7fe5248-3139-49d0-9c96-3901bad1281b",
+      "name": "",
+      "file": "sprite_4.png",
+      "animation_type": "walk",
+      "direction": "right",
+      "frame": 0,
+      "arrangement": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "b45b942d-bdbd-424a-af03-7e5bf049053f",
+      "name": "",
+      "file": "sprite_5.png",
+      "animation_type": "walk",
+      "direction": "right",
+      "frame": 0,
+      "arrangement": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "f1ca20ce-6b28-407b-b9f3-cb7a6649a97e",
+      "name": "",
+      "file": "sprite_6.png",
+      "animation_type": "attack",
+      "direction": "down",
+      "frame": 0,
+      "arrangement": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "e6aafa32-19b1-48d9-8c39-7eabfba4c944",
+      "name": "",
+      "file": "sprite_7.png",
+      "animation_type": "attack",
+      "direction": "up",
+      "frame": 0,
+      "arrangement": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "5fbb4c08-76f1-4fba-80e4-07d3e3391643",
+      "name": "",
+      "file": "sprite_8.png",
+      "animation_type": "attack",
+      "direction": "right",
+      "frame": 0,
+      "arrangement": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "d363e1af-37ab-4f14-8dd6-21d922a5f6d5",
+      "name": "",
+      "file": "sprite_9.png",
+      "animation_type": "death",
+      "direction": "down",
+      "frame": 0,
+      "arrangement": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "id": "75528a6b-26c2-4bc3-b2ca-4a8ad6a12189",
+      "name": "Idle Up",
+      "type": "idle",
+      "direction": "up",
+      "frames": [],
+      "frame_duration": 10,
+      "loop": true
+    },
+    {
+      "id": "0df8eb8f-3e87-47d7-a469-8424660ef4ca",
+      "name": "Idle Down",
+      "type": "idle",
+      "direction": "down",
+      "frames": [],
+      "frame_duration": 10,
+      "loop": true
+    },
+    {
+      "id": "082da46e-110f-4be0-9320-1f006e8412c0",
+      "name": "Idle Right",
+      "type": "idle",
+      "direction": "right",
+      "frames": [],
+      "frame_duration": 10,
+      "loop": true
+    },
+    {
+      "id": "088dd5f5-7857-470f-84f7-3793c818b650",
+      "name": "Walk Up",
+      "type": "walk",
+      "direction": "up",
+      "frames": [],
+      "frame_duration": 10,
+      "loop": true
+    },
+    {
+      "id": "ea857c45-5b6d-44a7-a514-b9678024754f",
+      "name": "Walk Down",
+      "type": "walk",
+      "direction": "down",
+      "frames": [],
+      "frame_duration": 10,
+      "loop": true
+    },
+    {
+      "id": "2cb88f87-2be4-47ee-afd0-5172ba2c07d9",
+      "name": "Walk Right",
+      "type": "walk",
+      "direction": "right",
+      "frames": [],
+      "frame_duration": 10,
+      "loop": true
+    },
+    {
+      "id": "6524c3fd-71f7-4d32-aa0c-0a43f9af631a",
+      "name": "Attack Up",
+      "type": "attack",
+      "direction": "up",
+      "frames": [],
+      "frame_duration": 10,
+      "loop": true
+    },
+    {
+      "id": "c0f24d62-0f81-456f-8adb-e96b8732bebb",
+      "name": "Attack Down",
+      "type": "attack",
+      "direction": "down",
+      "frames": [],
+      "frame_duration": 10,
+      "loop": true
+    },
+    {
+      "id": "31df8047-caa0-47d9-a1e3-7164004b4d9b",
+      "name": "Attack Right",
+      "type": "attack",
+      "direction": "right",
+      "frames": [],
+      "frame_duration": 10,
+      "loop": true
+    },
+    {
+      "id": "0df711bd-ed95-4068-bd30-743b471dba30",
+      "name": "Hit Up",
+      "type": "hit",
+      "direction": "up",
+      "frames": [],
+      "frame_duration": 10,
+      "loop": true
+    },
+    {
+      "id": "d2c5d79d-4346-4510-86ad-c47479bb452e",
+      "name": "Hit Down",
+      "type": "hit",
+      "direction": "down",
+      "frames": [],
+      "frame_duration": 10,
+      "loop": true
+    },
+    {
+      "id": "a14487b8-3e17-4a01-ba73-0c2e38e006a0",
+      "name": "Hit Right",
+      "type": "hit",
+      "direction": "right",
+      "frames": [],
+      "frame_duration": 10,
+      "loop": true
+    },
+    {
+      "id": "d4618a82-ad1b-4bb3-b282-3a68e1e9715f",
+      "name": "Death Up",
+      "type": "death",
+      "direction": "up",
+      "frames": [],
+      "frame_duration": 10,
+      "loop": true
+    },
+    {
+      "id": "783641f1-6094-4b18-8c20-73a514349584",
+      "name": "Death Down",
+      "type": "death",
+      "direction": "down",
+      "frames": [],
+      "frame_duration": 10,
+      "loop": true
+    },
+    {
+      "id": "d427165e-4561-4224-823b-f1ef9a265039",
+      "name": "Death Right",
+      "type": "death",
+      "direction": "right",
+      "frames": [],
+      "frame_duration": 10,
+      "loop": true
+    }
+  ],
+  "metadata": {
+    "created": "2025-05-16T17:39:23.074063",
+    "updated": "2025-05-16T17:39:23.074063",
+    "generator": "NES Asset Wizard",
+    "version": "1.0"
+  }
+}
