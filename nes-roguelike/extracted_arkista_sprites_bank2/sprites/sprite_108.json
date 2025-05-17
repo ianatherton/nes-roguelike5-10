@@ -1,0 +1,9 @@
+{
+  "name": "skeleton_right",
+  "type": "Enemy",
+  "bank": "2",
+  "animation_frames": "",
+  "size": "16x16",
+  "palette": "0,47,16,21",
+  "notes": "skeleton_right"
+}
