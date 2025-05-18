@@ -23,7 +23,7 @@ This document outlines the core gameplay systems for Craven Caverns, inspired by
 | Defense  | 1         | 99        | Damage reduction |
 | Food Level | 100     | 100       | Hunger meter, decreases over time |
 | Level | 1           | 50         | Character experience level |
-| Gold | 0            | 999999     | Currency for buying items in shops |
+
 
 ### Stat Growth per Level
 | Level | HP Gain | Strength Gain | Defense Gain |
@@ -107,45 +107,45 @@ This document outlines the core gameplay systems for Craven Caverns, inspired by
 ## Items and Scrolls
 
 ### Potions
-| Potion Type      | Effect                           | Value |
+| Potion Type      | Effect                           | Rarity |
 |------------------|----------------------------------|-------|
-| Healing Potion   | Restores 25 HP                   | 50    |
-| Greater Healing  | Restores 100 HP                  | 150   |
-| Full Healing     | Restores all HP                  | 300   |
-| Strength Potion  | +1 Strength, permanent           | 200   |
-| Defense Potion   | +1 Defense, permanent            | 200   |
+| Healing Potion   | Restores 25 HP                   | Common |
+| Greater Healing  | Restores 100 HP                  | Uncommon |
+| Full Healing     | Restores all HP                  | Rare |
+| Strength Potion  | +1 Strength, permanent           | Rare |
+| Defense Potion   | +1 Defense, permanent            | Rare |
 | Poison           | Lose 10 HP, poisoned for 5 turns | -     |
 | Slowness         | Movement speed halved for 10 turns | -   |
 | Blindness        | Vision range reduced for 15 turns | -   |
-| Invisibility     | Monsters can't see you for 20 turns | 300 |
-| Fire Resistance  | 50% fire damage reduction for 30 turns | 200 |
-| Identify         | Identifies one unidentified item | 100   |
+| Invisibility     | Monsters can't see you for 20 turns | Very Rare |
+| Fire Resistance  | 50% fire damage reduction for 30 turns | Rare |
+| Identify         | Identifies one unidentified item | Uncommon |
 
 ### Scrolls
-| Scroll Type     | Effect                           | Value |
+| Scroll Type     | Effect                           | Rarity |
 |-----------------|----------------------------------|-------|
-| Teleport        | Random teleport on current floor | 80    |
-| Enchant Weapon  | +2 to equipped weapon's damage   | 200   |
-| Enchant Armor   | +2 to equipped armor's defense   | 200   |
-| Remove Curse    | Removes curse from equipped items | 150  |
-| Magic Mapping   | Reveals entire floor map         | 120   |
-| Identify All    | Identifies all carried items     | 300   |
+| Teleport        | Random teleport on current floor | Uncommon |
+| Enchant Weapon  | +2 to equipped weapon's damage   | Rare |
+| Enchant Armor   | +2 to equipped armor's defense   | Rare |
+| Remove Curse    | Removes curse from equipped items | Uncommon |
+| Magic Mapping   | Reveals entire floor map         | Uncommon |
+| Identify All    | Identifies all carried items     | Rare |
 | Create Monster  | Spawns 1-3 random monsters       | -     |
-| Fireball        | Deals 50 fire damage to all visible enemies | 250 |
-| Ice Blast       | Deals 40 ice damage and slows all visible enemies | 250 |
-| Divine Blessing | All equipped items become blessed | 500  |
+| Fireball        | Deals 50 fire damage to all visible enemies | Rare |
+| Ice Blast       | Deals 40 ice damage and slows all visible enemies | Rare |
+| Divine Blessing | All equipped items become blessed | Very Rare |
 
 ### Rings and Amulets
-| Item Type         | Effect                           | Value |
+| Item Type         | Effect                           | Rarity |
 |-------------------|----------------------------------|-------|
-| Ring of Strength  | +3 Strength while equipped       | 500   |
-| Ring of Defense   | +3 Defense while equipped        | 500   |
-| Ring of Health    | +20 Max HP while equipped        | 400   |
-| Ring of Sustenance| Food depletes 50% slower         | 600   |
-| Ring of Searching | Automatically reveals traps      | 350   |
-| Amulet of Life    | Resurrect once with 50% HP       | 1000  |
-| Amulet of Speed   | Movement speed +50%              | 750   |
-| Amulet of Mana    | Magic recovery rate +100%        | 800   |
+| Ring of Strength  | +3 Strength while equipped       | Rare |
+| Ring of Defense   | +3 Defense while equipped        | Rare |
+| Ring of Health    | +20 Max HP while equipped        | Rare |
+| Ring of Sustenance| Food depletes 50% slower         | Very Rare |
+| Ring of Searching | Automatically reveals traps      | Uncommon |
+| Amulet of Life    | Resurrect once with 50% HP       | Extremely Rare |
+| Amulet of Speed   | Movement speed +50%              | Very Rare |
+| Amulet of Mana    | Magic recovery rate +100%        | Very Rare |
 
 ## Food and Hunger System
 
@@ -160,16 +160,16 @@ This document outlines the core gameplay systems for Craven Caverns, inspired by
 | Dead         | 0          | Die from starvation |
 
 ### Food Items
-| Food Type      | Food Value | Other Effects | Value |
+| Food Type      | Food Value | Other Effects | Rarity |
 |----------------|------------|---------------|-------|
-| Bread          | +15        | None          | 15    |
-| Meat           | +25        | +5 HP         | 30    |
-| Ration         | +40        | None          | 40    |
-| Apple          | +10        | +2 HP         | 10    |
-| Magic Fruit    | +20        | +10 HP, cures poison | 100  |
-| Royal Feast    | +100       | +25 HP, +1 strength | 300  |
-| Rotten Food    | +5         | 50% chance of poison | -    |
-| Moldy Bread    | +3         | 75% chance of poison | -    |
+| Bread          | +15        | None          | Common |
+| Meat           | +25        | +5 HP         | Common |
+| Ration         | +40        | None          | Common |
+| Apple          | +10        | +2 HP         | Common |
+| Magic Fruit    | +20        | +10 HP, cures poison | Uncommon |
+| Royal Feast    | +100       | +25 HP, +1 strength | Rare |
+| Rotten Food    | +5         | 50% chance of poison | -     |
+| Moldy Bread    | +3         | 75% chance of poison | -     |
 
 ### Actions that Deplete Food
 | Action                  | Food Cost |
@@ -196,23 +196,23 @@ This document outlines the core gameplay systems for Craven Caverns, inspired by
 | 26-30         | 25-35               | 9-17              |
 
 ### Monster Types
-| Monster Type   | HP    | Attack | Defense | Special Abilities | XP Value |
+| Monster Type   | HP    | Attack | Defense | Special Abilities | Experience |
 |----------------|-------|--------|---------|-------------------|---------|
-| Slime          | 5-10  | 2-4    | 0       | Splits when hit   | 5       |
-| Rat            | 3-8   | 3-5    | 1       | None              | 8       |
-| Bat            | 5-12  | 4-7    | 1       | Fast movement     | 12      |
-| Skeleton       | 12-18 | 6-10   | 3       | Undead            | 20      |
-| Zombie         | 15-25 | 8-12   | 4       | Undead, poisonous | 35      |
-| Orc            | 20-30 | 10-15  | 5       | None              | 45      |
-| Goblin         | 15-22 | 8-12   | 3       | Steals gold       | 30      |
-| Ogre           | 35-50 | 15-25  | 8       | None              | 100     |
-| Troll          | 50-75 | 20-30  | 12      | Regenerates HP    | 200     |
-| Dragon         | 100-200| 30-50  | 20      | Breathes fire     | 500     |
-| Evil Knight    | 80-120| 25-40  | 15      | Blocks attacks    | 350     |
-| Necromancer    | 60-90 | 15-25  | 10      | Summons undead    | 300     |
-| Mimic          | 40-60 | 20-30  | 10      | Disguised as chest| 150     |
-| Ghost          | 30-45 | 15-25  | 5       | Phasing movement  | 120     |
-| Demon          | 120-180| 30-45 | 18      | Fire attacks      | 450     |
+| Slime          | 5-10  | 2-4    | 0       | Splits when hit   | 5 XP    |
+| Rat            | 3-8   | 3-5    | 1       | None              | 5 XP    |
+| Bat            | 5-12  | 4-7    | 1       | Fast movement     | 12 XP   |
+| Skeleton       | 12-18 | 6-10   | 3       | Undead            | 20 XP   |
+| Zombie         | 15-25 | 8-12   | 4       | Undead, poisonous | 35 XP   |
+| Orc            | 20-30 | 10-15  | 5       | None              | 45 XP   |
+| Goblin         | 15-22 | 8-12   | 3       | Steals items      | 30 XP   |
+| Ogre           | 35-50 | 15-25  | 8       | None              | 100 XP  |
+| Troll          | 50-75 | 20-30  | 12      | Regenerates HP    | 200 XP  |
+| Dragon         | 100-200| 30-50  | 20      | Breathes fire     | 500 XP  |
+| Evil Knight    | 80-120| 25-40  | 15      | Blocks attacks    | 350 XP  |
+| Necromancer    | 60-90 | 15-25  | 10      | Summons undead    | 300 XP  |
+| Mimic          | 40-60 | 20-30  | 10      | Disguised as chest| 150 XP  |
+| Ghost          | 30-45 | 15-25  | 5       | Phasing movement  | 120 XP  |
+| Demon          | 120-180| 30-45 | 18      | Fire attacks      | 450 XP  |
 
 ### Monster Behavior Types
 | Behavior Type | Description |
@@ -247,14 +247,14 @@ This document outlines the core gameplay systems for Craven Caverns, inspired by
 | Stone to Flesh  | 12      | Cures petrification            | 8              |
 
 ### Magic Staves and Wands
-| Item            | Charges | Effect                          | Value |
-|-----------------|---------|--------------------------------|-------|
-| Wand of Fire    | 5-10    | Fireball spell                  | 300   |
-| Wand of Ice     | 5-10    | Ice Bolt spell                  | 300   |
-| Wand of Healing | 3-8     | Heal spell                      | 400   |
-| Staff of Light  | 10-20   | Light spell                     | 250   |
-| Staff of Power  | 3-6     | Lightning spell                 | 600   |
-| Staff of Summoning | 2-5  | Summon Ally spell               | 700   |
+| Item            | Charges | Effect                          | Rarity |
+|-----------------|---------|--------------------------------|--------|
+| Wand of Fire    | 5-10    | Fireball spell                  | Rare   |
+| Wand of Ice     | 5-10    | Ice Bolt spell                  | Rare   |
+| Wand of Healing | 3-8     | Heal spell                      | Rare   |
+| Staff of Light  | 10-20   | Light spell                     | Uncommon |
+| Staff of Power  | 3-6     | Lightning spell                 | Very Rare |
+
 
 ## Dungeon Generation
 
@@ -304,6 +304,57 @@ This document outlines the core gameplay systems for Craven Caverns, inspired by
 | Enchanted Forge| Can upgrade weapons/armor      | Extremely Rare |
 | Training Dummy | Gain experience by practicing  | Rare |
 | Forbidden Library| Learn new spells             | Extremely Rare |
-| Treasure Vault | Large amount of gold and items | Very Rare |
+| Treasure Vault | Rare and powerful items | Very Rare |
+
+## Controls
+
+Craven Caverns uses a simple and intuitive control scheme similar to Fatal Labyrinth, adapted for the NES controller:
+
+### Movement Controls
+| Control | Action |
+|---------|--------|
+| D-Pad   | Move player in four directions. attack adjacent enemy if in that direction. |
+| B button | pass a turn |
+| A button | pick up item on ground same tile as player |
+
+
+### Menu Controls
+| Control | Action |
+|---------|--------|
+| START button | Open inventory menu |
+| SELECT button | Toggle information display |
+| D-Pad | Navigate menus |
+| A button | Confirm selection |
+| B button | Cancel/Go back |
+
+### Inventory Actions
+| Control | Action |
+|---------|--------|
+| A button while on item | Show item options (Use, Drop, Throw, Equip) |
+| B button while in inventory | Exit inventory |
+
+The game follows a turn-based system where each action (movement, attack, using items) counts as one turn, after which enemies can move and act.
+
+## Screen Layout and Grid Design
+
+Craven Caverns follows a visual structure similar to Arkista's Ring on the NES:
+
+### Display Grid
+| Dimension | Size | Description |
+|-----------|------|-------------|
+| Width     | 16 tiles | Game world horizontal view |
+| Height    | 11 tiles total | 7-8 tiles for gameplay area, 3-4 tiles for UI |
+
+### UI Layout (Bottom Area)
+| Element | Position | Description |
+|---------|----------|-------------|
+| Item Slots | Left side | Currently equipped/active items |
+| Hearts | Right side | Player health represented as heart icons |
+| Score/Stats | Bottom right | Numerical display of relevant stats |
+
+### Gameplay Area
+- **Visible Area**: The player can see approximately 16×7 tiles around their position
+- **Scroll Behavior**: Screen centers on player when possible, scrolls when approaching map edges
+- **Tile Size**: 16×16 pixels for consistent NES-style appearance
 
 This documentation covers the core gameplay systems for Craven Caverns, providing a solid foundation for implementing a roguelike inspired by Fatal Labyrinth with the visual style of Arkista's Ring.
