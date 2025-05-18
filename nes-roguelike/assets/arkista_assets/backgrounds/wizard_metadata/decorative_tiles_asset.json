@@ -1,0 +1,234 @@
+{
+  "id": "bg_bank1_decorative_tiles",
+  "name": "Decorative Tiles Set",
+  "category": "Background",
+  "description": "Decorative elements for environments (Tile 1 of 24)",
+  "tags": [
+    "decorative_tiles",
+    "bank1",
+    "background"
+  ],
+  "chr_bank": 1,
+  "width": 16,
+  "height": 16,
+  "created_at": "",
+  "updated_at": "",
+  "sprites": [
+    {
+      "id": "sprite_0",
+      "name": "decorative_tiles_00",
+      "asset_id": "bg_bank1_decorative_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 0,
+      "file_path": "backgrounds/bank1/decorative_tiles/decorative_tiles_composed_00.png"
+    },
+    {
+      "id": "sprite_1",
+      "name": "decorative_tiles_01",
+      "asset_id": "bg_bank1_decorative_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 1,
+      "file_path": "backgrounds/bank1/decorative_tiles/decorative_tiles_composed_01.png"
+    },
+    {
+      "id": "sprite_2",
+      "name": "decorative_tiles_02",
+      "asset_id": "bg_bank1_decorative_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 2,
+      "file_path": "backgrounds/bank1/decorative_tiles/decorative_tiles_composed_02.png"
+    },
+    {
+      "id": "sprite_3",
+      "name": "decorative_tiles_03",
+      "asset_id": "bg_bank1_decorative_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 3,
+      "file_path": "backgrounds/bank1/decorative_tiles/decorative_tiles_composed_03.png"
+    },
+    {
+      "id": "sprite_4",
+      "name": "decorative_tiles_04",
+      "asset_id": "bg_bank1_decorative_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 4,
+      "file_path": "backgrounds/bank1/decorative_tiles/decorative_tiles_composed_04.png"
+    },
+    {
+      "id": "sprite_5",
+      "name": "decorative_tiles_05",
+      "asset_id": "bg_bank1_decorative_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 5,
+      "file_path": "backgrounds/bank1/decorative_tiles/decorative_tiles_composed_05.png"
+    },
+    {
+      "id": "sprite_6",
+      "name": "decorative_tiles_06",
+      "asset_id": "bg_bank1_decorative_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 6,
+      "file_path": "backgrounds/bank1/decorative_tiles/decorative_tiles_composed_06.png"
+    },
+    {
+      "id": "sprite_7",
+      "name": "decorative_tiles_07",
+      "asset_id": "bg_bank1_decorative_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 7,
+      "file_path": "backgrounds/bank1/decorative_tiles/decorative_tiles_composed_07.png"
+    },
+    {
+      "id": "sprite_8",
+      "name": "decorative_tiles_08",
+      "asset_id": "bg_bank1_decorative_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 8,
+      "file_path": "backgrounds/bank1/decorative_tiles/decorative_tiles_composed_08.png"
+    },
+    {
+      "id": "sprite_9",
+      "name": "decorative_tiles_09",
+      "asset_id": "bg_bank1_decorative_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 9,
+      "file_path": "backgrounds/bank1/decorative_tiles/decorative_tiles_composed_09.png"
+    },
+    {
+      "id": "sprite_10",
+      "name": "decorative_tiles_10",
+      "asset_id": "bg_bank1_decorative_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 10,
+      "file_path": "backgrounds/bank1/decorative_tiles/decorative_tiles_composed_10.png"
+    },
+    {
+      "id": "sprite_11",
+      "name": "decorative_tiles_11",
+      "asset_id": "bg_bank1_decorative_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 11,
+      "file_path": "backgrounds/bank1/decorative_tiles/decorative_tiles_composed_11.png"
+    },
+    {
+      "id": "sprite_12",
+      "name": "decorative_tiles_12",
+      "asset_id": "bg_bank1_decorative_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 12,
+      "file_path": "backgrounds/bank1/decorative_tiles/decorative_tiles_composed_12.png"
+    },
+    {
+      "id": "sprite_13",
+      "name": "decorative_tiles_13",
+      "asset_id": "bg_bank1_decorative_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 13,
+      "file_path": "backgrounds/bank1/decorative_tiles/decorative_tiles_composed_13.png"
+    },
+    {
+      "id": "sprite_14",
+      "name": "decorative_tiles_14",
+      "asset_id": "bg_bank1_decorative_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 14,
+      "file_path": "backgrounds/bank1/decorative_tiles/decorative_tiles_composed_14.png"
+    },
+    {
+      "id": "sprite_15",
+      "name": "decorative_tiles_15",
+      "asset_id": "bg_bank1_decorative_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 15,
+      "file_path": "backgrounds/bank1/decorative_tiles/decorative_tiles_composed_15.png"
+    },
+    {
+      "id": "sprite_16",
+      "name": "decorative_tiles_16",
+      "asset_id": "bg_bank1_decorative_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 16,
+      "file_path": "backgrounds/bank1/decorative_tiles/decorative_tiles_composed_16.png"
+    },
+    {
+      "id": "sprite_17",
+      "name": "decorative_tiles_17",
+      "asset_id": "bg_bank1_decorative_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 17,
+      "file_path": "backgrounds/bank1/decorative_tiles/decorative_tiles_composed_17.png"
+    },
+    {
+      "id": "sprite_18",
+      "name": "decorative_tiles_18",
+      "asset_id": "bg_bank1_decorative_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 18,
+      "file_path": "backgrounds/bank1/decorative_tiles/decorative_tiles_composed_18.png"
+    },
+    {
+      "id": "sprite_19",
+      "name": "decorative_tiles_19",
+      "asset_id": "bg_bank1_decorative_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 19,
+      "file_path": "backgrounds/bank1/decorative_tiles/decorative_tiles_composed_19.png"
+    },
+    {
+      "id": "sprite_20",
+      "name": "decorative_tiles_20",
+      "asset_id": "bg_bank1_decorative_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 20,
+      "file_path": "backgrounds/bank1/decorative_tiles/decorative_tiles_composed_20.png"
+    },
+    {
+      "id": "sprite_21",
+      "name": "decorative_tiles_21",
+      "asset_id": "bg_bank1_decorative_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 21,
+      "file_path": "backgrounds/bank1/decorative_tiles/decorative_tiles_composed_21.png"
+    },
+    {
+      "id": "sprite_22",
+      "name": "decorative_tiles_22",
+      "asset_id": "bg_bank1_decorative_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 22,
+      "file_path": "backgrounds/bank1/decorative_tiles/decorative_tiles_composed_22.png"
+    },
+    {
+      "id": "sprite_23",
+      "name": "decorative_tiles_23",
+      "asset_id": "bg_bank1_decorative_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 23,
+      "file_path": "backgrounds/bank1/decorative_tiles/decorative_tiles_composed_23.png"
+    }
+  ]
+}

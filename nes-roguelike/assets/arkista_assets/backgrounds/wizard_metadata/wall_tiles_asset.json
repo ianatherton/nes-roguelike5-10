@@ -1,0 +1,162 @@
+{
+  "id": "bg_bank1_wall_tiles",
+  "name": "Wall Tiles Set",
+  "category": "Background",
+  "description": "Wall tiles used in various levels (Tile 1 of 16)",
+  "tags": [
+    "wall_tiles",
+    "bank1",
+    "background"
+  ],
+  "chr_bank": 1,
+  "width": 16,
+  "height": 16,
+  "created_at": "",
+  "updated_at": "",
+  "sprites": [
+    {
+      "id": "sprite_0",
+      "name": "wall_tiles_00",
+      "asset_id": "bg_bank1_wall_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 0,
+      "file_path": "backgrounds/bank1/wall_tiles/wall_tiles_composed_00.png"
+    },
+    {
+      "id": "sprite_1",
+      "name": "wall_tiles_01",
+      "asset_id": "bg_bank1_wall_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 1,
+      "file_path": "backgrounds/bank1/wall_tiles/wall_tiles_composed_01.png"
+    },
+    {
+      "id": "sprite_2",
+      "name": "wall_tiles_02",
+      "asset_id": "bg_bank1_wall_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 2,
+      "file_path": "backgrounds/bank1/wall_tiles/wall_tiles_composed_02.png"
+    },
+    {
+      "id": "sprite_3",
+      "name": "wall_tiles_03",
+      "asset_id": "bg_bank1_wall_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 3,
+      "file_path": "backgrounds/bank1/wall_tiles/wall_tiles_composed_03.png"
+    },
+    {
+      "id": "sprite_4",
+      "name": "wall_tiles_04",
+      "asset_id": "bg_bank1_wall_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 4,
+      "file_path": "backgrounds/bank1/wall_tiles/wall_tiles_composed_04.png"
+    },
+    {
+      "id": "sprite_5",
+      "name": "wall_tiles_05",
+      "asset_id": "bg_bank1_wall_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 5,
+      "file_path": "backgrounds/bank1/wall_tiles/wall_tiles_composed_05.png"
+    },
+    {
+      "id": "sprite_6",
+      "name": "wall_tiles_06",
+      "asset_id": "bg_bank1_wall_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 6,
+      "file_path": "backgrounds/bank1/wall_tiles/wall_tiles_composed_06.png"
+    },
+    {
+      "id": "sprite_7",
+      "name": "wall_tiles_07",
+      "asset_id": "bg_bank1_wall_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 7,
+      "file_path": "backgrounds/bank1/wall_tiles/wall_tiles_composed_07.png"
+    },
+    {
+      "id": "sprite_8",
+      "name": "wall_tiles_08",
+      "asset_id": "bg_bank1_wall_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 8,
+      "file_path": "backgrounds/bank1/wall_tiles/wall_tiles_composed_08.png"
+    },
+    {
+      "id": "sprite_9",
+      "name": "wall_tiles_09",
+      "asset_id": "bg_bank1_wall_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 9,
+      "file_path": "backgrounds/bank1/wall_tiles/wall_tiles_composed_09.png"
+    },
+    {
+      "id": "sprite_10",
+      "name": "wall_tiles_10",
+      "asset_id": "bg_bank1_wall_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 10,
+      "file_path": "backgrounds/bank1/wall_tiles/wall_tiles_composed_10.png"
+    },
+    {
+      "id": "sprite_11",
+      "name": "wall_tiles_11",
+      "asset_id": "bg_bank1_wall_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 11,
+      "file_path": "backgrounds/bank1/wall_tiles/wall_tiles_composed_11.png"
+    },
+    {
+      "id": "sprite_12",
+      "name": "wall_tiles_12",
+      "asset_id": "bg_bank1_wall_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 12,
+      "file_path": "backgrounds/bank1/wall_tiles/wall_tiles_composed_12.png"
+    },
+    {
+      "id": "sprite_13",
+      "name": "wall_tiles_13",
+      "asset_id": "bg_bank1_wall_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 13,
+      "file_path": "backgrounds/bank1/wall_tiles/wall_tiles_composed_13.png"
+    },
+    {
+      "id": "sprite_14",
+      "name": "wall_tiles_14",
+      "asset_id": "bg_bank1_wall_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 14,
+      "file_path": "backgrounds/bank1/wall_tiles/wall_tiles_composed_14.png"
+    },
+    {
+      "id": "sprite_15",
+      "name": "wall_tiles_15",
+      "asset_id": "bg_bank1_wall_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 15,
+      "file_path": "backgrounds/bank1/wall_tiles/wall_tiles_composed_15.png"
+    }
+  ]
+}

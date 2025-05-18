@@ -1,0 +1,406 @@
+{
+  "bank": "bank1",
+  "tiles": [
+    {
+      "name": "wall_tiles",
+      "description": "Wall tiles used in various levels",
+      "tags": [
+        "wall",
+        "structure"
+      ],
+      "tiles": [
+        {
+          "index": 0,
+          "file": "wall_tiles_00.png",
+          "composed_file": "wall_tiles_composed_00.png"
+        },
+        {
+          "index": 1,
+          "file": "wall_tiles_01.png",
+          "composed_file": "wall_tiles_composed_01.png"
+        },
+        {
+          "index": 2,
+          "file": "wall_tiles_02.png",
+          "composed_file": "wall_tiles_composed_02.png"
+        },
+        {
+          "index": 3,
+          "file": "wall_tiles_03.png",
+          "composed_file": "wall_tiles_composed_03.png"
+        },
+        {
+          "index": 4,
+          "file": "wall_tiles_04.png",
+          "composed_file": "wall_tiles_composed_04.png"
+        },
+        {
+          "index": 5,
+          "file": "wall_tiles_05.png",
+          "composed_file": "wall_tiles_composed_05.png"
+        },
+        {
+          "index": 6,
+          "file": "wall_tiles_06.png",
+          "composed_file": "wall_tiles_composed_06.png"
+        },
+        {
+          "index": 7,
+          "file": "wall_tiles_07.png",
+          "composed_file": "wall_tiles_composed_07.png"
+        },
+        {
+          "index": 8,
+          "file": "wall_tiles_08.png",
+          "composed_file": "wall_tiles_composed_08.png"
+        },
+        {
+          "index": 9,
+          "file": "wall_tiles_09.png",
+          "composed_file": "wall_tiles_composed_09.png"
+        },
+        {
+          "index": 10,
+          "file": "wall_tiles_10.png",
+          "composed_file": "wall_tiles_composed_10.png"
+        },
+        {
+          "index": 11,
+          "file": "wall_tiles_11.png",
+          "composed_file": "wall_tiles_composed_11.png"
+        },
+        {
+          "index": 12,
+          "file": "wall_tiles_12.png",
+          "composed_file": "wall_tiles_composed_12.png"
+        },
+        {
+          "index": 13,
+          "file": "wall_tiles_13.png",
+          "composed_file": "wall_tiles_composed_13.png"
+        },
+        {
+          "index": 14,
+          "file": "wall_tiles_14.png",
+          "composed_file": "wall_tiles_composed_14.png"
+        },
+        {
+          "index": 15,
+          "file": "wall_tiles_15.png",
+          "composed_file": "wall_tiles_composed_15.png"
+        }
+      ]
+    },
+    {
+      "name": "floor_tiles",
+      "description": "Floor patterns for different environments",
+      "tags": [
+        "floor",
+        "ground"
+      ],
+      "tiles": [
+        {
+          "index": 16,
+          "file": "floor_tiles_00.png",
+          "composed_file": "floor_tiles_composed_00.png"
+        },
+        {
+          "index": 17,
+          "file": "floor_tiles_01.png",
+          "composed_file": "floor_tiles_composed_01.png"
+        },
+        {
+          "index": 18,
+          "file": "floor_tiles_02.png",
+          "composed_file": "floor_tiles_composed_02.png"
+        },
+        {
+          "index": 19,
+          "file": "floor_tiles_03.png",
+          "composed_file": "floor_tiles_composed_03.png"
+        },
+        {
+          "index": 20,
+          "file": "floor_tiles_04.png",
+          "composed_file": "floor_tiles_composed_04.png"
+        },
+        {
+          "index": 21,
+          "file": "floor_tiles_05.png",
+          "composed_file": "floor_tiles_composed_05.png"
+        },
+        {
+          "index": 22,
+          "file": "floor_tiles_06.png",
+          "composed_file": "floor_tiles_composed_06.png"
+        },
+        {
+          "index": 23,
+          "file": "floor_tiles_07.png",
+          "composed_file": "floor_tiles_composed_07.png"
+        },
+        {
+          "index": 24,
+          "file": "floor_tiles_08.png",
+          "composed_file": "floor_tiles_composed_08.png"
+        },
+        {
+          "index": 25,
+          "file": "floor_tiles_09.png",
+          "composed_file": "floor_tiles_composed_09.png"
+        },
+        {
+          "index": 26,
+          "file": "floor_tiles_10.png",
+          "composed_file": "floor_tiles_composed_10.png"
+        },
+        {
+          "index": 27,
+          "file": "floor_tiles_11.png",
+          "composed_file": "floor_tiles_composed_11.png"
+        },
+        {
+          "index": 28,
+          "file": "floor_tiles_12.png",
+          "composed_file": "floor_tiles_composed_12.png"
+        },
+        {
+          "index": 29,
+          "file": "floor_tiles_13.png",
+          "composed_file": "floor_tiles_composed_13.png"
+        },
+        {
+          "index": 30,
+          "file": "floor_tiles_14.png",
+          "composed_file": "floor_tiles_composed_14.png"
+        },
+        {
+          "index": 31,
+          "file": "floor_tiles_15.png",
+          "composed_file": "floor_tiles_composed_15.png"
+        }
+      ]
+    },
+    {
+      "name": "stairs_tiles",
+      "description": "Stairs and ladders for level transitions",
+      "tags": [
+        "stairs",
+        "ladder",
+        "transition"
+      ],
+      "tiles": [
+        {
+          "index": 32,
+          "file": "stairs_tiles_00.png",
+          "composed_file": "stairs_tiles_composed_00.png"
+        },
+        {
+          "index": 33,
+          "file": "stairs_tiles_01.png",
+          "composed_file": "stairs_tiles_composed_01.png"
+        },
+        {
+          "index": 34,
+          "file": "stairs_tiles_02.png",
+          "composed_file": "stairs_tiles_composed_02.png"
+        },
+        {
+          "index": 35,
+          "file": "stairs_tiles_03.png",
+          "composed_file": "stairs_tiles_composed_03.png"
+        },
+        {
+          "index": 36,
+          "file": "stairs_tiles_04.png",
+          "composed_file": "stairs_tiles_composed_04.png"
+        },
+        {
+          "index": 37,
+          "file": "stairs_tiles_05.png",
+          "composed_file": "stairs_tiles_composed_05.png"
+        }
+      ]
+    },
+    {
+      "name": "decorative_tiles",
+      "description": "Decorative elements for environments",
+      "tags": [
+        "decoration",
+        "environment"
+      ],
+      "tiles": [
+        {
+          "index": 48,
+          "file": "decorative_tiles_00.png",
+          "composed_file": "decorative_tiles_composed_00.png"
+        },
+        {
+          "index": 49,
+          "file": "decorative_tiles_01.png",
+          "composed_file": "decorative_tiles_composed_01.png"
+        },
+        {
+          "index": 50,
+          "file": "decorative_tiles_02.png",
+          "composed_file": "decorative_tiles_composed_02.png"
+        },
+        {
+          "index": 51,
+          "file": "decorative_tiles_03.png",
+          "composed_file": "decorative_tiles_composed_03.png"
+        },
+        {
+          "index": 52,
+          "file": "decorative_tiles_04.png",
+          "composed_file": "decorative_tiles_composed_04.png"
+        },
+        {
+          "index": 53,
+          "file": "decorative_tiles_05.png",
+          "composed_file": "decorative_tiles_composed_05.png"
+        },
+        {
+          "index": 54,
+          "file": "decorative_tiles_06.png",
+          "composed_file": "decorative_tiles_composed_06.png"
+        },
+        {
+          "index": 55,
+          "file": "decorative_tiles_07.png",
+          "composed_file": "decorative_tiles_composed_07.png"
+        },
+        {
+          "index": 56,
+          "file": "decorative_tiles_08.png",
+          "composed_file": "decorative_tiles_composed_08.png"
+        },
+        {
+          "index": 57,
+          "file": "decorative_tiles_09.png",
+          "composed_file": "decorative_tiles_composed_09.png"
+        },
+        {
+          "index": 58,
+          "file": "decorative_tiles_10.png",
+          "composed_file": "decorative_tiles_composed_10.png"
+        },
+        {
+          "index": 59,
+          "file": "decorative_tiles_11.png",
+          "composed_file": "decorative_tiles_composed_11.png"
+        },
+        {
+          "index": 60,
+          "file": "decorative_tiles_12.png",
+          "composed_file": "decorative_tiles_composed_12.png"
+        },
+        {
+          "index": 61,
+          "file": "decorative_tiles_13.png",
+          "composed_file": "decorative_tiles_composed_13.png"
+        },
+        {
+          "index": 62,
+          "file": "decorative_tiles_14.png",
+          "composed_file": "decorative_tiles_composed_14.png"
+        },
+        {
+          "index": 63,
+          "file": "decorative_tiles_15.png",
+          "composed_file": "decorative_tiles_composed_15.png"
+        },
+        {
+          "index": 64,
+          "file": "decorative_tiles_16.png",
+          "composed_file": "decorative_tiles_composed_16.png"
+        },
+        {
+          "index": 65,
+          "file": "decorative_tiles_17.png",
+          "composed_file": "decorative_tiles_composed_17.png"
+        },
+        {
+          "index": 66,
+          "file": "decorative_tiles_18.png",
+          "composed_file": "decorative_tiles_composed_18.png"
+        },
+        {
+          "index": 67,
+          "file": "decorative_tiles_19.png",
+          "composed_file": "decorative_tiles_composed_19.png"
+        },
+        {
+          "index": 68,
+          "file": "decorative_tiles_20.png",
+          "composed_file": "decorative_tiles_composed_20.png"
+        },
+        {
+          "index": 69,
+          "file": "decorative_tiles_21.png",
+          "composed_file": "decorative_tiles_composed_21.png"
+        },
+        {
+          "index": 70,
+          "file": "decorative_tiles_22.png",
+          "composed_file": "decorative_tiles_composed_22.png"
+        },
+        {
+          "index": 71,
+          "file": "decorative_tiles_23.png",
+          "composed_file": "decorative_tiles_composed_23.png"
+        }
+      ]
+    },
+    {
+      "name": "water_tiles",
+      "description": "Water and liquid tiles",
+      "tags": [
+        "water",
+        "liquid"
+      ],
+      "tiles": [
+        {
+          "index": 80,
+          "file": "water_tiles_00.png",
+          "composed_file": "water_tiles_composed_00.png"
+        },
+        {
+          "index": 81,
+          "file": "water_tiles_01.png",
+          "composed_file": "water_tiles_composed_01.png"
+        },
+        {
+          "index": 82,
+          "file": "water_tiles_02.png",
+          "composed_file": "water_tiles_composed_02.png"
+        },
+        {
+          "index": 83,
+          "file": "water_tiles_03.png",
+          "composed_file": "water_tiles_composed_03.png"
+        },
+        {
+          "index": 84,
+          "file": "water_tiles_04.png",
+          "composed_file": "water_tiles_composed_04.png"
+        },
+        {
+          "index": 85,
+          "file": "water_tiles_05.png",
+          "composed_file": "water_tiles_composed_05.png"
+        },
+        {
+          "index": 86,
+          "file": "water_tiles_06.png",
+          "composed_file": "water_tiles_composed_06.png"
+        },
+        {
+          "index": 87,
+          "file": "water_tiles_07.png",
+          "composed_file": "water_tiles_composed_07.png"
+        }
+      ]
+    }
+  ]
+}

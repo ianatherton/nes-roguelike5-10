@@ -1,0 +1,72 @@
+{
+  "id": "bg_bank1_stairs_tiles",
+  "name": "Stairs Tiles Set",
+  "category": "Background",
+  "description": "Stairs and ladders for level transitions (Tile 1 of 6)",
+  "tags": [
+    "stairs_tiles",
+    "bank1",
+    "background"
+  ],
+  "chr_bank": 1,
+  "width": 16,
+  "height": 16,
+  "created_at": "",
+  "updated_at": "",
+  "sprites": [
+    {
+      "id": "sprite_0",
+      "name": "stairs_tiles_00",
+      "asset_id": "bg_bank1_stairs_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 0,
+      "file_path": "backgrounds/bank1/stairs_tiles/stairs_tiles_composed_00.png"
+    },
+    {
+      "id": "sprite_1",
+      "name": "stairs_tiles_01",
+      "asset_id": "bg_bank1_stairs_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 1,
+      "file_path": "backgrounds/bank1/stairs_tiles/stairs_tiles_composed_01.png"
+    },
+    {
+      "id": "sprite_2",
+      "name": "stairs_tiles_02",
+      "asset_id": "bg_bank1_stairs_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 2,
+      "file_path": "backgrounds/bank1/stairs_tiles/stairs_tiles_composed_02.png"
+    },
+    {
+      "id": "sprite_3",
+      "name": "stairs_tiles_03",
+      "asset_id": "bg_bank1_stairs_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 3,
+      "file_path": "backgrounds/bank1/stairs_tiles/stairs_tiles_composed_03.png"
+    },
+    {
+      "id": "sprite_4",
+      "name": "stairs_tiles_04",
+      "asset_id": "bg_bank1_stairs_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 4,
+      "file_path": "backgrounds/bank1/stairs_tiles/stairs_tiles_composed_04.png"
+    },
+    {
+      "id": "sprite_5",
+      "name": "stairs_tiles_05",
+      "asset_id": "bg_bank1_stairs_tiles",
+      "animation_type": "idle",
+      "direction": "none",
+      "frame_number": 5,
+      "file_path": "backgrounds/bank1/stairs_tiles/stairs_tiles_composed_05.png"
+    }
+  ]
+}
