@@ -1,0 +1,350 @@
+{
+  "bank": "bank3",
+  "tiles": [
+    {
+      "name": "outdoor_tiles",
+      "description": "Outdoor environment elements",
+      "tags": [
+        "outdoor",
+        "nature",
+        "background"
+      ],
+      "tiles": [
+        {
+          "index": 0,
+          "file": "outdoor_tiles_00.png",
+          "composed_file": "outdoor_tiles_composed_00.png",
+          "size": 16
+        },
+        {
+          "index": 1,
+          "file": "outdoor_tiles_01.png",
+          "composed_file": "outdoor_tiles_composed_01.png",
+          "size": 16
+        },
+        {
+          "index": 2,
+          "file": "outdoor_tiles_02.png",
+          "composed_file": "outdoor_tiles_composed_02.png",
+          "size": 16
+        },
+        {
+          "index": 3,
+          "file": "outdoor_tiles_03.png",
+          "composed_file": "outdoor_tiles_composed_03.png",
+          "size": 16
+        },
+        {
+          "index": 4,
+          "file": "outdoor_tiles_04.png",
+          "composed_file": "outdoor_tiles_composed_04.png",
+          "size": 16
+        },
+        {
+          "index": 5,
+          "file": "outdoor_tiles_05.png",
+          "composed_file": "outdoor_tiles_composed_05.png",
+          "size": 16
+        },
+        {
+          "index": 6,
+          "file": "outdoor_tiles_06.png",
+          "composed_file": "outdoor_tiles_composed_06.png",
+          "size": 16
+        },
+        {
+          "index": 7,
+          "file": "outdoor_tiles_07.png",
+          "composed_file": "outdoor_tiles_composed_07.png",
+          "size": 16
+        },
+        {
+          "index": 8,
+          "file": "outdoor_tiles_08.png",
+          "composed_file": "outdoor_tiles_composed_08.png",
+          "size": 16
+        },
+        {
+          "index": 9,
+          "file": "outdoor_tiles_09.png",
+          "composed_file": "outdoor_tiles_composed_09.png",
+          "size": 16
+        },
+        {
+          "index": 10,
+          "file": "outdoor_tiles_10.png",
+          "composed_file": "outdoor_tiles_composed_10.png",
+          "size": 16
+        },
+        {
+          "index": 11,
+          "file": "outdoor_tiles_11.png",
+          "composed_file": "outdoor_tiles_composed_11.png",
+          "size": 16
+        },
+        {
+          "index": 12,
+          "file": "outdoor_tiles_12.png",
+          "composed_file": "outdoor_tiles_composed_12.png",
+          "size": 16
+        },
+        {
+          "index": 13,
+          "file": "outdoor_tiles_13.png",
+          "composed_file": "outdoor_tiles_composed_13.png",
+          "size": 16
+        },
+        {
+          "index": 14,
+          "file": "outdoor_tiles_14.png",
+          "composed_file": "outdoor_tiles_composed_14.png",
+          "size": 16
+        },
+        {
+          "index": 15,
+          "file": "outdoor_tiles_15.png",
+          "composed_file": "outdoor_tiles_composed_15.png",
+          "size": 16
+        },
+        {
+          "index": 16,
+          "file": "outdoor_tiles_16.png",
+          "composed_file": "outdoor_tiles_composed_16.png",
+          "size": 16
+        },
+        {
+          "index": 17,
+          "file": "outdoor_tiles_17.png",
+          "composed_file": "outdoor_tiles_composed_17.png",
+          "size": 16
+        },
+        {
+          "index": 18,
+          "file": "outdoor_tiles_18.png",
+          "composed_file": "outdoor_tiles_composed_18.png",
+          "size": 16
+        },
+        {
+          "index": 19,
+          "file": "outdoor_tiles_19.png",
+          "composed_file": "outdoor_tiles_composed_19.png",
+          "size": 16
+        }
+      ]
+    },
+    {
+      "name": "cave_tiles",
+      "description": "Cave and dungeon specific elements",
+      "tags": [
+        "cave",
+        "dungeon",
+        "background"
+      ],
+      "tiles": [
+        {
+          "index": 32,
+          "file": "cave_tiles_00.png",
+          "composed_file": "cave_tiles_composed_00.png",
+          "size": 16
+        },
+        {
+          "index": 33,
+          "file": "cave_tiles_01.png",
+          "composed_file": "cave_tiles_composed_01.png",
+          "size": 16
+        },
+        {
+          "index": 34,
+          "file": "cave_tiles_02.png",
+          "composed_file": "cave_tiles_composed_02.png",
+          "size": 16
+        },
+        {
+          "index": 35,
+          "file": "cave_tiles_03.png",
+          "composed_file": "cave_tiles_composed_03.png",
+          "size": 16
+        },
+        {
+          "index": 36,
+          "file": "cave_tiles_04.png",
+          "composed_file": "cave_tiles_composed_04.png",
+          "size": 16
+        },
+        {
+          "index": 37,
+          "file": "cave_tiles_05.png",
+          "composed_file": "cave_tiles_composed_05.png",
+          "size": 16
+        },
+        {
+          "index": 38,
+          "file": "cave_tiles_06.png",
+          "composed_file": "cave_tiles_composed_06.png",
+          "size": 16
+        },
+        {
+          "index": 39,
+          "file": "cave_tiles_07.png",
+          "composed_file": "cave_tiles_composed_07.png",
+          "size": 16
+        },
+        {
+          "index": 40,
+          "file": "cave_tiles_08.png",
+          "composed_file": "cave_tiles_composed_08.png",
+          "size": 16
+        },
+        {
+          "index": 41,
+          "file": "cave_tiles_09.png",
+          "composed_file": "cave_tiles_composed_09.png",
+          "size": 16
+        },
+        {
+          "index": 42,
+          "file": "cave_tiles_10.png",
+          "composed_file": "cave_tiles_composed_10.png",
+          "size": 16
+        },
+        {
+          "index": 43,
+          "file": "cave_tiles_11.png",
+          "composed_file": "cave_tiles_composed_11.png",
+          "size": 16
+        },
+        {
+          "index": 44,
+          "file": "cave_tiles_12.png",
+          "composed_file": "cave_tiles_composed_12.png",
+          "size": 16
+        },
+        {
+          "index": 45,
+          "file": "cave_tiles_13.png",
+          "composed_file": "cave_tiles_composed_13.png",
+          "size": 16
+        },
+        {
+          "index": 46,
+          "file": "cave_tiles_14.png",
+          "composed_file": "cave_tiles_composed_14.png",
+          "size": 16
+        },
+        {
+          "index": 47,
+          "file": "cave_tiles_15.png",
+          "composed_file": "cave_tiles_composed_15.png",
+          "size": 16
+        }
+      ]
+    },
+    {
+      "name": "door_tiles",
+      "description": "Door and entrance tiles",
+      "tags": [
+        "door",
+        "entrance",
+        "exit",
+        "background"
+      ],
+      "tiles": [
+        {
+          "index": 64,
+          "file": "door_tiles_00.png",
+          "composed_file": "door_tiles_composed_00.png",
+          "size": 16
+        },
+        {
+          "index": 65,
+          "file": "door_tiles_01.png",
+          "composed_file": "door_tiles_composed_01.png",
+          "size": 16
+        },
+        {
+          "index": 66,
+          "file": "door_tiles_02.png",
+          "composed_file": "door_tiles_composed_02.png",
+          "size": 16
+        },
+        {
+          "index": 67,
+          "file": "door_tiles_03.png",
+          "composed_file": "door_tiles_composed_03.png",
+          "size": 16
+        },
+        {
+          "index": 68,
+          "file": "door_tiles_04.png",
+          "composed_file": "door_tiles_composed_04.png",
+          "size": 16
+        },
+        {
+          "index": 69,
+          "file": "door_tiles_05.png",
+          "composed_file": "door_tiles_composed_05.png",
+          "size": 16
+        },
+        {
+          "index": 70,
+          "file": "door_tiles_06.png",
+          "composed_file": "door_tiles_composed_06.png",
+          "size": 16
+        },
+        {
+          "index": 71,
+          "file": "door_tiles_07.png",
+          "composed_file": "door_tiles_composed_07.png",
+          "size": 16
+        }
+      ]
+    },
+    {
+      "name": "treasure_tiles",
+      "description": "Treasure chests and reward objects",
+      "tags": [
+        "treasure",
+        "reward",
+        "background"
+      ],
+      "tiles": [
+        {
+          "index": 80,
+          "file": "treasure_tiles_00.png",
+          "composed_file": "treasure_tiles_composed_00.png",
+          "size": 16
+        },
+        {
+          "index": 81,
+          "file": "treasure_tiles_01.png",
+          "composed_file": "treasure_tiles_composed_01.png",
+          "size": 16
+        },
+        {
+          "index": 82,
+          "file": "treasure_tiles_02.png",
+          "composed_file": "treasure_tiles_composed_02.png",
+          "size": 16
+        },
+        {
+          "index": 83,
+          "file": "treasure_tiles_03.png",
+          "composed_file": "treasure_tiles_composed_03.png",
+          "size": 16
+        },
+        {
+          "index": 84,
+          "file": "treasure_tiles_04.png",
+          "composed_file": "treasure_tiles_composed_04.png",
+          "size": 16
+        },
+        {
+          "index": 85,
+          "file": "treasure_tiles_05.png",
+          "composed_file": "treasure_tiles_composed_05.png",
+          "size": 16
+        }
+      ]
+    }
+  ]
+}

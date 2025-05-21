@@ -1,0 +1,6660 @@
+{
+  "tile_size": 16,
+  "tiles_count": 442,
+  "levels_count": 0,
+  "categories": {
+    "stone": {
+      "count": 135,
+      "tiles": [
+        "bg_tile_001",
+        "bg_tile_002",
+        "bg_tile_004",
+        "bg_tile_005",
+        "bg_tile_006",
+        "bg_tile_030",
+        "bg_tile_031",
+        "bg_tile_032",
+        "bg_tile_033",
+        "bg_tile_034",
+        "bg_tile_035",
+        "bg_tile_036",
+        "bg_tile_037",
+        "bg_tile_039",
+        "bg_tile_040",
+        "bg_tile_041",
+        "bg_tile_042",
+        "bg_tile_043",
+        "bg_tile_044",
+        "bg_tile_045",
+        "bg_tile_046",
+        "bg_tile_052",
+        "bg_tile_053",
+        "bg_tile_081",
+        "bg_tile_082",
+        "bg_tile_083",
+        "bg_tile_084",
+        "bg_tile_085",
+        "bg_tile_086",
+        "bg_tile_087",
+        "bg_tile_090",
+        "bg_tile_091",
+        "bg_tile_092",
+        "bg_tile_093",
+        "bg_tile_094",
+        "bg_tile_095",
+        "bg_tile_096",
+        "bg_tile_097",
+        "bg_tile_098",
+        "bg_tile_099",
+        "bg_tile_100",
+        "bg_tile_101",
+        "bg_tile_104",
+        "bg_tile_107",
+        "bg_tile_110",
+        "bg_tile_112",
+        "bg_tile_116",
+        "bg_tile_121",
+        "bg_tile_122",
+        "bg_tile_126",
+        "bg_tile_127",
+        "bg_tile_128",
+        "bg_tile_129",
+        "bg_tile_130",
+        "bg_tile_150",
+        "bg_tile_154",
+        "bg_tile_168",
+        "bg_tile_169",
+        "bg_tile_180",
+        "bg_tile_196",
+        "bg_tile_197",
+        "bg_tile_198",
+        "bg_tile_199",
+        "bg_tile_201",
+        "bg_tile_204",
+        "bg_tile_210",
+        "bg_tile_212",
+        "bg_tile_216",
+        "bg_tile_218",
+        "bg_tile_220",
+        "bg_tile_221",
+        "bg_tile_223",
+        "bg_tile_224",
+        "bg_tile_225",
+        "bg_tile_226",
+        "bg_tile_231",
+        "bg_tile_232",
+        "bg_tile_244",
+        "bg_tile_245",
+        "bg_tile_246",
+        "bg_tile_247",
+        "bg_tile_249",
+        "bg_tile_251",
+        "bg_tile_252",
+        "bg_tile_254",
+        "bg_tile_257",
+        "bg_tile_259",
+        "bg_tile_260",
+        "bg_tile_263",
+        "bg_tile_264",
+        "bg_tile_279",
+        "bg_tile_281",
+        "bg_tile_282",
+        "bg_tile_283",
+        "bg_tile_284",
+        "bg_tile_285",
+        "bg_tile_286",
+        "bg_tile_287",
+        "bg_tile_288",
+        "bg_tile_289",
+        "bg_tile_295",
+        "bg_tile_297",
+        "bg_tile_313",
+        "bg_tile_320",
+        "bg_tile_321",
+        "bg_tile_325",
+        "bg_tile_327",
+        "bg_tile_329",
+        "bg_tile_331",
+        "bg_tile_332",
+        "bg_tile_333",
+        "bg_tile_334",
+        "bg_tile_335",
+        "bg_tile_336",
+        "bg_tile_339",
+        "bg_tile_340",
+        "bg_tile_341",
+        "bg_tile_342",
+        "bg_tile_344",
+        "bg_tile_345",
+        "bg_tile_354",
+        "bg_tile_355",
+        "bg_tile_359",
+        "bg_tile_361",
+        "bg_tile_366",
+        "bg_tile_369",
+        "bg_tile_385",
+        "bg_tile_397",
+        "bg_tile_403",
+        "bg_tile_405",
+        "bg_tile_406",
+        "bg_tile_414",
+        "bg_tile_426",
+        "bg_tile_428",
+        "bg_tile_432"
+      ]
+    },
+    "void": {
+      "count": 192,
+      "tiles": [
+        "bg_tile_003",
+        "bg_tile_007",
+        "bg_tile_008",
+        "bg_tile_009",
+        "bg_tile_010",
+        "bg_tile_011",
+        "bg_tile_012",
+        "bg_tile_013",
+        "bg_tile_014",
+        "bg_tile_015",
+        "bg_tile_023",
+        "bg_tile_024",
+        "bg_tile_027",
+        "bg_tile_028",
+        "bg_tile_029",
+        "bg_tile_038",
+        "bg_tile_047",
+        "bg_tile_050",
+        "bg_tile_051",
+        "bg_tile_054",
+        "bg_tile_055",
+        "bg_tile_056",
+        "bg_tile_057",
+        "bg_tile_058",
+        "bg_tile_062",
+        "bg_tile_063",
+        "bg_tile_067",
+        "bg_tile_068",
+        "bg_tile_069",
+        "bg_tile_070",
+        "bg_tile_071",
+        "bg_tile_072",
+        "bg_tile_073",
+        "bg_tile_074",
+        "bg_tile_075",
+        "bg_tile_076",
+        "bg_tile_077",
+        "bg_tile_078",
+        "bg_tile_079",
+        "bg_tile_080",
+        "bg_tile_089",
+        "bg_tile_102",
+        "bg_tile_103",
+        "bg_tile_108",
+        "bg_tile_109",
+        "bg_tile_111",
+        "bg_tile_113",
+        "bg_tile_114",
+        "bg_tile_115",
+        "bg_tile_117",
+        "bg_tile_118",
+        "bg_tile_119",
+        "bg_tile_120",
+        "bg_tile_123",
+        "bg_tile_124",
+        "bg_tile_125",
+        "bg_tile_131",
+        "bg_tile_132",
+        "bg_tile_133",
+        "bg_tile_134",
+        "bg_tile_135",
+        "bg_tile_136",
+        "bg_tile_137",
+        "bg_tile_138",
+        "bg_tile_139",
+        "bg_tile_140",
+        "bg_tile_141",
+        "bg_tile_142",
+        "bg_tile_143",
+        "bg_tile_144",
+        "bg_tile_145",
+        "bg_tile_146",
+        "bg_tile_147",
+        "bg_tile_148",
+        "bg_tile_149",
+        "bg_tile_151",
+        "bg_tile_152",
+        "bg_tile_153",
+        "bg_tile_155",
+        "bg_tile_156",
+        "bg_tile_157",
+        "bg_tile_158",
+        "bg_tile_159",
+        "bg_tile_160",
+        "bg_tile_161",
+        "bg_tile_162",
+        "bg_tile_163",
+        "bg_tile_164",
+        "bg_tile_165",
+        "bg_tile_166",
+        "bg_tile_167",
+        "bg_tile_170",
+        "bg_tile_171",
+        "bg_tile_172",
+        "bg_tile_173",
+        "bg_tile_174",
+        "bg_tile_176",
+        "bg_tile_177",
+        "bg_tile_178",
+        "bg_tile_179",
+        "bg_tile_181",
+        "bg_tile_182",
+        "bg_tile_183",
+        "bg_tile_184",
+        "bg_tile_185",
+        "bg_tile_186",
+        "bg_tile_187",
+        "bg_tile_188",
+        "bg_tile_189",
+        "bg_tile_190",
+        "bg_tile_191",
+        "bg_tile_192",
+        "bg_tile_193",
+        "bg_tile_194",
+        "bg_tile_195",
+        "bg_tile_200",
+        "bg_tile_202",
+        "bg_tile_203",
+        "bg_tile_205",
+        "bg_tile_208",
+        "bg_tile_209",
+        "bg_tile_211",
+        "bg_tile_213",
+        "bg_tile_214",
+        "bg_tile_215",
+        "bg_tile_217",
+        "bg_tile_219",
+        "bg_tile_222",
+        "bg_tile_227",
+        "bg_tile_228",
+        "bg_tile_229",
+        "bg_tile_230",
+        "bg_tile_233",
+        "bg_tile_234",
+        "bg_tile_235",
+        "bg_tile_236",
+        "bg_tile_237",
+        "bg_tile_238",
+        "bg_tile_239",
+        "bg_tile_240",
+        "bg_tile_241",
+        "bg_tile_242",
+        "bg_tile_243",
+        "bg_tile_248",
+        "bg_tile_250",
+        "bg_tile_253",
+        "bg_tile_255",
+        "bg_tile_256",
+        "bg_tile_258",
+        "bg_tile_261",
+        "bg_tile_262",
+        "bg_tile_265",
+        "bg_tile_266",
+        "bg_tile_267",
+        "bg_tile_268",
+        "bg_tile_269",
+        "bg_tile_270",
+        "bg_tile_271",
+        "bg_tile_272",
+        "bg_tile_273",
+        "bg_tile_274",
+        "bg_tile_275",
+        "bg_tile_276",
+        "bg_tile_277",
+        "bg_tile_278",
+        "bg_tile_280",
+        "bg_tile_296",
+        "bg_tile_312",
+        "bg_tile_314",
+        "bg_tile_315",
+        "bg_tile_316",
+        "bg_tile_317",
+        "bg_tile_318",
+        "bg_tile_319",
+        "bg_tile_328",
+        "bg_tile_338",
+        "bg_tile_346",
+        "bg_tile_347",
+        "bg_tile_348",
+        "bg_tile_349",
+        "bg_tile_350",
+        "bg_tile_376",
+        "bg_tile_377",
+        "bg_tile_387",
+        "bg_tile_394",
+        "bg_tile_396",
+        "bg_tile_400",
+        "bg_tile_412",
+        "bg_tile_413",
+        "bg_tile_417",
+        "bg_tile_431",
+        "bg_tile_434"
+      ]
+    },
+    "misc": {
+      "count": 114,
+      "tiles": [
+        "bg_tile_016",
+        "bg_tile_017",
+        "bg_tile_018",
+        "bg_tile_019",
+        "bg_tile_020",
+        "bg_tile_021",
+        "bg_tile_022",
+        "bg_tile_025",
+        "bg_tile_026",
+        "bg_tile_048",
+        "bg_tile_049",
+        "bg_tile_059",
+        "bg_tile_060",
+        "bg_tile_061",
+        "bg_tile_064",
+        "bg_tile_065",
+        "bg_tile_066",
+        "bg_tile_088",
+        "bg_tile_105",
+        "bg_tile_106",
+        "bg_tile_175",
+        "bg_tile_206",
+        "bg_tile_207",
+        "bg_tile_290",
+        "bg_tile_292",
+        "bg_tile_293",
+        "bg_tile_294",
+        "bg_tile_298",
+        "bg_tile_299",
+        "bg_tile_300",
+        "bg_tile_301",
+        "bg_tile_302",
+        "bg_tile_303",
+        "bg_tile_304",
+        "bg_tile_305",
+        "bg_tile_306",
+        "bg_tile_307",
+        "bg_tile_308",
+        "bg_tile_309",
+        "bg_tile_310",
+        "bg_tile_311",
+        "bg_tile_322",
+        "bg_tile_323",
+        "bg_tile_324",
+        "bg_tile_326",
+        "bg_tile_330",
+        "bg_tile_337",
+        "bg_tile_343",
+        "bg_tile_351",
+        "bg_tile_352",
+        "bg_tile_353",
+        "bg_tile_356",
+        "bg_tile_357",
+        "bg_tile_358",
+        "bg_tile_360",
+        "bg_tile_362",
+        "bg_tile_363",
+        "bg_tile_364",
+        "bg_tile_365",
+        "bg_tile_367",
+        "bg_tile_368",
+        "bg_tile_370",
+        "bg_tile_371",
+        "bg_tile_372",
+        "bg_tile_373",
+        "bg_tile_374",
+        "bg_tile_375",
+        "bg_tile_378",
+        "bg_tile_379",
+        "bg_tile_380",
+        "bg_tile_381",
+        "bg_tile_382",
+        "bg_tile_383",
+        "bg_tile_384",
+        "bg_tile_386",
+        "bg_tile_388",
+        "bg_tile_389",
+        "bg_tile_390",
+        "bg_tile_391",
+        "bg_tile_392",
+        "bg_tile_393",
+        "bg_tile_395",
+        "bg_tile_398",
+        "bg_tile_399",
+        "bg_tile_401",
+        "bg_tile_402",
+        "bg_tile_404",
+        "bg_tile_407",
+        "bg_tile_408",
+        "bg_tile_409",
+        "bg_tile_410",
+        "bg_tile_411",
+        "bg_tile_415",
+        "bg_tile_416",
+        "bg_tile_418",
+        "bg_tile_419",
+        "bg_tile_420",
+        "bg_tile_421",
+        "bg_tile_422",
+        "bg_tile_423",
+        "bg_tile_424",
+        "bg_tile_425",
+        "bg_tile_427",
+        "bg_tile_429",
+        "bg_tile_430",
+        "bg_tile_433",
+        "bg_tile_435",
+        "bg_tile_436",
+        "bg_tile_437",
+        "bg_tile_438",
+        "bg_tile_439",
+        "bg_tile_440",
+        "bg_tile_441",
+        "bg_tile_442"
+      ]
+    },
+    "grass": {
+      "count": 1,
+      "tiles": [
+        "bg_tile_291"
+      ]
+    }
+  },
+  "tiles": [
+    {
+      "id": "bg_tile_001",
+      "first_position": [
+        16,
+        0
+      ],
+      "positions_count": 28,
+      "color_profile": [
+        108,
+        108,
+        108
+      ],
+      "relative_path": "tiles/bg_tile_001.png"
+    },
+    {
+      "id": "bg_tile_002",
+      "first_position": [
+        64,
+        0
+      ],
+      "positions_count": 8,
+      "color_profile": [
+        125,
+        125,
+        125
+      ],
+      "relative_path": "tiles/bg_tile_002.png"
+    },
+    {
+      "id": "bg_tile_003",
+      "first_position": [
+        272,
+        0
+      ],
+      "positions_count": 35,
+      "color_profile": [
+        47,
+        47,
+        47
+      ],
+      "relative_path": "tiles/bg_tile_003.png"
+    },
+    {
+      "id": "bg_tile_004",
+      "first_position": [
+        16,
+        16
+      ],
+      "positions_count": 990,
+      "color_profile": [
+        116,
+        116,
+        116
+      ],
+      "relative_path": "tiles/bg_tile_004.png"
+    },
+    {
+      "id": "bg_tile_005",
+      "first_position": [
+        48,
+        16
+      ],
+      "positions_count": 36,
+      "color_profile": [
+        132,
+        132,
+        132
+      ],
+      "relative_path": "tiles/bg_tile_005.png"
+    },
+    {
+      "id": "bg_tile_006",
+      "first_position": [
+        128,
+        16
+      ],
+      "positions_count": 10,
+      "color_profile": [
+        74,
+        74,
+        74
+      ],
+      "relative_path": "tiles/bg_tile_006.png"
+    },
+    {
+      "id": "bg_tile_007",
+      "first_position": [
+        496,
+        32
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        6,
+        6,
+        6
+      ],
+      "relative_path": "tiles/bg_tile_007.png"
+    },
+    {
+      "id": "bg_tile_008",
+      "first_position": [
+        512,
+        32
+      ],
+      "positions_count": 4,
+      "color_profile": [
+        31,
+        31,
+        31
+      ],
+      "relative_path": "tiles/bg_tile_008.png"
+    },
+    {
+      "id": "bg_tile_009",
+      "first_position": [
+        576,
+        32
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        10,
+        10,
+        10
+      ],
+      "relative_path": "tiles/bg_tile_009.png"
+    },
+    {
+      "id": "bg_tile_010",
+      "first_position": [
+        896,
+        32
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        9,
+        9,
+        9
+      ],
+      "relative_path": "tiles/bg_tile_010.png"
+    },
+    {
+      "id": "bg_tile_011",
+      "first_position": [
+        912,
+        32
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        3,
+        3,
+        3
+      ],
+      "relative_path": "tiles/bg_tile_011.png"
+    },
+    {
+      "id": "bg_tile_012",
+      "first_position": [
+        944,
+        32
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        13,
+        13,
+        13
+      ],
+      "relative_path": "tiles/bg_tile_012.png"
+    },
+    {
+      "id": "bg_tile_013",
+      "first_position": [
+        960,
+        32
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        3,
+        3,
+        3
+      ],
+      "relative_path": "tiles/bg_tile_013.png"
+    },
+    {
+      "id": "bg_tile_014",
+      "first_position": [
+        976,
+        32
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        8,
+        8,
+        8
+      ],
+      "relative_path": "tiles/bg_tile_014.png"
+    },
+    {
+      "id": "bg_tile_015",
+      "first_position": [
+        992,
+        32
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        9,
+        9,
+        9
+      ],
+      "relative_path": "tiles/bg_tile_015.png"
+    },
+    {
+      "id": "bg_tile_016",
+      "first_position": [
+        80,
+        48
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        98,
+        50,
+        19
+      ],
+      "relative_path": "tiles/bg_tile_016.png"
+    },
+    {
+      "id": "bg_tile_017",
+      "first_position": [
+        96,
+        48
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        81,
+        44,
+        18
+      ],
+      "relative_path": "tiles/bg_tile_017.png"
+    },
+    {
+      "id": "bg_tile_018",
+      "first_position": [
+        112,
+        48
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        82,
+        46,
+        18
+      ],
+      "relative_path": "tiles/bg_tile_018.png"
+    },
+    {
+      "id": "bg_tile_019",
+      "first_position": [
+        128,
+        48
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        73,
+        38,
+        13
+      ],
+      "relative_path": "tiles/bg_tile_019.png"
+    },
+    {
+      "id": "bg_tile_020",
+      "first_position": [
+        144,
+        48
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        73,
+        38,
+        16
+      ],
+      "relative_path": "tiles/bg_tile_020.png"
+    },
+    {
+      "id": "bg_tile_021",
+      "first_position": [
+        160,
+        48
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        69,
+        31,
+        11
+      ],
+      "relative_path": "tiles/bg_tile_021.png"
+    },
+    {
+      "id": "bg_tile_022",
+      "first_position": [
+        176,
+        48
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        72,
+        33,
+        11
+      ],
+      "relative_path": "tiles/bg_tile_022.png"
+    },
+    {
+      "id": "bg_tile_023",
+      "first_position": [
+        496,
+        48
+      ],
+      "positions_count": 5,
+      "color_profile": [
+        31,
+        31,
+        31
+      ],
+      "relative_path": "tiles/bg_tile_023.png"
+    },
+    {
+      "id": "bg_tile_024",
+      "first_position": [
+        512,
+        48
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        9,
+        17,
+        9
+      ],
+      "relative_path": "tiles/bg_tile_024.png"
+    },
+    {
+      "id": "bg_tile_025",
+      "first_position": [
+        528,
+        48
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        77,
+        149,
+        75
+      ],
+      "relative_path": "tiles/bg_tile_025.png"
+    },
+    {
+      "id": "bg_tile_026",
+      "first_position": [
+        544,
+        48
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        82,
+        143,
+        80
+      ],
+      "relative_path": "tiles/bg_tile_026.png"
+    },
+    {
+      "id": "bg_tile_027",
+      "first_position": [
+        560,
+        48
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        14,
+        16,
+        14
+      ],
+      "relative_path": "tiles/bg_tile_027.png"
+    },
+    {
+      "id": "bg_tile_028",
+      "first_position": [
+        576,
+        48
+      ],
+      "positions_count": 5,
+      "color_profile": [
+        31,
+        31,
+        31
+      ],
+      "relative_path": "tiles/bg_tile_028.png"
+    },
+    {
+      "id": "bg_tile_029",
+      "first_position": [
+        880,
+        48
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        7,
+        7,
+        7
+      ],
+      "relative_path": "tiles/bg_tile_029.png"
+    },
+    {
+      "id": "bg_tile_030",
+      "first_position": [
+        896,
+        48
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        82,
+        82,
+        82
+      ],
+      "relative_path": "tiles/bg_tile_030.png"
+    },
+    {
+      "id": "bg_tile_031",
+      "first_position": [
+        912,
+        48
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        53,
+        53,
+        53
+      ],
+      "relative_path": "tiles/bg_tile_031.png"
+    },
+    {
+      "id": "bg_tile_032",
+      "first_position": [
+        928,
+        48
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        54,
+        54,
+        54
+      ],
+      "relative_path": "tiles/bg_tile_032.png"
+    },
+    {
+      "id": "bg_tile_033",
+      "first_position": [
+        944,
+        48
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        68,
+        68,
+        68
+      ],
+      "relative_path": "tiles/bg_tile_033.png"
+    },
+    {
+      "id": "bg_tile_034",
+      "first_position": [
+        960,
+        48
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        51,
+        51,
+        51
+      ],
+      "relative_path": "tiles/bg_tile_034.png"
+    },
+    {
+      "id": "bg_tile_035",
+      "first_position": [
+        976,
+        48
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        56,
+        56,
+        56
+      ],
+      "relative_path": "tiles/bg_tile_035.png"
+    },
+    {
+      "id": "bg_tile_036",
+      "first_position": [
+        992,
+        48
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        81,
+        81,
+        81
+      ],
+      "relative_path": "tiles/bg_tile_036.png"
+    },
+    {
+      "id": "bg_tile_037",
+      "first_position": [
+        1008,
+        48
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        75,
+        75,
+        75
+      ],
+      "relative_path": "tiles/bg_tile_037.png"
+    },
+    {
+      "id": "bg_tile_038",
+      "first_position": [
+        1024,
+        48
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        16,
+        16,
+        16
+      ],
+      "relative_path": "tiles/bg_tile_038.png"
+    },
+    {
+      "id": "bg_tile_039",
+      "first_position": [
+        80,
+        64
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        83,
+        85,
+        79
+      ],
+      "relative_path": "tiles/bg_tile_039.png"
+    },
+    {
+      "id": "bg_tile_040",
+      "first_position": [
+        96,
+        64
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        86,
+        89,
+        83
+      ],
+      "relative_path": "tiles/bg_tile_040.png"
+    },
+    {
+      "id": "bg_tile_041",
+      "first_position": [
+        112,
+        64
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        89,
+        92,
+        86
+      ],
+      "relative_path": "tiles/bg_tile_041.png"
+    },
+    {
+      "id": "bg_tile_042",
+      "first_position": [
+        128,
+        64
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        109,
+        114,
+        110
+      ],
+      "relative_path": "tiles/bg_tile_042.png"
+    },
+    {
+      "id": "bg_tile_043",
+      "first_position": [
+        144,
+        64
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        125,
+        129,
+        122
+      ],
+      "relative_path": "tiles/bg_tile_043.png"
+    },
+    {
+      "id": "bg_tile_044",
+      "first_position": [
+        160,
+        64
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        67,
+        70,
+        67
+      ],
+      "relative_path": "tiles/bg_tile_044.png"
+    },
+    {
+      "id": "bg_tile_045",
+      "first_position": [
+        176,
+        64
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        48,
+        51,
+        48
+      ],
+      "relative_path": "tiles/bg_tile_045.png"
+    },
+    {
+      "id": "bg_tile_046",
+      "first_position": [
+        192,
+        64
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        64,
+        68,
+        64
+      ],
+      "relative_path": "tiles/bg_tile_046.png"
+    },
+    {
+      "id": "bg_tile_047",
+      "first_position": [
+        512,
+        64
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        27,
+        34,
+        22
+      ],
+      "relative_path": "tiles/bg_tile_047.png"
+    },
+    {
+      "id": "bg_tile_048",
+      "first_position": [
+        528,
+        64
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        123,
+        162,
+        107
+      ],
+      "relative_path": "tiles/bg_tile_048.png"
+    },
+    {
+      "id": "bg_tile_049",
+      "first_position": [
+        544,
+        64
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        134,
+        155,
+        118
+      ],
+      "relative_path": "tiles/bg_tile_049.png"
+    },
+    {
+      "id": "bg_tile_050",
+      "first_position": [
+        560,
+        64
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        18,
+        24,
+        14
+      ],
+      "relative_path": "tiles/bg_tile_050.png"
+    },
+    {
+      "id": "bg_tile_051",
+      "first_position": [
+        896,
+        64
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        25,
+        25,
+        25
+      ],
+      "relative_path": "tiles/bg_tile_051.png"
+    },
+    {
+      "id": "bg_tile_052",
+      "first_position": [
+        912,
+        64
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        56,
+        56,
+        56
+      ],
+      "relative_path": "tiles/bg_tile_052.png"
+    },
+    {
+      "id": "bg_tile_053",
+      "first_position": [
+        928,
+        64
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        54,
+        54,
+        54
+      ],
+      "relative_path": "tiles/bg_tile_053.png"
+    },
+    {
+      "id": "bg_tile_054",
+      "first_position": [
+        944,
+        64
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        43,
+        43,
+        43
+      ],
+      "relative_path": "tiles/bg_tile_054.png"
+    },
+    {
+      "id": "bg_tile_055",
+      "first_position": [
+        960,
+        64
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        31,
+        31,
+        31
+      ],
+      "relative_path": "tiles/bg_tile_055.png"
+    },
+    {
+      "id": "bg_tile_056",
+      "first_position": [
+        976,
+        64
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        27,
+        27,
+        27
+      ],
+      "relative_path": "tiles/bg_tile_056.png"
+    },
+    {
+      "id": "bg_tile_057",
+      "first_position": [
+        992,
+        64
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        45,
+        45,
+        45
+      ],
+      "relative_path": "tiles/bg_tile_057.png"
+    },
+    {
+      "id": "bg_tile_058",
+      "first_position": [
+        1008,
+        64
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        28,
+        28,
+        28
+      ],
+      "relative_path": "tiles/bg_tile_058.png"
+    },
+    {
+      "id": "bg_tile_059",
+      "first_position": [
+        160,
+        80
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        92,
+        48,
+        19
+      ],
+      "relative_path": "tiles/bg_tile_059.png"
+    },
+    {
+      "id": "bg_tile_060",
+      "first_position": [
+        176,
+        80
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        91,
+        52,
+        21
+      ],
+      "relative_path": "tiles/bg_tile_060.png"
+    },
+    {
+      "id": "bg_tile_061",
+      "first_position": [
+        192,
+        80
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        72,
+        40,
+        16
+      ],
+      "relative_path": "tiles/bg_tile_061.png"
+    },
+    {
+      "id": "bg_tile_062",
+      "first_position": [
+        208,
+        80
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        47,
+        21,
+        7
+      ],
+      "relative_path": "tiles/bg_tile_062.png"
+    },
+    {
+      "id": "bg_tile_063",
+      "first_position": [
+        512,
+        80
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        9,
+        27,
+        9
+      ],
+      "relative_path": "tiles/bg_tile_063.png"
+    },
+    {
+      "id": "bg_tile_064",
+      "first_position": [
+        528,
+        80
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        135,
+        119,
+        101
+      ],
+      "relative_path": "tiles/bg_tile_064.png"
+    },
+    {
+      "id": "bg_tile_065",
+      "first_position": [
+        544,
+        80
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        124,
+        136,
+        95
+      ],
+      "relative_path": "tiles/bg_tile_065.png"
+    },
+    {
+      "id": "bg_tile_066",
+      "first_position": [
+        560,
+        80
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        49,
+        81,
+        48
+      ],
+      "relative_path": "tiles/bg_tile_066.png"
+    },
+    {
+      "id": "bg_tile_067",
+      "first_position": [
+        848,
+        80
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        21,
+        21,
+        21
+      ],
+      "relative_path": "tiles/bg_tile_067.png"
+    },
+    {
+      "id": "bg_tile_068",
+      "first_position": [
+        864,
+        80
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        16,
+        16,
+        16
+      ],
+      "relative_path": "tiles/bg_tile_068.png"
+    },
+    {
+      "id": "bg_tile_069",
+      "first_position": [
+        880,
+        80
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        6,
+        6,
+        6
+      ],
+      "relative_path": "tiles/bg_tile_069.png"
+    },
+    {
+      "id": "bg_tile_070",
+      "first_position": [
+        896,
+        80
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        5,
+        5,
+        5
+      ],
+      "relative_path": "tiles/bg_tile_070.png"
+    },
+    {
+      "id": "bg_tile_071",
+      "first_position": [
+        912,
+        80
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        21,
+        21,
+        21
+      ],
+      "relative_path": "tiles/bg_tile_071.png"
+    },
+    {
+      "id": "bg_tile_072",
+      "first_position": [
+        928,
+        80
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        25,
+        25,
+        25
+      ],
+      "relative_path": "tiles/bg_tile_072.png"
+    },
+    {
+      "id": "bg_tile_073",
+      "first_position": [
+        944,
+        80
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        30,
+        30,
+        30
+      ],
+      "relative_path": "tiles/bg_tile_073.png"
+    },
+    {
+      "id": "bg_tile_074",
+      "first_position": [
+        960,
+        80
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        8,
+        8,
+        8
+      ],
+      "relative_path": "tiles/bg_tile_074.png"
+    },
+    {
+      "id": "bg_tile_075",
+      "first_position": [
+        976,
+        80
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        5,
+        5,
+        5
+      ],
+      "relative_path": "tiles/bg_tile_075.png"
+    },
+    {
+      "id": "bg_tile_076",
+      "first_position": [
+        992,
+        80
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        8,
+        8,
+        8
+      ],
+      "relative_path": "tiles/bg_tile_076.png"
+    },
+    {
+      "id": "bg_tile_077",
+      "first_position": [
+        1008,
+        80
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        14,
+        14,
+        14
+      ],
+      "relative_path": "tiles/bg_tile_077.png"
+    },
+    {
+      "id": "bg_tile_078",
+      "first_position": [
+        1024,
+        80
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        8,
+        8,
+        8
+      ],
+      "relative_path": "tiles/bg_tile_078.png"
+    },
+    {
+      "id": "bg_tile_079",
+      "first_position": [
+        1040,
+        80
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        7,
+        7,
+        7
+      ],
+      "relative_path": "tiles/bg_tile_079.png"
+    },
+    {
+      "id": "bg_tile_080",
+      "first_position": [
+        1056,
+        80
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        5,
+        5,
+        5
+      ],
+      "relative_path": "tiles/bg_tile_080.png"
+    },
+    {
+      "id": "bg_tile_081",
+      "first_position": [
+        160,
+        96
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        87,
+        90,
+        84
+      ],
+      "relative_path": "tiles/bg_tile_081.png"
+    },
+    {
+      "id": "bg_tile_082",
+      "first_position": [
+        176,
+        96
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        103,
+        108,
+        103
+      ],
+      "relative_path": "tiles/bg_tile_082.png"
+    },
+    {
+      "id": "bg_tile_083",
+      "first_position": [
+        192,
+        96
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        80,
+        83,
+        77
+      ],
+      "relative_path": "tiles/bg_tile_083.png"
+    },
+    {
+      "id": "bg_tile_084",
+      "first_position": [
+        208,
+        96
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        101,
+        109,
+        107
+      ],
+      "relative_path": "tiles/bg_tile_084.png"
+    },
+    {
+      "id": "bg_tile_085",
+      "first_position": [
+        512,
+        96
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        37,
+        54,
+        29
+      ],
+      "relative_path": "tiles/bg_tile_085.png"
+    },
+    {
+      "id": "bg_tile_086",
+      "first_position": [
+        528,
+        96
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        175,
+        171,
+        153
+      ],
+      "relative_path": "tiles/bg_tile_086.png"
+    },
+    {
+      "id": "bg_tile_087",
+      "first_position": [
+        544,
+        96
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        164,
+        189,
+        183
+      ],
+      "relative_path": "tiles/bg_tile_087.png"
+    },
+    {
+      "id": "bg_tile_088",
+      "first_position": [
+        560,
+        96
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        68,
+        99,
+        56
+      ],
+      "relative_path": "tiles/bg_tile_088.png"
+    },
+    {
+      "id": "bg_tile_089",
+      "first_position": [
+        848,
+        96
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        33,
+        33,
+        33
+      ],
+      "relative_path": "tiles/bg_tile_089.png"
+    },
+    {
+      "id": "bg_tile_090",
+      "first_position": [
+        864,
+        96
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        55,
+        55,
+        55
+      ],
+      "relative_path": "tiles/bg_tile_090.png"
+    },
+    {
+      "id": "bg_tile_091",
+      "first_position": [
+        880,
+        96
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        66,
+        66,
+        66
+      ],
+      "relative_path": "tiles/bg_tile_091.png"
+    },
+    {
+      "id": "bg_tile_092",
+      "first_position": [
+        896,
+        96
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        61,
+        61,
+        61
+      ],
+      "relative_path": "tiles/bg_tile_092.png"
+    },
+    {
+      "id": "bg_tile_093",
+      "first_position": [
+        912,
+        96
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        50,
+        50,
+        50
+      ],
+      "relative_path": "tiles/bg_tile_093.png"
+    },
+    {
+      "id": "bg_tile_094",
+      "first_position": [
+        928,
+        96
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        53,
+        53,
+        53
+      ],
+      "relative_path": "tiles/bg_tile_094.png"
+    },
+    {
+      "id": "bg_tile_095",
+      "first_position": [
+        944,
+        96
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        59,
+        59,
+        59
+      ],
+      "relative_path": "tiles/bg_tile_095.png"
+    },
+    {
+      "id": "bg_tile_096",
+      "first_position": [
+        960,
+        96
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        74,
+        74,
+        74
+      ],
+      "relative_path": "tiles/bg_tile_096.png"
+    },
+    {
+      "id": "bg_tile_097",
+      "first_position": [
+        976,
+        96
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        52,
+        52,
+        52
+      ],
+      "relative_path": "tiles/bg_tile_097.png"
+    },
+    {
+      "id": "bg_tile_098",
+      "first_position": [
+        992,
+        96
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        59,
+        59,
+        59
+      ],
+      "relative_path": "tiles/bg_tile_098.png"
+    },
+    {
+      "id": "bg_tile_099",
+      "first_position": [
+        1008,
+        96
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        53,
+        53,
+        53
+      ],
+      "relative_path": "tiles/bg_tile_099.png"
+    },
+    {
+      "id": "bg_tile_100",
+      "first_position": [
+        1024,
+        96
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        56,
+        56,
+        56
+      ],
+      "relative_path": "tiles/bg_tile_100.png"
+    },
+    {
+      "id": "bg_tile_101",
+      "first_position": [
+        1040,
+        96
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        80,
+        80,
+        80
+      ],
+      "relative_path": "tiles/bg_tile_101.png"
+    },
+    {
+      "id": "bg_tile_102",
+      "first_position": [
+        1056,
+        96
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        41,
+        41,
+        41
+      ],
+      "relative_path": "tiles/bg_tile_102.png"
+    },
+    {
+      "id": "bg_tile_103",
+      "first_position": [
+        512,
+        112
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        21,
+        44,
+        18
+      ],
+      "relative_path": "tiles/bg_tile_103.png"
+    },
+    {
+      "id": "bg_tile_104",
+      "first_position": [
+        528,
+        112
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        185,
+        174,
+        165
+      ],
+      "relative_path": "tiles/bg_tile_104.png"
+    },
+    {
+      "id": "bg_tile_105",
+      "first_position": [
+        544,
+        112
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        127,
+        185,
+        177
+      ],
+      "relative_path": "tiles/bg_tile_105.png"
+    },
+    {
+      "id": "bg_tile_106",
+      "first_position": [
+        560,
+        112
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        39,
+        78,
+        37
+      ],
+      "relative_path": "tiles/bg_tile_106.png"
+    },
+    {
+      "id": "bg_tile_107",
+      "first_position": [
+        864,
+        112
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        62,
+        62,
+        62
+      ],
+      "relative_path": "tiles/bg_tile_107.png"
+    },
+    {
+      "id": "bg_tile_108",
+      "first_position": [
+        880,
+        112
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        43,
+        43,
+        43
+      ],
+      "relative_path": "tiles/bg_tile_108.png"
+    },
+    {
+      "id": "bg_tile_109",
+      "first_position": [
+        896,
+        112
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        35,
+        35,
+        35
+      ],
+      "relative_path": "tiles/bg_tile_109.png"
+    },
+    {
+      "id": "bg_tile_110",
+      "first_position": [
+        912,
+        112
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        50,
+        50,
+        50
+      ],
+      "relative_path": "tiles/bg_tile_110.png"
+    },
+    {
+      "id": "bg_tile_111",
+      "first_position": [
+        928,
+        112
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        45,
+        45,
+        45
+      ],
+      "relative_path": "tiles/bg_tile_111.png"
+    },
+    {
+      "id": "bg_tile_112",
+      "first_position": [
+        944,
+        112
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        50,
+        50,
+        50
+      ],
+      "relative_path": "tiles/bg_tile_112.png"
+    },
+    {
+      "id": "bg_tile_113",
+      "first_position": [
+        960,
+        112
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        45,
+        45,
+        45
+      ],
+      "relative_path": "tiles/bg_tile_113.png"
+    },
+    {
+      "id": "bg_tile_114",
+      "first_position": [
+        976,
+        112
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        41,
+        41,
+        41
+      ],
+      "relative_path": "tiles/bg_tile_114.png"
+    },
+    {
+      "id": "bg_tile_115",
+      "first_position": [
+        992,
+        112
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        29,
+        29,
+        29
+      ],
+      "relative_path": "tiles/bg_tile_115.png"
+    },
+    {
+      "id": "bg_tile_116",
+      "first_position": [
+        1008,
+        112
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        51,
+        51,
+        51
+      ],
+      "relative_path": "tiles/bg_tile_116.png"
+    },
+    {
+      "id": "bg_tile_117",
+      "first_position": [
+        1024,
+        112
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        32,
+        32,
+        32
+      ],
+      "relative_path": "tiles/bg_tile_117.png"
+    },
+    {
+      "id": "bg_tile_118",
+      "first_position": [
+        1040,
+        112
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        41,
+        41,
+        41
+      ],
+      "relative_path": "tiles/bg_tile_118.png"
+    },
+    {
+      "id": "bg_tile_119",
+      "first_position": [
+        1056,
+        112
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        3,
+        3,
+        3
+      ],
+      "relative_path": "tiles/bg_tile_119.png"
+    },
+    {
+      "id": "bg_tile_120",
+      "first_position": [
+        96,
+        128
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        11,
+        11,
+        11
+      ],
+      "relative_path": "tiles/bg_tile_120.png"
+    },
+    {
+      "id": "bg_tile_121",
+      "first_position": [
+        112,
+        128
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        57,
+        57,
+        57
+      ],
+      "relative_path": "tiles/bg_tile_121.png"
+    },
+    {
+      "id": "bg_tile_122",
+      "first_position": [
+        128,
+        128
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        53,
+        53,
+        53
+      ],
+      "relative_path": "tiles/bg_tile_122.png"
+    },
+    {
+      "id": "bg_tile_123",
+      "first_position": [
+        144,
+        128
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        23,
+        23,
+        23
+      ],
+      "relative_path": "tiles/bg_tile_123.png"
+    },
+    {
+      "id": "bg_tile_124",
+      "first_position": [
+        160,
+        128
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        46,
+        46,
+        46
+      ],
+      "relative_path": "tiles/bg_tile_124.png"
+    },
+    {
+      "id": "bg_tile_125",
+      "first_position": [
+        176,
+        128
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        47,
+        47,
+        47
+      ],
+      "relative_path": "tiles/bg_tile_125.png"
+    },
+    {
+      "id": "bg_tile_126",
+      "first_position": [
+        496,
+        128
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        61,
+        61,
+        61
+      ],
+      "relative_path": "tiles/bg_tile_126.png"
+    },
+    {
+      "id": "bg_tile_127",
+      "first_position": [
+        512,
+        128
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        70,
+        72,
+        70
+      ],
+      "relative_path": "tiles/bg_tile_127.png"
+    },
+    {
+      "id": "bg_tile_128",
+      "first_position": [
+        528,
+        128
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        75,
+        68,
+        67
+      ],
+      "relative_path": "tiles/bg_tile_128.png"
+    },
+    {
+      "id": "bg_tile_129",
+      "first_position": [
+        544,
+        128
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        100,
+        96,
+        95
+      ],
+      "relative_path": "tiles/bg_tile_129.png"
+    },
+    {
+      "id": "bg_tile_130",
+      "first_position": [
+        560,
+        128
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        61,
+        65,
+        62
+      ],
+      "relative_path": "tiles/bg_tile_130.png"
+    },
+    {
+      "id": "bg_tile_131",
+      "first_position": [
+        576,
+        128
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        46,
+        46,
+        46
+      ],
+      "relative_path": "tiles/bg_tile_131.png"
+    },
+    {
+      "id": "bg_tile_132",
+      "first_position": [
+        592,
+        128
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        39,
+        39,
+        39
+      ],
+      "relative_path": "tiles/bg_tile_132.png"
+    },
+    {
+      "id": "bg_tile_133",
+      "first_position": [
+        848,
+        128
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        12,
+        12,
+        12
+      ],
+      "relative_path": "tiles/bg_tile_133.png"
+    },
+    {
+      "id": "bg_tile_134",
+      "first_position": [
+        864,
+        128
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        19,
+        19,
+        19
+      ],
+      "relative_path": "tiles/bg_tile_134.png"
+    },
+    {
+      "id": "bg_tile_135",
+      "first_position": [
+        880,
+        128
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        18,
+        18,
+        18
+      ],
+      "relative_path": "tiles/bg_tile_135.png"
+    },
+    {
+      "id": "bg_tile_136",
+      "first_position": [
+        896,
+        128
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        17,
+        17,
+        17
+      ],
+      "relative_path": "tiles/bg_tile_136.png"
+    },
+    {
+      "id": "bg_tile_137",
+      "first_position": [
+        912,
+        128
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        17,
+        17,
+        17
+      ],
+      "relative_path": "tiles/bg_tile_137.png"
+    },
+    {
+      "id": "bg_tile_138",
+      "first_position": [
+        928,
+        128
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        19,
+        19,
+        19
+      ],
+      "relative_path": "tiles/bg_tile_138.png"
+    },
+    {
+      "id": "bg_tile_139",
+      "first_position": [
+        944,
+        128
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        16,
+        16,
+        16
+      ],
+      "relative_path": "tiles/bg_tile_139.png"
+    },
+    {
+      "id": "bg_tile_140",
+      "first_position": [
+        960,
+        128
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        21,
+        21,
+        21
+      ],
+      "relative_path": "tiles/bg_tile_140.png"
+    },
+    {
+      "id": "bg_tile_141",
+      "first_position": [
+        976,
+        128
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        30,
+        30,
+        30
+      ],
+      "relative_path": "tiles/bg_tile_141.png"
+    },
+    {
+      "id": "bg_tile_142",
+      "first_position": [
+        992,
+        128
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        17,
+        17,
+        17
+      ],
+      "relative_path": "tiles/bg_tile_142.png"
+    },
+    {
+      "id": "bg_tile_143",
+      "first_position": [
+        1008,
+        128
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        22,
+        22,
+        22
+      ],
+      "relative_path": "tiles/bg_tile_143.png"
+    },
+    {
+      "id": "bg_tile_144",
+      "first_position": [
+        1024,
+        128
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        10,
+        10,
+        10
+      ],
+      "relative_path": "tiles/bg_tile_144.png"
+    },
+    {
+      "id": "bg_tile_145",
+      "first_position": [
+        1040,
+        128
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        17,
+        17,
+        17
+      ],
+      "relative_path": "tiles/bg_tile_145.png"
+    },
+    {
+      "id": "bg_tile_146",
+      "first_position": [
+        1056,
+        128
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        9,
+        9,
+        9
+      ],
+      "relative_path": "tiles/bg_tile_146.png"
+    },
+    {
+      "id": "bg_tile_147",
+      "first_position": [
+        112,
+        144
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        49,
+        49,
+        49
+      ],
+      "relative_path": "tiles/bg_tile_147.png"
+    },
+    {
+      "id": "bg_tile_148",
+      "first_position": [
+        128,
+        144
+      ],
+      "positions_count": 2,
+      "color_profile": [
+        45,
+        45,
+        45
+      ],
+      "relative_path": "tiles/bg_tile_148.png"
+    },
+    {
+      "id": "bg_tile_149",
+      "first_position": [
+        144,
+        144
+      ],
+      "positions_count": 2,
+      "color_profile": [
+        41,
+        41,
+        41
+      ],
+      "relative_path": "tiles/bg_tile_149.png"
+    },
+    {
+      "id": "bg_tile_150",
+      "first_position": [
+        160,
+        144
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        54,
+        54,
+        54
+      ],
+      "relative_path": "tiles/bg_tile_150.png"
+    },
+    {
+      "id": "bg_tile_151",
+      "first_position": [
+        176,
+        144
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        29,
+        29,
+        29
+      ],
+      "relative_path": "tiles/bg_tile_151.png"
+    },
+    {
+      "id": "bg_tile_152",
+      "first_position": [
+        192,
+        144
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        29,
+        29,
+        29
+      ],
+      "relative_path": "tiles/bg_tile_152.png"
+    },
+    {
+      "id": "bg_tile_153",
+      "first_position": [
+        496,
+        144
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        40,
+        40,
+        40
+      ],
+      "relative_path": "tiles/bg_tile_153.png"
+    },
+    {
+      "id": "bg_tile_154",
+      "first_position": [
+        512,
+        144
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        52,
+        52,
+        52
+      ],
+      "relative_path": "tiles/bg_tile_154.png"
+    },
+    {
+      "id": "bg_tile_155",
+      "first_position": [
+        528,
+        144
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        25,
+        25,
+        25
+      ],
+      "relative_path": "tiles/bg_tile_155.png"
+    },
+    {
+      "id": "bg_tile_156",
+      "first_position": [
+        544,
+        144
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        43,
+        43,
+        43
+      ],
+      "relative_path": "tiles/bg_tile_156.png"
+    },
+    {
+      "id": "bg_tile_157",
+      "first_position": [
+        560,
+        144
+      ],
+      "positions_count": 2,
+      "color_profile": [
+        11,
+        11,
+        11
+      ],
+      "relative_path": "tiles/bg_tile_157.png"
+    },
+    {
+      "id": "bg_tile_158",
+      "first_position": [
+        576,
+        144
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        7,
+        7,
+        7
+      ],
+      "relative_path": "tiles/bg_tile_158.png"
+    },
+    {
+      "id": "bg_tile_159",
+      "first_position": [
+        592,
+        144
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        14,
+        14,
+        14
+      ],
+      "relative_path": "tiles/bg_tile_159.png"
+    },
+    {
+      "id": "bg_tile_160",
+      "first_position": [
+        848,
+        144
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        12,
+        12,
+        12
+      ],
+      "relative_path": "tiles/bg_tile_160.png"
+    },
+    {
+      "id": "bg_tile_161",
+      "first_position": [
+        864,
+        144
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        45,
+        45,
+        45
+      ],
+      "relative_path": "tiles/bg_tile_161.png"
+    },
+    {
+      "id": "bg_tile_162",
+      "first_position": [
+        880,
+        144
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        45,
+        45,
+        45
+      ],
+      "relative_path": "tiles/bg_tile_162.png"
+    },
+    {
+      "id": "bg_tile_163",
+      "first_position": [
+        896,
+        144
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        24,
+        24,
+        24
+      ],
+      "relative_path": "tiles/bg_tile_163.png"
+    },
+    {
+      "id": "bg_tile_164",
+      "first_position": [
+        912,
+        144
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        42,
+        42,
+        42
+      ],
+      "relative_path": "tiles/bg_tile_164.png"
+    },
+    {
+      "id": "bg_tile_165",
+      "first_position": [
+        928,
+        144
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        41,
+        41,
+        41
+      ],
+      "relative_path": "tiles/bg_tile_165.png"
+    },
+    {
+      "id": "bg_tile_166",
+      "first_position": [
+        944,
+        144
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        41,
+        41,
+        41
+      ],
+      "relative_path": "tiles/bg_tile_166.png"
+    },
+    {
+      "id": "bg_tile_167",
+      "first_position": [
+        960,
+        144
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        41,
+        41,
+        41
+      ],
+      "relative_path": "tiles/bg_tile_167.png"
+    },
+    {
+      "id": "bg_tile_168",
+      "first_position": [
+        976,
+        144
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        53,
+        53,
+        53
+      ],
+      "relative_path": "tiles/bg_tile_168.png"
+    },
+    {
+      "id": "bg_tile_169",
+      "first_position": [
+        992,
+        144
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        53,
+        53,
+        53
+      ],
+      "relative_path": "tiles/bg_tile_169.png"
+    },
+    {
+      "id": "bg_tile_170",
+      "first_position": [
+        1008,
+        144
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        39,
+        39,
+        39
+      ],
+      "relative_path": "tiles/bg_tile_170.png"
+    },
+    {
+      "id": "bg_tile_171",
+      "first_position": [
+        1024,
+        144
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        32,
+        32,
+        32
+      ],
+      "relative_path": "tiles/bg_tile_171.png"
+    },
+    {
+      "id": "bg_tile_172",
+      "first_position": [
+        1040,
+        144
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        34,
+        34,
+        34
+      ],
+      "relative_path": "tiles/bg_tile_172.png"
+    },
+    {
+      "id": "bg_tile_173",
+      "first_position": [
+        1056,
+        144
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        19,
+        19,
+        19
+      ],
+      "relative_path": "tiles/bg_tile_173.png"
+    },
+    {
+      "id": "bg_tile_174",
+      "first_position": [
+        208,
+        160
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        11,
+        7,
+        25
+      ],
+      "relative_path": "tiles/bg_tile_174.png"
+    },
+    {
+      "id": "bg_tile_175",
+      "first_position": [
+        224,
+        160
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        56,
+        15,
+        23
+      ],
+      "relative_path": "tiles/bg_tile_175.png"
+    },
+    {
+      "id": "bg_tile_176",
+      "first_position": [
+        240,
+        160
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        1,
+        2,
+        9
+      ],
+      "relative_path": "tiles/bg_tile_176.png"
+    },
+    {
+      "id": "bg_tile_177",
+      "first_position": [
+        496,
+        160
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        23,
+        23,
+        23
+      ],
+      "relative_path": "tiles/bg_tile_177.png"
+    },
+    {
+      "id": "bg_tile_178",
+      "first_position": [
+        512,
+        160
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        43,
+        43,
+        43
+      ],
+      "relative_path": "tiles/bg_tile_178.png"
+    },
+    {
+      "id": "bg_tile_179",
+      "first_position": [
+        528,
+        160
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        25,
+        25,
+        25
+      ],
+      "relative_path": "tiles/bg_tile_179.png"
+    },
+    {
+      "id": "bg_tile_180",
+      "first_position": [
+        544,
+        160
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        51,
+        51,
+        51
+      ],
+      "relative_path": "tiles/bg_tile_180.png"
+    },
+    {
+      "id": "bg_tile_181",
+      "first_position": [
+        560,
+        160
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        31,
+        31,
+        31
+      ],
+      "relative_path": "tiles/bg_tile_181.png"
+    },
+    {
+      "id": "bg_tile_182",
+      "first_position": [
+        576,
+        160
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        17,
+        17,
+        17
+      ],
+      "relative_path": "tiles/bg_tile_182.png"
+    },
+    {
+      "id": "bg_tile_183",
+      "first_position": [
+        864,
+        160
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        31,
+        31,
+        31
+      ],
+      "relative_path": "tiles/bg_tile_183.png"
+    },
+    {
+      "id": "bg_tile_184",
+      "first_position": [
+        880,
+        160
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        23,
+        23,
+        23
+      ],
+      "relative_path": "tiles/bg_tile_184.png"
+    },
+    {
+      "id": "bg_tile_185",
+      "first_position": [
+        896,
+        160
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        34,
+        34,
+        34
+      ],
+      "relative_path": "tiles/bg_tile_185.png"
+    },
+    {
+      "id": "bg_tile_186",
+      "first_position": [
+        912,
+        160
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        21,
+        21,
+        21
+      ],
+      "relative_path": "tiles/bg_tile_186.png"
+    },
+    {
+      "id": "bg_tile_187",
+      "first_position": [
+        928,
+        160
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        19,
+        19,
+        19
+      ],
+      "relative_path": "tiles/bg_tile_187.png"
+    },
+    {
+      "id": "bg_tile_188",
+      "first_position": [
+        944,
+        160
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        23,
+        23,
+        23
+      ],
+      "relative_path": "tiles/bg_tile_188.png"
+    },
+    {
+      "id": "bg_tile_189",
+      "first_position": [
+        960,
+        160
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        23,
+        23,
+        23
+      ],
+      "relative_path": "tiles/bg_tile_189.png"
+    },
+    {
+      "id": "bg_tile_190",
+      "first_position": [
+        976,
+        160
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        17,
+        17,
+        17
+      ],
+      "relative_path": "tiles/bg_tile_190.png"
+    },
+    {
+      "id": "bg_tile_191",
+      "first_position": [
+        992,
+        160
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        31,
+        31,
+        31
+      ],
+      "relative_path": "tiles/bg_tile_191.png"
+    },
+    {
+      "id": "bg_tile_192",
+      "first_position": [
+        1008,
+        160
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        26,
+        26,
+        26
+      ],
+      "relative_path": "tiles/bg_tile_192.png"
+    },
+    {
+      "id": "bg_tile_193",
+      "first_position": [
+        1024,
+        160
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        29,
+        29,
+        29
+      ],
+      "relative_path": "tiles/bg_tile_193.png"
+    },
+    {
+      "id": "bg_tile_194",
+      "first_position": [
+        1040,
+        160
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        22,
+        22,
+        22
+      ],
+      "relative_path": "tiles/bg_tile_194.png"
+    },
+    {
+      "id": "bg_tile_195",
+      "first_position": [
+        1056,
+        160
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        4,
+        4,
+        4
+      ],
+      "relative_path": "tiles/bg_tile_195.png"
+    },
+    {
+      "id": "bg_tile_196",
+      "first_position": [
+        48,
+        176
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        99,
+        99,
+        99
+      ],
+      "relative_path": "tiles/bg_tile_196.png"
+    },
+    {
+      "id": "bg_tile_197",
+      "first_position": [
+        64,
+        176
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        96,
+        96,
+        96
+      ],
+      "relative_path": "tiles/bg_tile_197.png"
+    },
+    {
+      "id": "bg_tile_198",
+      "first_position": [
+        80,
+        176
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        78,
+        78,
+        78
+      ],
+      "relative_path": "tiles/bg_tile_198.png"
+    },
+    {
+      "id": "bg_tile_199",
+      "first_position": [
+        96,
+        176
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        110,
+        110,
+        110
+      ],
+      "relative_path": "tiles/bg_tile_199.png"
+    },
+    {
+      "id": "bg_tile_200",
+      "first_position": [
+        112,
+        176
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        23,
+        23,
+        23
+      ],
+      "relative_path": "tiles/bg_tile_200.png"
+    },
+    {
+      "id": "bg_tile_201",
+      "first_position": [
+        128,
+        176
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        55,
+        55,
+        55
+      ],
+      "relative_path": "tiles/bg_tile_201.png"
+    },
+    {
+      "id": "bg_tile_202",
+      "first_position": [
+        144,
+        176
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        43,
+        43,
+        43
+      ],
+      "relative_path": "tiles/bg_tile_202.png"
+    },
+    {
+      "id": "bg_tile_203",
+      "first_position": [
+        160,
+        176
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        21,
+        21,
+        21
+      ],
+      "relative_path": "tiles/bg_tile_203.png"
+    },
+    {
+      "id": "bg_tile_204",
+      "first_position": [
+        176,
+        176
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        57,
+        57,
+        57
+      ],
+      "relative_path": "tiles/bg_tile_204.png"
+    },
+    {
+      "id": "bg_tile_205",
+      "first_position": [
+        192,
+        176
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        27,
+        27,
+        27
+      ],
+      "relative_path": "tiles/bg_tile_205.png"
+    },
+    {
+      "id": "bg_tile_206",
+      "first_position": [
+        208,
+        176
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        60,
+        44,
+        19
+      ],
+      "relative_path": "tiles/bg_tile_206.png"
+    },
+    {
+      "id": "bg_tile_207",
+      "first_position": [
+        224,
+        176
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        149,
+        105,
+        41
+      ],
+      "relative_path": "tiles/bg_tile_207.png"
+    },
+    {
+      "id": "bg_tile_208",
+      "first_position": [
+        240,
+        176
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        28,
+        21,
+        8
+      ],
+      "relative_path": "tiles/bg_tile_208.png"
+    },
+    {
+      "id": "bg_tile_209",
+      "first_position": [
+        496,
+        176
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        46,
+        46,
+        46
+      ],
+      "relative_path": "tiles/bg_tile_209.png"
+    },
+    {
+      "id": "bg_tile_210",
+      "first_position": [
+        512,
+        176
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        57,
+        57,
+        57
+      ],
+      "relative_path": "tiles/bg_tile_210.png"
+    },
+    {
+      "id": "bg_tile_211",
+      "first_position": [
+        528,
+        176
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        24,
+        24,
+        24
+      ],
+      "relative_path": "tiles/bg_tile_211.png"
+    },
+    {
+      "id": "bg_tile_212",
+      "first_position": [
+        544,
+        176
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        56,
+        56,
+        56
+      ],
+      "relative_path": "tiles/bg_tile_212.png"
+    },
+    {
+      "id": "bg_tile_213",
+      "first_position": [
+        560,
+        176
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        42,
+        42,
+        42
+      ],
+      "relative_path": "tiles/bg_tile_213.png"
+    },
+    {
+      "id": "bg_tile_214",
+      "first_position": [
+        576,
+        176
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        43,
+        43,
+        43
+      ],
+      "relative_path": "tiles/bg_tile_214.png"
+    },
+    {
+      "id": "bg_tile_215",
+      "first_position": [
+        848,
+        176
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        18,
+        18,
+        18
+      ],
+      "relative_path": "tiles/bg_tile_215.png"
+    },
+    {
+      "id": "bg_tile_216",
+      "first_position": [
+        864,
+        176
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        55,
+        55,
+        55
+      ],
+      "relative_path": "tiles/bg_tile_216.png"
+    },
+    {
+      "id": "bg_tile_217",
+      "first_position": [
+        880,
+        176
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        45,
+        45,
+        45
+      ],
+      "relative_path": "tiles/bg_tile_217.png"
+    },
+    {
+      "id": "bg_tile_218",
+      "first_position": [
+        896,
+        176
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        56,
+        56,
+        56
+      ],
+      "relative_path": "tiles/bg_tile_218.png"
+    },
+    {
+      "id": "bg_tile_219",
+      "first_position": [
+        912,
+        176
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        47,
+        47,
+        47
+      ],
+      "relative_path": "tiles/bg_tile_219.png"
+    },
+    {
+      "id": "bg_tile_220",
+      "first_position": [
+        928,
+        176
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        52,
+        52,
+        52
+      ],
+      "relative_path": "tiles/bg_tile_220.png"
+    },
+    {
+      "id": "bg_tile_221",
+      "first_position": [
+        944,
+        176
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        57,
+        57,
+        57
+      ],
+      "relative_path": "tiles/bg_tile_221.png"
+    },
+    {
+      "id": "bg_tile_222",
+      "first_position": [
+        960,
+        176
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        44,
+        44,
+        44
+      ],
+      "relative_path": "tiles/bg_tile_222.png"
+    },
+    {
+      "id": "bg_tile_223",
+      "first_position": [
+        976,
+        176
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        51,
+        51,
+        51
+      ],
+      "relative_path": "tiles/bg_tile_223.png"
+    },
+    {
+      "id": "bg_tile_224",
+      "first_position": [
+        992,
+        176
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        62,
+        62,
+        62
+      ],
+      "relative_path": "tiles/bg_tile_224.png"
+    },
+    {
+      "id": "bg_tile_225",
+      "first_position": [
+        1008,
+        176
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        52,
+        52,
+        52
+      ],
+      "relative_path": "tiles/bg_tile_225.png"
+    },
+    {
+      "id": "bg_tile_226",
+      "first_position": [
+        1024,
+        176
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        59,
+        59,
+        59
+      ],
+      "relative_path": "tiles/bg_tile_226.png"
+    },
+    {
+      "id": "bg_tile_227",
+      "first_position": [
+        1040,
+        176
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        49,
+        49,
+        49
+      ],
+      "relative_path": "tiles/bg_tile_227.png"
+    },
+    {
+      "id": "bg_tile_228",
+      "first_position": [
+        1056,
+        176
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        23,
+        23,
+        23
+      ],
+      "relative_path": "tiles/bg_tile_228.png"
+    },
+    {
+      "id": "bg_tile_229",
+      "first_position": [
+        48,
+        192
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        33,
+        33,
+        33
+      ],
+      "relative_path": "tiles/bg_tile_229.png"
+    },
+    {
+      "id": "bg_tile_230",
+      "first_position": [
+        64,
+        192
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        48,
+        48,
+        48
+      ],
+      "relative_path": "tiles/bg_tile_230.png"
+    },
+    {
+      "id": "bg_tile_231",
+      "first_position": [
+        80,
+        192
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        51,
+        51,
+        51
+      ],
+      "relative_path": "tiles/bg_tile_231.png"
+    },
+    {
+      "id": "bg_tile_232",
+      "first_position": [
+        96,
+        192
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        56,
+        56,
+        56
+      ],
+      "relative_path": "tiles/bg_tile_232.png"
+    },
+    {
+      "id": "bg_tile_233",
+      "first_position": [
+        112,
+        192
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        30,
+        30,
+        30
+      ],
+      "relative_path": "tiles/bg_tile_233.png"
+    },
+    {
+      "id": "bg_tile_234",
+      "first_position": [
+        128,
+        192
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        16,
+        16,
+        16
+      ],
+      "relative_path": "tiles/bg_tile_234.png"
+    },
+    {
+      "id": "bg_tile_235",
+      "first_position": [
+        208,
+        192
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        24,
+        6,
+        9
+      ],
+      "relative_path": "tiles/bg_tile_235.png"
+    },
+    {
+      "id": "bg_tile_236",
+      "first_position": [
+        224,
+        192
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        36,
+        17,
+        49
+      ],
+      "relative_path": "tiles/bg_tile_236.png"
+    },
+    {
+      "id": "bg_tile_237",
+      "first_position": [
+        240,
+        192
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        8,
+        1,
+        0
+      ],
+      "relative_path": "tiles/bg_tile_237.png"
+    },
+    {
+      "id": "bg_tile_238",
+      "first_position": [
+        496,
+        192
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        11,
+        11,
+        11
+      ],
+      "relative_path": "tiles/bg_tile_238.png"
+    },
+    {
+      "id": "bg_tile_239",
+      "first_position": [
+        512,
+        192
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        13,
+        13,
+        13
+      ],
+      "relative_path": "tiles/bg_tile_239.png"
+    },
+    {
+      "id": "bg_tile_240",
+      "first_position": [
+        528,
+        192
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        7,
+        7,
+        7
+      ],
+      "relative_path": "tiles/bg_tile_240.png"
+    },
+    {
+      "id": "bg_tile_241",
+      "first_position": [
+        544,
+        192
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        15,
+        15,
+        15
+      ],
+      "relative_path": "tiles/bg_tile_241.png"
+    },
+    {
+      "id": "bg_tile_242",
+      "first_position": [
+        576,
+        192
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        11,
+        11,
+        11
+      ],
+      "relative_path": "tiles/bg_tile_242.png"
+    },
+    {
+      "id": "bg_tile_243",
+      "first_position": [
+        848,
+        192
+      ],
+      "positions_count": 2,
+      "color_profile": [
+        15,
+        15,
+        15
+      ],
+      "relative_path": "tiles/bg_tile_243.png"
+    },
+    {
+      "id": "bg_tile_244",
+      "first_position": [
+        864,
+        192
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        55,
+        55,
+        55
+      ],
+      "relative_path": "tiles/bg_tile_244.png"
+    },
+    {
+      "id": "bg_tile_245",
+      "first_position": [
+        880,
+        192
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        52,
+        52,
+        52
+      ],
+      "relative_path": "tiles/bg_tile_245.png"
+    },
+    {
+      "id": "bg_tile_246",
+      "first_position": [
+        896,
+        192
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        74,
+        74,
+        74
+      ],
+      "relative_path": "tiles/bg_tile_246.png"
+    },
+    {
+      "id": "bg_tile_247",
+      "first_position": [
+        912,
+        192
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        55,
+        55,
+        55
+      ],
+      "relative_path": "tiles/bg_tile_247.png"
+    },
+    {
+      "id": "bg_tile_248",
+      "first_position": [
+        928,
+        192
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        43,
+        43,
+        43
+      ],
+      "relative_path": "tiles/bg_tile_248.png"
+    },
+    {
+      "id": "bg_tile_249",
+      "first_position": [
+        944,
+        192
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        57,
+        57,
+        57
+      ],
+      "relative_path": "tiles/bg_tile_249.png"
+    },
+    {
+      "id": "bg_tile_250",
+      "first_position": [
+        960,
+        192
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        43,
+        43,
+        43
+      ],
+      "relative_path": "tiles/bg_tile_250.png"
+    },
+    {
+      "id": "bg_tile_251",
+      "first_position": [
+        976,
+        192
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        83,
+        83,
+        83
+      ],
+      "relative_path": "tiles/bg_tile_251.png"
+    },
+    {
+      "id": "bg_tile_252",
+      "first_position": [
+        992,
+        192
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        56,
+        56,
+        56
+      ],
+      "relative_path": "tiles/bg_tile_252.png"
+    },
+    {
+      "id": "bg_tile_253",
+      "first_position": [
+        1008,
+        192
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        49,
+        49,
+        49
+      ],
+      "relative_path": "tiles/bg_tile_253.png"
+    },
+    {
+      "id": "bg_tile_254",
+      "first_position": [
+        1024,
+        192
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        50,
+        50,
+        50
+      ],
+      "relative_path": "tiles/bg_tile_254.png"
+    },
+    {
+      "id": "bg_tile_255",
+      "first_position": [
+        1040,
+        192
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        44,
+        44,
+        44
+      ],
+      "relative_path": "tiles/bg_tile_255.png"
+    },
+    {
+      "id": "bg_tile_256",
+      "first_position": [
+        1056,
+        192
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        19,
+        19,
+        19
+      ],
+      "relative_path": "tiles/bg_tile_256.png"
+    },
+    {
+      "id": "bg_tile_257",
+      "first_position": [
+        32,
+        208
+      ],
+      "positions_count": 4,
+      "color_profile": [
+        67,
+        67,
+        67
+      ],
+      "relative_path": "tiles/bg_tile_257.png"
+    },
+    {
+      "id": "bg_tile_258",
+      "first_position": [
+        48,
+        208
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        41,
+        41,
+        41
+      ],
+      "relative_path": "tiles/bg_tile_258.png"
+    },
+    {
+      "id": "bg_tile_259",
+      "first_position": [
+        80,
+        208
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        54,
+        54,
+        54
+      ],
+      "relative_path": "tiles/bg_tile_259.png"
+    },
+    {
+      "id": "bg_tile_260",
+      "first_position": [
+        96,
+        208
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        57,
+        57,
+        57
+      ],
+      "relative_path": "tiles/bg_tile_260.png"
+    },
+    {
+      "id": "bg_tile_261",
+      "first_position": [
+        112,
+        208
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        27,
+        27,
+        27
+      ],
+      "relative_path": "tiles/bg_tile_261.png"
+    },
+    {
+      "id": "bg_tile_262",
+      "first_position": [
+        128,
+        208
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        20,
+        20,
+        20
+      ],
+      "relative_path": "tiles/bg_tile_262.png"
+    },
+    {
+      "id": "bg_tile_263",
+      "first_position": [
+        144,
+        208
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        55,
+        55,
+        55
+      ],
+      "relative_path": "tiles/bg_tile_263.png"
+    },
+    {
+      "id": "bg_tile_264",
+      "first_position": [
+        160,
+        208
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        56,
+        56,
+        56
+      ],
+      "relative_path": "tiles/bg_tile_264.png"
+    },
+    {
+      "id": "bg_tile_265",
+      "first_position": [
+        176,
+        208
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        35,
+        35,
+        35
+      ],
+      "relative_path": "tiles/bg_tile_265.png"
+    },
+    {
+      "id": "bg_tile_266",
+      "first_position": [
+        192,
+        208
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        28,
+        28,
+        28
+      ],
+      "relative_path": "tiles/bg_tile_266.png"
+    },
+    {
+      "id": "bg_tile_267",
+      "first_position": [
+        224,
+        208
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        25,
+        25,
+        25
+      ],
+      "relative_path": "tiles/bg_tile_267.png"
+    },
+    {
+      "id": "bg_tile_268",
+      "first_position": [
+        880,
+        208
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        40,
+        40,
+        40
+      ],
+      "relative_path": "tiles/bg_tile_268.png"
+    },
+    {
+      "id": "bg_tile_269",
+      "first_position": [
+        896,
+        208
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        29,
+        29,
+        29
+      ],
+      "relative_path": "tiles/bg_tile_269.png"
+    },
+    {
+      "id": "bg_tile_270",
+      "first_position": [
+        912,
+        208
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        23,
+        23,
+        23
+      ],
+      "relative_path": "tiles/bg_tile_270.png"
+    },
+    {
+      "id": "bg_tile_271",
+      "first_position": [
+        928,
+        208
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        25,
+        25,
+        25
+      ],
+      "relative_path": "tiles/bg_tile_271.png"
+    },
+    {
+      "id": "bg_tile_272",
+      "first_position": [
+        944,
+        208
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        38,
+        38,
+        38
+      ],
+      "relative_path": "tiles/bg_tile_272.png"
+    },
+    {
+      "id": "bg_tile_273",
+      "first_position": [
+        960,
+        208
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        21,
+        21,
+        21
+      ],
+      "relative_path": "tiles/bg_tile_273.png"
+    },
+    {
+      "id": "bg_tile_274",
+      "first_position": [
+        976,
+        208
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        29,
+        29,
+        29
+      ],
+      "relative_path": "tiles/bg_tile_274.png"
+    },
+    {
+      "id": "bg_tile_275",
+      "first_position": [
+        992,
+        208
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        17,
+        17,
+        17
+      ],
+      "relative_path": "tiles/bg_tile_275.png"
+    },
+    {
+      "id": "bg_tile_276",
+      "first_position": [
+        1008,
+        208
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        42,
+        42,
+        42
+      ],
+      "relative_path": "tiles/bg_tile_276.png"
+    },
+    {
+      "id": "bg_tile_277",
+      "first_position": [
+        1024,
+        208
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        33,
+        33,
+        33
+      ],
+      "relative_path": "tiles/bg_tile_277.png"
+    },
+    {
+      "id": "bg_tile_278",
+      "first_position": [
+        1040,
+        208
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        20,
+        20,
+        20
+      ],
+      "relative_path": "tiles/bg_tile_278.png"
+    },
+    {
+      "id": "bg_tile_279",
+      "first_position": [
+        48,
+        224
+      ],
+      "positions_count": 24,
+      "color_profile": [
+        117,
+        117,
+        117
+      ],
+      "relative_path": "tiles/bg_tile_279.png"
+    },
+    {
+      "id": "bg_tile_280",
+      "first_position": [
+        0,
+        240
+      ],
+      "positions_count": 49,
+      "color_profile": [
+        47,
+        47,
+        47
+      ],
+      "relative_path": "tiles/bg_tile_280.png"
+    },
+    {
+      "id": "bg_tile_281",
+      "first_position": [
+        112,
+        240
+      ],
+      "positions_count": 4,
+      "color_profile": [
+        88,
+        88,
+        88
+      ],
+      "relative_path": "tiles/bg_tile_281.png"
+    },
+    {
+      "id": "bg_tile_282",
+      "first_position": [
+        128,
+        240
+      ],
+      "positions_count": 4,
+      "color_profile": [
+        104,
+        104,
+        104
+      ],
+      "relative_path": "tiles/bg_tile_282.png"
+    },
+    {
+      "id": "bg_tile_283",
+      "first_position": [
+        144,
+        240
+      ],
+      "positions_count": 4,
+      "color_profile": [
+        73,
+        73,
+        73
+      ],
+      "relative_path": "tiles/bg_tile_283.png"
+    },
+    {
+      "id": "bg_tile_284",
+      "first_position": [
+        160,
+        240
+      ],
+      "positions_count": 4,
+      "color_profile": [
+        76,
+        76,
+        76
+      ],
+      "relative_path": "tiles/bg_tile_284.png"
+    },
+    {
+      "id": "bg_tile_285",
+      "first_position": [
+        176,
+        240
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        63,
+        63,
+        63
+      ],
+      "relative_path": "tiles/bg_tile_285.png"
+    },
+    {
+      "id": "bg_tile_286",
+      "first_position": [
+        448,
+        240
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        70,
+        70,
+        70
+      ],
+      "relative_path": "tiles/bg_tile_286.png"
+    },
+    {
+      "id": "bg_tile_287",
+      "first_position": [
+        720,
+        240
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        69,
+        69,
+        69
+      ],
+      "relative_path": "tiles/bg_tile_287.png"
+    },
+    {
+      "id": "bg_tile_288",
+      "first_position": [
+        992,
+        240
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        68,
+        68,
+        68
+      ],
+      "relative_path": "tiles/bg_tile_288.png"
+    },
+    {
+      "id": "bg_tile_289",
+      "first_position": [
+        0,
+        256
+      ],
+      "positions_count": 26,
+      "color_profile": [
+        132,
+        132,
+        132
+      ],
+      "relative_path": "tiles/bg_tile_289.png"
+    },
+    {
+      "id": "bg_tile_290",
+      "first_position": [
+        16,
+        256
+      ],
+      "positions_count": 147,
+      "color_profile": [
+        33,
+        95,
+        4
+      ],
+      "relative_path": "tiles/bg_tile_290.png"
+    },
+    {
+      "id": "bg_tile_291",
+      "first_position": [
+        32,
+        256
+      ],
+      "positions_count": 1505,
+      "color_profile": [
+        0,
+        160,
+        0
+      ],
+      "relative_path": "tiles/bg_tile_291.png"
+    },
+    {
+      "id": "bg_tile_292",
+      "first_position": [
+        144,
+        256
+      ],
+      "positions_count": 107,
+      "color_profile": [
+        90,
+        75,
+        8
+      ],
+      "relative_path": "tiles/bg_tile_292.png"
+    },
+    {
+      "id": "bg_tile_293",
+      "first_position": [
+        288,
+        256
+      ],
+      "positions_count": 759,
+      "color_profile": [
+        36,
+        121,
+        21
+      ],
+      "relative_path": "tiles/bg_tile_293.png"
+    },
+    {
+      "id": "bg_tile_294",
+      "first_position": [
+        608,
+        256
+      ],
+      "positions_count": 10,
+      "color_profile": [
+        0,
+        52,
+        0
+      ],
+      "relative_path": "tiles/bg_tile_294.png"
+    },
+    {
+      "id": "bg_tile_295",
+      "first_position": [
+        144,
+        272
+      ],
+      "positions_count": 4,
+      "color_profile": [
+        80,
+        80,
+        80
+      ],
+      "relative_path": "tiles/bg_tile_295.png"
+    },
+    {
+      "id": "bg_tile_296",
+      "first_position": [
+        864,
+        288
+      ],
+      "positions_count": 5,
+      "color_profile": [
+        44,
+        44,
+        0
+      ],
+      "relative_path": "tiles/bg_tile_296.png"
+    },
+    {
+      "id": "bg_tile_297",
+      "first_position": [
+        928,
+        304
+      ],
+      "positions_count": 11,
+      "color_profile": [
+        54,
+        54,
+        54
+      ],
+      "relative_path": "tiles/bg_tile_297.png"
+    },
+    {
+      "id": "bg_tile_298",
+      "first_position": [
+        864,
+        352
+      ],
+      "positions_count": 9,
+      "color_profile": [
+        154,
+        146,
+        109
+      ],
+      "relative_path": "tiles/bg_tile_298.png"
+    },
+    {
+      "id": "bg_tile_299",
+      "first_position": [
+        896,
+        352
+      ],
+      "positions_count": 3,
+      "color_profile": [
+        116,
+        108,
+        70
+      ],
+      "relative_path": "tiles/bg_tile_299.png"
+    },
+    {
+      "id": "bg_tile_300",
+      "first_position": [
+        864,
+        368
+      ],
+      "positions_count": 9,
+      "color_profile": [
+        117,
+        110,
+        77
+      ],
+      "relative_path": "tiles/bg_tile_300.png"
+    },
+    {
+      "id": "bg_tile_301",
+      "first_position": [
+        880,
+        368
+      ],
+      "positions_count": 3,
+      "color_profile": [
+        95,
+        89,
+        59
+      ],
+      "relative_path": "tiles/bg_tile_301.png"
+    },
+    {
+      "id": "bg_tile_302",
+      "first_position": [
+        864,
+        384
+      ],
+      "positions_count": 6,
+      "color_profile": [
+        87,
+        81,
+        52
+      ],
+      "relative_path": "tiles/bg_tile_302.png"
+    },
+    {
+      "id": "bg_tile_303",
+      "first_position": [
+        880,
+        384
+      ],
+      "positions_count": 3,
+      "color_profile": [
+        91,
+        85,
+        56
+      ],
+      "relative_path": "tiles/bg_tile_303.png"
+    },
+    {
+      "id": "bg_tile_304",
+      "first_position": [
+        896,
+        384
+      ],
+      "positions_count": 13,
+      "color_profile": [
+        77,
+        70,
+        38
+      ],
+      "relative_path": "tiles/bg_tile_304.png"
+    },
+    {
+      "id": "bg_tile_305",
+      "first_position": [
+        416,
+        432
+      ],
+      "positions_count": 3,
+      "color_profile": [
+        0,
+        118,
+        0
+      ],
+      "relative_path": "tiles/bg_tile_305.png"
+    },
+    {
+      "id": "bg_tile_306",
+      "first_position": [
+        400,
+        448
+      ],
+      "positions_count": 2,
+      "color_profile": [
+        39,
+        105,
+        0
+      ],
+      "relative_path": "tiles/bg_tile_306.png"
+    },
+    {
+      "id": "bg_tile_307",
+      "first_position": [
+        416,
+        448
+      ],
+      "positions_count": 2,
+      "color_profile": [
+        86,
+        71,
+        0
+      ],
+      "relative_path": "tiles/bg_tile_307.png"
+    },
+    {
+      "id": "bg_tile_308",
+      "first_position": [
+        432,
+        448
+      ],
+      "positions_count": 2,
+      "color_profile": [
+        37,
+        108,
+        1
+      ],
+      "relative_path": "tiles/bg_tile_308.png"
+    },
+    {
+      "id": "bg_tile_309",
+      "first_position": [
+        400,
+        464
+      ],
+      "positions_count": 2,
+      "color_profile": [
+        34,
+        66,
+        0
+      ],
+      "relative_path": "tiles/bg_tile_309.png"
+    },
+    {
+      "id": "bg_tile_310",
+      "first_position": [
+        416,
+        464
+      ],
+      "positions_count": 2,
+      "color_profile": [
+        90,
+        78,
+        0
+      ],
+      "relative_path": "tiles/bg_tile_310.png"
+    },
+    {
+      "id": "bg_tile_311",
+      "first_position": [
+        432,
+        464
+      ],
+      "positions_count": 2,
+      "color_profile": [
+        37,
+        103,
+        0
+      ],
+      "relative_path": "tiles/bg_tile_311.png"
+    },
+    {
+      "id": "bg_tile_312",
+      "first_position": [
+        112,
+        640
+      ],
+      "positions_count": 28,
+      "color_profile": [
+        41,
+        41,
+        41
+      ],
+      "relative_path": "tiles/bg_tile_312.png"
+    },
+    {
+      "id": "bg_tile_313",
+      "first_position": [
+        128,
+        640
+      ],
+      "positions_count": 28,
+      "color_profile": [
+        57,
+        57,
+        57
+      ],
+      "relative_path": "tiles/bg_tile_313.png"
+    },
+    {
+      "id": "bg_tile_314",
+      "first_position": [
+        144,
+        640
+      ],
+      "positions_count": 28,
+      "color_profile": [
+        26,
+        26,
+        26
+      ],
+      "relative_path": "tiles/bg_tile_314.png"
+    },
+    {
+      "id": "bg_tile_315",
+      "first_position": [
+        160,
+        640
+      ],
+      "positions_count": 5,
+      "color_profile": [
+        29,
+        29,
+        29
+      ],
+      "relative_path": "tiles/bg_tile_315.png"
+    },
+    {
+      "id": "bg_tile_316",
+      "first_position": [
+        176,
+        640
+      ],
+      "positions_count": 3,
+      "color_profile": [
+        26,
+        26,
+        26
+      ],
+      "relative_path": "tiles/bg_tile_316.png"
+    },
+    {
+      "id": "bg_tile_317",
+      "first_position": [
+        448,
+        640
+      ],
+      "positions_count": 3,
+      "color_profile": [
+        26,
+        26,
+        26
+      ],
+      "relative_path": "tiles/bg_tile_317.png"
+    },
+    {
+      "id": "bg_tile_318",
+      "first_position": [
+        720,
+        640
+      ],
+      "positions_count": 3,
+      "color_profile": [
+        16,
+        16,
+        16
+      ],
+      "relative_path": "tiles/bg_tile_318.png"
+    },
+    {
+      "id": "bg_tile_319",
+      "first_position": [
+        992,
+        640
+      ],
+      "positions_count": 3,
+      "color_profile": [
+        27,
+        27,
+        27
+      ],
+      "relative_path": "tiles/bg_tile_319.png"
+    },
+    {
+      "id": "bg_tile_320",
+      "first_position": [
+        16,
+        656
+      ],
+      "positions_count": 1280,
+      "color_profile": [
+        174,
+        174,
+        174
+      ],
+      "relative_path": "tiles/bg_tile_320.png"
+    },
+    {
+      "id": "bg_tile_321",
+      "first_position": [
+        560,
+        656
+      ],
+      "positions_count": 978,
+      "color_profile": [
+        164,
+        164,
+        164
+      ],
+      "relative_path": "tiles/bg_tile_321.png"
+    },
+    {
+      "id": "bg_tile_322",
+      "first_position": [
+        592,
+        656
+      ],
+      "positions_count": 394,
+      "color_profile": [
+        0,
+        48,
+        51
+      ],
+      "relative_path": "tiles/bg_tile_322.png"
+    },
+    {
+      "id": "bg_tile_323",
+      "first_position": [
+        624,
+        656
+      ],
+      "positions_count": 22,
+      "color_profile": [
+        54,
+        88,
+        160
+      ],
+      "relative_path": "tiles/bg_tile_323.png"
+    },
+    {
+      "id": "bg_tile_324",
+      "first_position": [
+        640,
+        656
+      ],
+      "positions_count": 253,
+      "color_profile": [
+        50,
+        72,
+        237
+      ],
+      "relative_path": "tiles/bg_tile_324.png"
+    },
+    {
+      "id": "bg_tile_325",
+      "first_position": [
+        1056,
+        656
+      ],
+      "positions_count": 10,
+      "color_profile": [
+        101,
+        101,
+        101
+      ],
+      "relative_path": "tiles/bg_tile_325.png"
+    },
+    {
+      "id": "bg_tile_326",
+      "first_position": [
+        32,
+        672
+      ],
+      "positions_count": 291,
+      "color_profile": [
+        29,
+        58,
+        60
+      ],
+      "relative_path": "tiles/bg_tile_326.png"
+    },
+    {
+      "id": "bg_tile_327",
+      "first_position": [
+        848,
+        672
+      ],
+      "positions_count": 44,
+      "color_profile": [
+        72,
+        72,
+        72
+      ],
+      "relative_path": "tiles/bg_tile_327.png"
+    },
+    {
+      "id": "bg_tile_328",
+      "first_position": [
+        1056,
+        672
+      ],
+      "positions_count": 348,
+      "color_profile": [
+        43,
+        43,
+        43
+      ],
+      "relative_path": "tiles/bg_tile_328.png"
+    },
+    {
+      "id": "bg_tile_329",
+      "first_position": [
+        32,
+        688
+      ],
+      "positions_count": 13,
+      "color_profile": [
+        97,
+        97,
+        97
+      ],
+      "relative_path": "tiles/bg_tile_329.png"
+    },
+    {
+      "id": "bg_tile_330",
+      "first_position": [
+        96,
+        688
+      ],
+      "positions_count": 543,
+      "color_profile": [
+        0,
+        64,
+        68
+      ],
+      "relative_path": "tiles/bg_tile_330.png"
+    },
+    {
+      "id": "bg_tile_331",
+      "first_position": [
+        384,
+        688
+      ],
+      "positions_count": 8,
+      "color_profile": [
+        51,
+        51,
+        51
+      ],
+      "relative_path": "tiles/bg_tile_331.png"
+    },
+    {
+      "id": "bg_tile_332",
+      "first_position": [
+        928,
+        688
+      ],
+      "positions_count": 3,
+      "color_profile": [
+        52,
+        52,
+        54
+      ],
+      "relative_path": "tiles/bg_tile_332.png"
+    },
+    {
+      "id": "bg_tile_333",
+      "first_position": [
+        384,
+        704
+      ],
+      "positions_count": 6,
+      "color_profile": [
+        102,
+        117,
+        118
+      ],
+      "relative_path": "tiles/bg_tile_333.png"
+    },
+    {
+      "id": "bg_tile_334",
+      "first_position": [
+        432,
+        704
+      ],
+      "positions_count": 128,
+      "color_profile": [
+        76,
+        76,
+        76
+      ],
+      "relative_path": "tiles/bg_tile_334.png"
+    },
+    {
+      "id": "bg_tile_335",
+      "first_position": [
+        464,
+        704
+      ],
+      "positions_count": 62,
+      "color_profile": [
+        106,
+        106,
+        106
+      ],
+      "relative_path": "tiles/bg_tile_335.png"
+    },
+    {
+      "id": "bg_tile_336",
+      "first_position": [
+        576,
+        704
+      ],
+      "positions_count": 128,
+      "color_profile": [
+        34,
+        52,
+        53
+      ],
+      "relative_path": "tiles/bg_tile_336.png"
+    },
+    {
+      "id": "bg_tile_337",
+      "first_position": [
+        832,
+        704
+      ],
+      "positions_count": 96,
+      "color_profile": [
+        89,
+        94,
+        130
+      ],
+      "relative_path": "tiles/bg_tile_337.png"
+    },
+    {
+      "id": "bg_tile_338",
+      "first_position": [
+        432,
+        720
+      ],
+      "positions_count": 63,
+      "color_profile": [
+        49,
+        46,
+        29
+      ],
+      "relative_path": "tiles/bg_tile_338.png"
+    },
+    {
+      "id": "bg_tile_339",
+      "first_position": [
+        464,
+        720
+      ],
+      "positions_count": 168,
+      "color_profile": [
+        74,
+        69,
+        45
+      ],
+      "relative_path": "tiles/bg_tile_339.png"
+    },
+    {
+      "id": "bg_tile_340",
+      "first_position": [
+        624,
+        752
+      ],
+      "positions_count": 8,
+      "color_profile": [
+        81,
+        81,
+        81
+      ],
+      "relative_path": "tiles/bg_tile_340.png"
+    },
+    {
+      "id": "bg_tile_341",
+      "first_position": [
+        720,
+        768
+      ],
+      "positions_count": 9,
+      "color_profile": [
+        67,
+        75,
+        75
+      ],
+      "relative_path": "tiles/bg_tile_341.png"
+    },
+    {
+      "id": "bg_tile_342",
+      "first_position": [
+        864,
+        784
+      ],
+      "positions_count": 2,
+      "color_profile": [
+        95,
+        95,
+        95
+      ],
+      "relative_path": "tiles/bg_tile_342.png"
+    },
+    {
+      "id": "bg_tile_343",
+      "first_position": [
+        656,
+        800
+      ],
+      "positions_count": 3,
+      "color_profile": [
+        25,
+        55,
+        59
+      ],
+      "relative_path": "tiles/bg_tile_343.png"
+    },
+    {
+      "id": "bg_tile_344",
+      "first_position": [
+        80,
+        960
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        94,
+        115,
+        116
+      ],
+      "relative_path": "tiles/bg_tile_344.png"
+    },
+    {
+      "id": "bg_tile_345",
+      "first_position": [
+        512,
+        1008
+      ],
+      "positions_count": 3,
+      "color_profile": [
+        118,
+        115,
+        102
+      ],
+      "relative_path": "tiles/bg_tile_345.png"
+    },
+    {
+      "id": "bg_tile_346",
+      "first_position": [
+        176,
+        1040
+      ],
+      "positions_count": 3,
+      "color_profile": [
+        26,
+        26,
+        26
+      ],
+      "relative_path": "tiles/bg_tile_346.png"
+    },
+    {
+      "id": "bg_tile_347",
+      "first_position": [
+        432,
+        1040
+      ],
+      "positions_count": 10,
+      "color_profile": [
+        16,
+        16,
+        16
+      ],
+      "relative_path": "tiles/bg_tile_347.png"
+    },
+    {
+      "id": "bg_tile_348",
+      "first_position": [
+        448,
+        1040
+      ],
+      "positions_count": 3,
+      "color_profile": [
+        29,
+        29,
+        29
+      ],
+      "relative_path": "tiles/bg_tile_348.png"
+    },
+    {
+      "id": "bg_tile_349",
+      "first_position": [
+        720,
+        1040
+      ],
+      "positions_count": 3,
+      "color_profile": [
+        16,
+        16,
+        16
+      ],
+      "relative_path": "tiles/bg_tile_349.png"
+    },
+    {
+      "id": "bg_tile_350",
+      "first_position": [
+        992,
+        1040
+      ],
+      "positions_count": 3,
+      "color_profile": [
+        23,
+        23,
+        23
+      ],
+      "relative_path": "tiles/bg_tile_350.png"
+    },
+    {
+      "id": "bg_tile_351",
+      "first_position": [
+        16,
+        1056
+      ],
+      "positions_count": 84,
+      "color_profile": [
+        79,
+        108,
+        156
+      ],
+      "relative_path": "tiles/bg_tile_351.png"
+    },
+    {
+      "id": "bg_tile_352",
+      "first_position": [
+        48,
+        1056
+      ],
+      "positions_count": 123,
+      "color_profile": [
+        61,
+        129,
+        240
+      ],
+      "relative_path": "tiles/bg_tile_352.png"
+    },
+    {
+      "id": "bg_tile_353",
+      "first_position": [
+        112,
+        1056
+      ],
+      "positions_count": 6,
+      "color_profile": [
+        45,
+        96,
+        178
+      ],
+      "relative_path": "tiles/bg_tile_353.png"
+    },
+    {
+      "id": "bg_tile_354",
+      "first_position": [
+        656,
+        1056
+      ],
+      "positions_count": 32,
+      "color_profile": [
+        167,
+        167,
+        167
+      ],
+      "relative_path": "tiles/bg_tile_354.png"
+    },
+    {
+      "id": "bg_tile_355",
+      "first_position": [
+        80,
+        1072
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        67,
+        75,
+        94
+      ],
+      "relative_path": "tiles/bg_tile_355.png"
+    },
+    {
+      "id": "bg_tile_356",
+      "first_position": [
+        96,
+        1072
+      ],
+      "positions_count": 6,
+      "color_profile": [
+        84,
+        120,
+        183
+      ],
+      "relative_path": "tiles/bg_tile_356.png"
+    },
+    {
+      "id": "bg_tile_357",
+      "first_position": [
+        112,
+        1072
+      ],
+      "positions_count": 6,
+      "color_profile": [
+        124,
+        134,
+        160
+      ],
+      "relative_path": "tiles/bg_tile_357.png"
+    },
+    {
+      "id": "bg_tile_358",
+      "first_position": [
+        128,
+        1072
+      ],
+      "positions_count": 6,
+      "color_profile": [
+        85,
+        121,
+        184
+      ],
+      "relative_path": "tiles/bg_tile_358.png"
+    },
+    {
+      "id": "bg_tile_359",
+      "first_position": [
+        240,
+        1072
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        91,
+        99,
+        118
+      ],
+      "relative_path": "tiles/bg_tile_359.png"
+    },
+    {
+      "id": "bg_tile_360",
+      "first_position": [
+        320,
+        1072
+      ],
+      "positions_count": 49,
+      "color_profile": [
+        60,
+        55,
+        29
+      ],
+      "relative_path": "tiles/bg_tile_360.png"
+    },
+    {
+      "id": "bg_tile_361",
+      "first_position": [
+        656,
+        1072
+      ],
+      "positions_count": 56,
+      "color_profile": [
+        54,
+        54,
+        54
+      ],
+      "relative_path": "tiles/bg_tile_361.png"
+    },
+    {
+      "id": "bg_tile_362",
+      "first_position": [
+        96,
+        1088
+      ],
+      "positions_count": 6,
+      "color_profile": [
+        63,
+        83,
+        120
+      ],
+      "relative_path": "tiles/bg_tile_362.png"
+    },
+    {
+      "id": "bg_tile_363",
+      "first_position": [
+        112,
+        1088
+      ],
+      "positions_count": 6,
+      "color_profile": [
+        132,
+        144,
+        174
+      ],
+      "relative_path": "tiles/bg_tile_363.png"
+    },
+    {
+      "id": "bg_tile_364",
+      "first_position": [
+        128,
+        1088
+      ],
+      "positions_count": 6,
+      "color_profile": [
+        82,
+        117,
+        179
+      ],
+      "relative_path": "tiles/bg_tile_364.png"
+    },
+    {
+      "id": "bg_tile_365",
+      "first_position": [
+        336,
+        1088
+      ],
+      "positions_count": 140,
+      "color_profile": [
+        68,
+        56,
+        0
+      ],
+      "relative_path": "tiles/bg_tile_365.png"
+    },
+    {
+      "id": "bg_tile_366",
+      "first_position": [
+        688,
+        1088
+      ],
+      "positions_count": 4,
+      "color_profile": [
+        92,
+        91,
+        85
+      ],
+      "relative_path": "tiles/bg_tile_366.png"
+    },
+    {
+      "id": "bg_tile_367",
+      "first_position": [
+        640,
+        1104
+      ],
+      "positions_count": 9,
+      "color_profile": [
+        65,
+        60,
+        35
+      ],
+      "relative_path": "tiles/bg_tile_367.png"
+    },
+    {
+      "id": "bg_tile_368",
+      "first_position": [
+        256,
+        1168
+      ],
+      "positions_count": 53,
+      "color_profile": [
+        112,
+        132,
+        166
+      ],
+      "relative_path": "tiles/bg_tile_368.png"
+    },
+    {
+      "id": "bg_tile_369",
+      "first_position": [
+        976,
+        1168
+      ],
+      "positions_count": 2,
+      "color_profile": [
+        102,
+        115,
+        116
+      ],
+      "relative_path": "tiles/bg_tile_369.png"
+    },
+    {
+      "id": "bg_tile_370",
+      "first_position": [
+        208,
+        1216
+      ],
+      "positions_count": 50,
+      "color_profile": [
+        40,
+        85,
+        169
+      ],
+      "relative_path": "tiles/bg_tile_370.png"
+    },
+    {
+      "id": "bg_tile_371",
+      "first_position": [
+        688,
+        1232
+      ],
+      "positions_count": 78,
+      "color_profile": [
+        129,
+        106,
+        0
+      ],
+      "relative_path": "tiles/bg_tile_371.png"
+    },
+    {
+      "id": "bg_tile_372",
+      "first_position": [
+        688,
+        1296
+      ],
+      "positions_count": 2,
+      "color_profile": [
+        31,
+        117,
+        19
+      ],
+      "relative_path": "tiles/bg_tile_372.png"
+    },
+    {
+      "id": "bg_tile_373",
+      "first_position": [
+        208,
+        1328
+      ],
+      "positions_count": 15,
+      "color_profile": [
+        148,
+        154,
+        193
+      ],
+      "relative_path": "tiles/bg_tile_373.png"
+    },
+    {
+      "id": "bg_tile_374",
+      "first_position": [
+        208,
+        1344
+      ],
+      "positions_count": 15,
+      "color_profile": [
+        23,
+        47,
+        127
+      ],
+      "relative_path": "tiles/bg_tile_374.png"
+    },
+    {
+      "id": "bg_tile_375",
+      "first_position": [
+        784,
+        1408
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        63,
+        52,
+        0
+      ],
+      "relative_path": "tiles/bg_tile_375.png"
+    },
+    {
+      "id": "bg_tile_376",
+      "first_position": [
+        176,
+        1440
+      ],
+      "positions_count": 2,
+      "color_profile": [
+        22,
+        22,
+        22
+      ],
+      "relative_path": "tiles/bg_tile_376.png"
+    },
+    {
+      "id": "bg_tile_377",
+      "first_position": [
+        448,
+        1440
+      ],
+      "positions_count": 2,
+      "color_profile": [
+        21,
+        21,
+        21
+      ],
+      "relative_path": "tiles/bg_tile_377.png"
+    },
+    {
+      "id": "bg_tile_378",
+      "first_position": [
+        288,
+        1456
+      ],
+      "positions_count": 249,
+      "color_profile": [
+        85,
+        160,
+        221
+      ],
+      "relative_path": "tiles/bg_tile_378.png"
+    },
+    {
+      "id": "bg_tile_379",
+      "first_position": [
+        832,
+        1456
+      ],
+      "positions_count": 248,
+      "color_profile": [
+        190,
+        72,
+        11
+      ],
+      "relative_path": "tiles/bg_tile_379.png"
+    },
+    {
+      "id": "bg_tile_380",
+      "first_position": [
+        864,
+        1456
+      ],
+      "positions_count": 100,
+      "color_profile": [
+        141,
+        76,
+        20
+      ],
+      "relative_path": "tiles/bg_tile_380.png"
+    },
+    {
+      "id": "bg_tile_381",
+      "first_position": [
+        928,
+        1472
+      ],
+      "positions_count": 5,
+      "color_profile": [
+        137,
+        72,
+        18
+      ],
+      "relative_path": "tiles/bg_tile_381.png"
+    },
+    {
+      "id": "bg_tile_382",
+      "first_position": [
+        320,
+        1552
+      ],
+      "positions_count": 38,
+      "color_profile": [
+        10,
+        33,
+        87
+      ],
+      "relative_path": "tiles/bg_tile_382.png"
+    },
+    {
+      "id": "bg_tile_383",
+      "first_position": [
+        320,
+        1568
+      ],
+      "positions_count": 85,
+      "color_profile": [
+        18,
+        12,
+        70
+      ],
+      "relative_path": "tiles/bg_tile_383.png"
+    },
+    {
+      "id": "bg_tile_384",
+      "first_position": [
+        928,
+        1568
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        54,
+        40,
+        0
+      ],
+      "relative_path": "tiles/bg_tile_384.png"
+    },
+    {
+      "id": "bg_tile_385",
+      "first_position": [
+        592,
+        1600
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        51,
+        53,
+        53
+      ],
+      "relative_path": "tiles/bg_tile_385.png"
+    },
+    {
+      "id": "bg_tile_386",
+      "first_position": [
+        384,
+        1616
+      ],
+      "positions_count": 6,
+      "color_profile": [
+        66,
+        104,
+        135
+      ],
+      "relative_path": "tiles/bg_tile_386.png"
+    },
+    {
+      "id": "bg_tile_387",
+      "first_position": [
+        672,
+        1632
+      ],
+      "positions_count": 3,
+      "color_profile": [
+        0,
+        40,
+        42
+      ],
+      "relative_path": "tiles/bg_tile_387.png"
+    },
+    {
+      "id": "bg_tile_388",
+      "first_position": [
+        416,
+        1648
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        17,
+        48,
+        79
+      ],
+      "relative_path": "tiles/bg_tile_388.png"
+    },
+    {
+      "id": "bg_tile_389",
+      "first_position": [
+        1072,
+        1696
+      ],
+      "positions_count": 30,
+      "color_profile": [
+        113,
+        59,
+        7
+      ],
+      "relative_path": "tiles/bg_tile_389.png"
+    },
+    {
+      "id": "bg_tile_390",
+      "first_position": [
+        384,
+        1712
+      ],
+      "positions_count": 2,
+      "color_profile": [
+        44,
+        89,
+        128
+      ],
+      "relative_path": "tiles/bg_tile_390.png"
+    },
+    {
+      "id": "bg_tile_391",
+      "first_position": [
+        384,
+        1728
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        62,
+        89,
+        126
+      ],
+      "relative_path": "tiles/bg_tile_391.png"
+    },
+    {
+      "id": "bg_tile_392",
+      "first_position": [
+        448,
+        1728
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        53,
+        97,
+        149
+      ],
+      "relative_path": "tiles/bg_tile_392.png"
+    },
+    {
+      "id": "bg_tile_393",
+      "first_position": [
+        352,
+        1792
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        0,
+        52,
+        110
+      ],
+      "relative_path": "tiles/bg_tile_393.png"
+    },
+    {
+      "id": "bg_tile_394",
+      "first_position": [
+        976,
+        1840
+      ],
+      "positions_count": 10,
+      "color_profile": [
+        23,
+        23,
+        23
+      ],
+      "relative_path": "tiles/bg_tile_394.png"
+    },
+    {
+      "id": "bg_tile_395",
+      "first_position": [
+        320,
+        1856
+      ],
+      "positions_count": 32,
+      "color_profile": [
+        48,
+        98,
+        48
+      ],
+      "relative_path": "tiles/bg_tile_395.png"
+    },
+    {
+      "id": "bg_tile_396",
+      "first_position": [
+        192,
+        1888
+      ],
+      "positions_count": 7,
+      "color_profile": [
+        42,
+        35,
+        0
+      ],
+      "relative_path": "tiles/bg_tile_396.png"
+    },
+    {
+      "id": "bg_tile_397",
+      "first_position": [
+        368,
+        1888
+      ],
+      "positions_count": 12,
+      "color_profile": [
+        29,
+        54,
+        29
+      ],
+      "relative_path": "tiles/bg_tile_397.png"
+    },
+    {
+      "id": "bg_tile_398",
+      "first_position": [
+        176,
+        1904
+      ],
+      "positions_count": 7,
+      "color_profile": [
+        123,
+        116,
+        88
+      ],
+      "relative_path": "tiles/bg_tile_398.png"
+    },
+    {
+      "id": "bg_tile_399",
+      "first_position": [
+        368,
+        1904
+      ],
+      "positions_count": 10,
+      "color_profile": [
+        25,
+        77,
+        9
+      ],
+      "relative_path": "tiles/bg_tile_399.png"
+    },
+    {
+      "id": "bg_tile_400",
+      "first_position": [
+        176,
+        1920
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        44,
+        43,
+        38
+      ],
+      "relative_path": "tiles/bg_tile_400.png"
+    },
+    {
+      "id": "bg_tile_401",
+      "first_position": [
+        176,
+        1936
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        87,
+        79,
+        40
+      ],
+      "relative_path": "tiles/bg_tile_401.png"
+    },
+    {
+      "id": "bg_tile_402",
+      "first_position": [
+        432,
+        1984
+      ],
+      "positions_count": 11,
+      "color_profile": [
+        27,
+        110,
+        0
+      ],
+      "relative_path": "tiles/bg_tile_402.png"
+    },
+    {
+      "id": "bg_tile_403",
+      "first_position": [
+        688,
+        1984
+      ],
+      "positions_count": 3,
+      "color_profile": [
+        104,
+        99,
+        77
+      ],
+      "relative_path": "tiles/bg_tile_403.png"
+    },
+    {
+      "id": "bg_tile_404",
+      "first_position": [
+        384,
+        2032
+      ],
+      "positions_count": 14,
+      "color_profile": [
+        61,
+        117,
+        61
+      ],
+      "relative_path": "tiles/bg_tile_404.png"
+    },
+    {
+      "id": "bg_tile_405",
+      "first_position": [
+        288,
+        2256
+      ],
+      "positions_count": 204,
+      "color_profile": [
+        227,
+        174,
+        199
+      ],
+      "relative_path": "tiles/bg_tile_405.png"
+    },
+    {
+      "id": "bg_tile_406",
+      "first_position": [
+        832,
+        2256
+      ],
+      "positions_count": 512,
+      "color_profile": [
+        162,
+        162,
+        162
+      ],
+      "relative_path": "tiles/bg_tile_406.png"
+    },
+    {
+      "id": "bg_tile_407",
+      "first_position": [
+        304,
+        2272
+      ],
+      "positions_count": 77,
+      "color_profile": [
+        111,
+        29,
+        63
+      ],
+      "relative_path": "tiles/bg_tile_407.png"
+    },
+    {
+      "id": "bg_tile_408",
+      "first_position": [
+        848,
+        2272
+      ],
+      "positions_count": 88,
+      "color_profile": [
+        33,
+        63,
+        67
+      ],
+      "relative_path": "tiles/bg_tile_408.png"
+    },
+    {
+      "id": "bg_tile_409",
+      "first_position": [
+        304,
+        2288
+      ],
+      "positions_count": 89,
+      "color_profile": [
+        114,
+        0,
+        44
+      ],
+      "relative_path": "tiles/bg_tile_409.png"
+    },
+    {
+      "id": "bg_tile_410",
+      "first_position": [
+        384,
+        2288
+      ],
+      "positions_count": 8,
+      "color_profile": [
+        118,
+        54,
+        84
+      ],
+      "relative_path": "tiles/bg_tile_410.png"
+    },
+    {
+      "id": "bg_tile_411",
+      "first_position": [
+        848,
+        2288
+      ],
+      "positions_count": 524,
+      "color_profile": [
+        5,
+        89,
+        97
+      ],
+      "relative_path": "tiles/bg_tile_411.png"
+    },
+    {
+      "id": "bg_tile_412",
+      "first_position": [
+        864,
+        2304
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        11,
+        28,
+        43
+      ],
+      "relative_path": "tiles/bg_tile_412.png"
+    },
+    {
+      "id": "bg_tile_413",
+      "first_position": [
+        960,
+        2304
+      ],
+      "positions_count": 3,
+      "color_profile": [
+        38,
+        39,
+        39
+      ],
+      "relative_path": "tiles/bg_tile_413.png"
+    },
+    {
+      "id": "bg_tile_414",
+      "first_position": [
+        848,
+        2384
+      ],
+      "positions_count": 10,
+      "color_profile": [
+        82,
+        82,
+        82
+      ],
+      "relative_path": "tiles/bg_tile_414.png"
+    },
+    {
+      "id": "bg_tile_415",
+      "first_position": [
+        384,
+        2464
+      ],
+      "positions_count": 4,
+      "color_profile": [
+        132,
+        97,
+        114
+      ],
+      "relative_path": "tiles/bg_tile_415.png"
+    },
+    {
+      "id": "bg_tile_416",
+      "first_position": [
+        880,
+        2528
+      ],
+      "positions_count": 11,
+      "color_profile": [
+        40,
+        69,
+        78
+      ],
+      "relative_path": "tiles/bg_tile_416.png"
+    },
+    {
+      "id": "bg_tile_417",
+      "first_position": [
+        848,
+        2560
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        0,
+        37,
+        39
+      ],
+      "relative_path": "tiles/bg_tile_417.png"
+    },
+    {
+      "id": "bg_tile_418",
+      "first_position": [
+        384,
+        2576
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        82,
+        51,
+        66
+      ],
+      "relative_path": "tiles/bg_tile_418.png"
+    },
+    {
+      "id": "bg_tile_419",
+      "first_position": [
+        304,
+        2608
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        163,
+        102,
+        129
+      ],
+      "relative_path": "tiles/bg_tile_419.png"
+    },
+    {
+      "id": "bg_tile_420",
+      "first_position": [
+        832,
+        2656
+      ],
+      "positions_count": 524,
+      "color_profile": [
+        85,
+        161,
+        216
+      ],
+      "relative_path": "tiles/bg_tile_420.png"
+    },
+    {
+      "id": "bg_tile_421",
+      "first_position": [
+        416,
+        2672
+      ],
+      "positions_count": 2,
+      "color_profile": [
+        27,
+        117,
+        6
+      ],
+      "relative_path": "tiles/bg_tile_421.png"
+    },
+    {
+      "id": "bg_tile_422",
+      "first_position": [
+        432,
+        2672
+      ],
+      "positions_count": 2,
+      "color_profile": [
+        27,
+        117,
+        7
+      ],
+      "relative_path": "tiles/bg_tile_422.png"
+    },
+    {
+      "id": "bg_tile_423",
+      "first_position": [
+        848,
+        2672
+      ],
+      "positions_count": 196,
+      "color_profile": [
+        12,
+        11,
+        95
+      ],
+      "relative_path": "tiles/bg_tile_423.png"
+    },
+    {
+      "id": "bg_tile_424",
+      "first_position": [
+        416,
+        2688
+      ],
+      "positions_count": 2,
+      "color_profile": [
+        60,
+        77,
+        10
+      ],
+      "relative_path": "tiles/bg_tile_424.png"
+    },
+    {
+      "id": "bg_tile_425",
+      "first_position": [
+        432,
+        2688
+      ],
+      "positions_count": 2,
+      "color_profile": [
+        59,
+        79,
+        10
+      ],
+      "relative_path": "tiles/bg_tile_425.png"
+    },
+    {
+      "id": "bg_tile_426",
+      "first_position": [
+        592,
+        2688
+      ],
+      "positions_count": 2,
+      "color_profile": [
+        88,
+        88,
+        88
+      ],
+      "relative_path": "tiles/bg_tile_426.png"
+    },
+    {
+      "id": "bg_tile_427",
+      "first_position": [
+        848,
+        2688
+      ],
+      "positions_count": 378,
+      "color_profile": [
+        4,
+        6,
+        131
+      ],
+      "relative_path": "tiles/bg_tile_427.png"
+    },
+    {
+      "id": "bg_tile_428",
+      "first_position": [
+        288,
+        2736
+      ],
+      "positions_count": 56,
+      "color_profile": [
+        89,
+        89,
+        89
+      ],
+      "relative_path": "tiles/bg_tile_428.png"
+    },
+    {
+      "id": "bg_tile_429",
+      "first_position": [
+        944,
+        2784
+      ],
+      "positions_count": 44,
+      "color_profile": [
+        18,
+        21,
+        127
+      ],
+      "relative_path": "tiles/bg_tile_429.png"
+    },
+    {
+      "id": "bg_tile_430",
+      "first_position": [
+        960,
+        2800
+      ],
+      "positions_count": 4,
+      "color_profile": [
+        32,
+        81,
+        123
+      ],
+      "relative_path": "tiles/bg_tile_430.png"
+    },
+    {
+      "id": "bg_tile_431",
+      "first_position": [
+        960,
+        2816
+      ],
+      "positions_count": 3,
+      "color_profile": [
+        12,
+        8,
+        49
+      ],
+      "relative_path": "tiles/bg_tile_431.png"
+    },
+    {
+      "id": "bg_tile_432",
+      "first_position": [
+        288,
+        2864
+      ],
+      "positions_count": 52,
+      "color_profile": [
+        91,
+        91,
+        91
+      ],
+      "relative_path": "tiles/bg_tile_432.png"
+    },
+    {
+      "id": "bg_tile_433",
+      "first_position": [
+        1056,
+        2960
+      ],
+      "positions_count": 2,
+      "color_profile": [
+        28,
+        88,
+        118
+      ],
+      "relative_path": "tiles/bg_tile_433.png"
+    },
+    {
+      "id": "bg_tile_434",
+      "first_position": [
+        432,
+        3040
+      ],
+      "positions_count": 3,
+      "color_profile": [
+        22,
+        22,
+        22
+      ],
+      "relative_path": "tiles/bg_tile_434.png"
+    },
+    {
+      "id": "bg_tile_435",
+      "first_position": [
+        560,
+        3056
+      ],
+      "positions_count": 132,
+      "color_profile": [
+        211,
+        116,
+        99
+      ],
+      "relative_path": "tiles/bg_tile_435.png"
+    },
+    {
+      "id": "bg_tile_436",
+      "first_position": [
+        576,
+        3072
+      ],
+      "positions_count": 30,
+      "color_profile": [
+        90,
+        0,
+        42
+      ],
+      "relative_path": "tiles/bg_tile_436.png"
+    },
+    {
+      "id": "bg_tile_437",
+      "first_position": [
+        576,
+        3088
+      ],
+      "positions_count": 216,
+      "color_profile": [
+        110,
+        0,
+        90
+      ],
+      "relative_path": "tiles/bg_tile_437.png"
+    },
+    {
+      "id": "bg_tile_438",
+      "first_position": [
+        592,
+        3088
+      ],
+      "positions_count": 2,
+      "color_profile": [
+        118,
+        54,
+        45
+      ],
+      "relative_path": "tiles/bg_tile_438.png"
+    },
+    {
+      "id": "bg_tile_439",
+      "first_position": [
+        784,
+        3088
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        162,
+        76,
+        59
+      ],
+      "relative_path": "tiles/bg_tile_439.png"
+    },
+    {
+      "id": "bg_tile_440",
+      "first_position": [
+        576,
+        3120
+      ],
+      "positions_count": 2,
+      "color_profile": [
+        118,
+        51,
+        37
+      ],
+      "relative_path": "tiles/bg_tile_440.png"
+    },
+    {
+      "id": "bg_tile_441",
+      "first_position": [
+        688,
+        3280
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        56,
+        0,
+        2
+      ],
+      "relative_path": "tiles/bg_tile_441.png"
+    },
+    {
+      "id": "bg_tile_442",
+      "first_position": [
+        192,
+        3392
+      ],
+      "positions_count": 1,
+      "color_profile": [
+        49,
+        116,
+        168
+      ],
+      "relative_path": "tiles/bg_tile_442.png"
+    }
+  ],
+  "levels": []
+}

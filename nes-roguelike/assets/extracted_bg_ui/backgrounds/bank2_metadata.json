@@ -1,0 +1,422 @@
+{
+  "bank": "bank2",
+  "tiles": [
+    {
+      "name": "status_icons",
+      "description": "Status effect icons and indicators",
+      "tags": [
+        "ui",
+        "status",
+        "icon"
+      ],
+      "tiles": [
+        {
+          "index": 0,
+          "file": "status_icons_00.png",
+          "composed_file": "status_icons_composed_00.png",
+          "size": 8
+        },
+        {
+          "index": 1,
+          "file": "status_icons_01.png",
+          "composed_file": "status_icons_composed_01.png",
+          "size": 8
+        },
+        {
+          "index": 2,
+          "file": "status_icons_02.png",
+          "composed_file": "status_icons_composed_02.png",
+          "size": 8
+        },
+        {
+          "index": 3,
+          "file": "status_icons_03.png",
+          "composed_file": "status_icons_composed_03.png",
+          "size": 8
+        },
+        {
+          "index": 4,
+          "file": "status_icons_04.png",
+          "composed_file": "status_icons_composed_04.png",
+          "size": 8
+        },
+        {
+          "index": 5,
+          "file": "status_icons_05.png",
+          "composed_file": "status_icons_composed_05.png",
+          "size": 8
+        },
+        {
+          "index": 6,
+          "file": "status_icons_06.png",
+          "composed_file": "status_icons_composed_06.png",
+          "size": 8
+        },
+        {
+          "index": 7,
+          "file": "status_icons_07.png",
+          "composed_file": "status_icons_composed_07.png",
+          "size": 8
+        },
+        {
+          "index": 8,
+          "file": "status_icons_08.png",
+          "composed_file": "status_icons_composed_08.png",
+          "size": 8
+        },
+        {
+          "index": 9,
+          "file": "status_icons_09.png",
+          "composed_file": "status_icons_composed_09.png",
+          "size": 8
+        },
+        {
+          "index": 10,
+          "file": "status_icons_10.png",
+          "composed_file": "status_icons_composed_10.png",
+          "size": 8
+        },
+        {
+          "index": 11,
+          "file": "status_icons_11.png",
+          "composed_file": "status_icons_composed_11.png",
+          "size": 8
+        },
+        {
+          "index": 12,
+          "file": "status_icons_12.png",
+          "composed_file": "status_icons_composed_12.png",
+          "size": 8
+        },
+        {
+          "index": 13,
+          "file": "status_icons_13.png",
+          "composed_file": "status_icons_composed_13.png",
+          "size": 8
+        },
+        {
+          "index": 14,
+          "file": "status_icons_14.png",
+          "composed_file": "status_icons_composed_14.png",
+          "size": 8
+        },
+        {
+          "index": 15,
+          "file": "status_icons_15.png",
+          "composed_file": "status_icons_composed_15.png",
+          "size": 8
+        }
+      ]
+    },
+    {
+      "name": "item_icons",
+      "description": "Item and equipment icons",
+      "tags": [
+        "ui",
+        "item",
+        "equipment"
+      ],
+      "tiles": [
+        {
+          "index": 16,
+          "file": "item_icons_00.png",
+          "composed_file": "item_icons_composed_00.png",
+          "size": 8
+        },
+        {
+          "index": 17,
+          "file": "item_icons_01.png",
+          "composed_file": "item_icons_composed_01.png",
+          "size": 8
+        },
+        {
+          "index": 18,
+          "file": "item_icons_02.png",
+          "composed_file": "item_icons_composed_02.png",
+          "size": 8
+        },
+        {
+          "index": 19,
+          "file": "item_icons_03.png",
+          "composed_file": "item_icons_composed_03.png",
+          "size": 8
+        },
+        {
+          "index": 20,
+          "file": "item_icons_04.png",
+          "composed_file": "item_icons_composed_04.png",
+          "size": 8
+        },
+        {
+          "index": 21,
+          "file": "item_icons_05.png",
+          "composed_file": "item_icons_composed_05.png",
+          "size": 8
+        },
+        {
+          "index": 22,
+          "file": "item_icons_06.png",
+          "composed_file": "item_icons_composed_06.png",
+          "size": 8
+        },
+        {
+          "index": 23,
+          "file": "item_icons_07.png",
+          "composed_file": "item_icons_composed_07.png",
+          "size": 8
+        },
+        {
+          "index": 24,
+          "file": "item_icons_08.png",
+          "composed_file": "item_icons_composed_08.png",
+          "size": 8
+        },
+        {
+          "index": 25,
+          "file": "item_icons_09.png",
+          "composed_file": "item_icons_composed_09.png",
+          "size": 8
+        },
+        {
+          "index": 26,
+          "file": "item_icons_10.png",
+          "composed_file": "item_icons_composed_10.png",
+          "size": 8
+        },
+        {
+          "index": 27,
+          "file": "item_icons_11.png",
+          "composed_file": "item_icons_composed_11.png",
+          "size": 8
+        },
+        {
+          "index": 28,
+          "file": "item_icons_12.png",
+          "composed_file": "item_icons_composed_12.png",
+          "size": 8
+        },
+        {
+          "index": 29,
+          "file": "item_icons_13.png",
+          "composed_file": "item_icons_composed_13.png",
+          "size": 8
+        },
+        {
+          "index": 30,
+          "file": "item_icons_14.png",
+          "composed_file": "item_icons_composed_14.png",
+          "size": 8
+        },
+        {
+          "index": 31,
+          "file": "item_icons_15.png",
+          "composed_file": "item_icons_composed_15.png",
+          "size": 8
+        },
+        {
+          "index": 32,
+          "file": "item_icons_16.png",
+          "composed_file": "item_icons_composed_16.png",
+          "size": 8
+        },
+        {
+          "index": 33,
+          "file": "item_icons_17.png",
+          "composed_file": "item_icons_composed_17.png",
+          "size": 8
+        },
+        {
+          "index": 34,
+          "file": "item_icons_18.png",
+          "composed_file": "item_icons_composed_18.png",
+          "size": 8
+        },
+        {
+          "index": 35,
+          "file": "item_icons_19.png",
+          "composed_file": "item_icons_composed_19.png",
+          "size": 8
+        },
+        {
+          "index": 36,
+          "file": "item_icons_20.png",
+          "composed_file": "item_icons_composed_20.png",
+          "size": 8
+        },
+        {
+          "index": 37,
+          "file": "item_icons_21.png",
+          "composed_file": "item_icons_composed_21.png",
+          "size": 8
+        },
+        {
+          "index": 38,
+          "file": "item_icons_22.png",
+          "composed_file": "item_icons_composed_22.png",
+          "size": 8
+        },
+        {
+          "index": 39,
+          "file": "item_icons_23.png",
+          "composed_file": "item_icons_composed_23.png",
+          "size": 8
+        },
+        {
+          "index": 40,
+          "file": "item_icons_24.png",
+          "composed_file": "item_icons_composed_24.png",
+          "size": 8
+        },
+        {
+          "index": 41,
+          "file": "item_icons_25.png",
+          "composed_file": "item_icons_composed_25.png",
+          "size": 8
+        },
+        {
+          "index": 42,
+          "file": "item_icons_26.png",
+          "composed_file": "item_icons_composed_26.png",
+          "size": 8
+        },
+        {
+          "index": 43,
+          "file": "item_icons_27.png",
+          "composed_file": "item_icons_composed_27.png",
+          "size": 8
+        },
+        {
+          "index": 44,
+          "file": "item_icons_28.png",
+          "composed_file": "item_icons_composed_28.png",
+          "size": 8
+        },
+        {
+          "index": 45,
+          "file": "item_icons_29.png",
+          "composed_file": "item_icons_composed_29.png",
+          "size": 8
+        },
+        {
+          "index": 46,
+          "file": "item_icons_30.png",
+          "composed_file": "item_icons_composed_30.png",
+          "size": 8
+        },
+        {
+          "index": 47,
+          "file": "item_icons_31.png",
+          "composed_file": "item_icons_composed_31.png",
+          "size": 8
+        }
+      ]
+    },
+    {
+      "name": "dialog_elements",
+      "description": "Dialog box elements and borders",
+      "tags": [
+        "ui",
+        "dialog",
+        "border"
+      ],
+      "tiles": [
+        {
+          "index": 64,
+          "file": "dialog_elements_00.png",
+          "composed_file": "dialog_elements_composed_00.png",
+          "size": 8
+        },
+        {
+          "index": 65,
+          "file": "dialog_elements_01.png",
+          "composed_file": "dialog_elements_composed_01.png",
+          "size": 8
+        },
+        {
+          "index": 66,
+          "file": "dialog_elements_02.png",
+          "composed_file": "dialog_elements_composed_02.png",
+          "size": 8
+        },
+        {
+          "index": 67,
+          "file": "dialog_elements_03.png",
+          "composed_file": "dialog_elements_composed_03.png",
+          "size": 8
+        },
+        {
+          "index": 68,
+          "file": "dialog_elements_04.png",
+          "composed_file": "dialog_elements_composed_04.png",
+          "size": 8
+        },
+        {
+          "index": 69,
+          "file": "dialog_elements_05.png",
+          "composed_file": "dialog_elements_composed_05.png",
+          "size": 8
+        },
+        {
+          "index": 70,
+          "file": "dialog_elements_06.png",
+          "composed_file": "dialog_elements_composed_06.png",
+          "size": 8
+        },
+        {
+          "index": 71,
+          "file": "dialog_elements_07.png",
+          "composed_file": "dialog_elements_composed_07.png",
+          "size": 8
+        },
+        {
+          "index": 72,
+          "file": "dialog_elements_08.png",
+          "composed_file": "dialog_elements_composed_08.png",
+          "size": 8
+        },
+        {
+          "index": 73,
+          "file": "dialog_elements_09.png",
+          "composed_file": "dialog_elements_composed_09.png",
+          "size": 8
+        },
+        {
+          "index": 74,
+          "file": "dialog_elements_10.png",
+          "composed_file": "dialog_elements_composed_10.png",
+          "size": 8
+        },
+        {
+          "index": 75,
+          "file": "dialog_elements_11.png",
+          "composed_file": "dialog_elements_composed_11.png",
+          "size": 8
+        },
+        {
+          "index": 76,
+          "file": "dialog_elements_12.png",
+          "composed_file": "dialog_elements_composed_12.png",
+          "size": 8
+        },
+        {
+          "index": 77,
+          "file": "dialog_elements_13.png",
+          "composed_file": "dialog_elements_composed_13.png",
+          "size": 8
+        },
+        {
+          "index": 78,
+          "file": "dialog_elements_14.png",
+          "composed_file": "dialog_elements_composed_14.png",
+          "size": 8
+        },
+        {
+          "index": 79,
+          "file": "dialog_elements_15.png",
+          "composed_file": "dialog_elements_composed_15.png",
+          "size": 8
+        }
+      ]
+    }
+  ]
+}
